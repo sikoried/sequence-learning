@@ -1,9 +1,15 @@
+
 title: "Sequence Learning"
 email: korbinian.riedhammer@fh-rosenheim.de
-description: "Materials for Sequence Learning (graduate level)"
-baseurl: ""
-url: "https://sikoried.github.io/sequence-learning/"
-exclude: ["LICENSE", "Remarks.md", "examples"]
+description: "Materials for Sequence Learning (SL)"
+
+url: "https://sikoried.github.io"
+baseurl: "/sequence-learning"
+
+exclude:
+  - "LICENSE"
+  - "Remarks.md"
+
 github_username: ["sikoried"]
 
 # Build settings

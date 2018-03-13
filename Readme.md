@@ -6,12 +6,12 @@ _Elective for [CS grad students](https://www.fh-rosenheim.de/technik/informatik-
 
 ## Class Schedule and Credits
 
-**Time and Location:** Tuesdays at 11.45, B0.11
+**Time and Location:** Tuesdays at 11.45, B0.08a
 
-**Comunication** via [Mattermost](https://inf-mattermost.fh-rosenheim.de/inf-sl/channels/town-square) ([register]()).
+**Comunication** via [Mattermost](https://inf-mattermost.fh-rosenheim.de/sl-2018/channels/town-square) ([register](https://inf-mattermost.fh-rosenheim.de/signup_user_complete/?id=c9txudhce7bdxni5uxfrzxqm5r)).
 
 **Format:** Each week, we will discuss algorithms and their theory before implementing them to get a better hands-on understanding.
-Pairprogramming preferred, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
+Java is suggested, pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
 
 **Credits:** oral exam (15') at the end of the semester, tentative date: July 10 (last day of classes).
 
@@ -20,9 +20,9 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 ## Recommended Textbooks
 
-- Niemann, H: _Klassifikation von Mustern._ 2. Überarbeitete Auflage, 2003 ([available online]())
+- Niemann, H: _Klassifikation von Mustern._ 2. Überarbeitete Auflage, 2003 ([available online](https://www5.cs.fau.de/fileadmin/Persons/NiemannHeinrich/klassifikation-von-mustern/m00-www.pdf))
+- Huang, Acero, Hon: _Spoken Language Processing: A Guide to Theory, Algorithm and System Development._ (ISBN-13: 978-0130226167)
 - Goodfellow, I and Bengio,Y and Courville, A: _Deep Learning._ 2016 ([available online](http://www.deeplearningbook.org/))
-- Huang, Acero, Hon: _Spoken Language Processing: A Guide to Theory, Algorithm and System Development._
 
 
 
