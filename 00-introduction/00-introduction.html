@@ -1,0 +1,499 @@
+---
+layout: presentation
+permalink: /00/introduction/
+title: Introduction
+---
+
+layout: true
+
+<footer>
+	<span class="icon github">
+	<svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+	</svg>
+	</span>
+	<a href="https://github.com/sikoried"><span class="username">sikoried</span></a>
+</footer>
+
+---
+
+# Sequence Learning
+
+Korbinian Riedhammer
+
+---
+
+# Today
+
+- Logistics.
+- Why I teach this class.
+- Why you should take this class.
+- Motivation
+- Syllabus
+- What you should bring to this class.
+
+???
+
+- What motivates me? Sprachverstehen, 2. Semester, zu spaet, trotzdem drin.
+- What motivates you? Stock market prediction, preventive maintenance
+
+---
+
+# Logistics
+
+- Tuesdays at 11.45, B0.08a
+- materials: <https://sikoried.github.io/sequence-learning/>
+- communication: <https://inf-mattermost.fh-rosenheim.de/sl-2018/>
+- 60-90 min. lecture
+- exercises: peer programming, discussion
+- programming languages: Java, Python for Tensorflow; bash for glue
+- credits: oral exam (15') at the end of the semester
+
+<div class="skip"></div>
+
+- **April 10: reschedule to Friday same week?**
+
+---
+
+# Why I teach this class.
+
+**Simple: I love speech.** (That's a sequential real-valued signal.)
+
+- studied CS at Erlangen 2003-2007
+- Erlangen was a major contributor in [Verbmobil](https://www.youtube.com/watch?v=DcG9-KWx0Fg)
+- hooked on speech in early 2004
+	+ bachelor thesis on medical speech processing (2005)
+	+ master thesis on emotion recognition (2007)
+	+ dissertation on speech understanding (2012)
+	+ post-doc in Berkeley on keyword search (2012-2013)
+	+ startup on scalable keyword search (since 2013)
+	+ 2 patents, more than 40 publications
+	+ raised significant research and investment capital
+
+---
+
+# Verbmobil (1993-2000)
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/DcG9-KWx0Fg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Why you should take this class.
+
+### Machine learning is the future.*
+
+### Many applications are to sequences, not single observations.
+
+### Understand the foundations of sequence classification.
+
+<div class="skip"></div>
+.right[*or at least a well-paid part of it.]
+
+---
+
+# Motivation
+
+### Sequence Learning in Fiction
+
+---
+
+# Star Trek (1966) und Star Trek TNG (1987)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/tpKx7Oi0oeM" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/embed/tpKx7Oi0oeM>
+
+---
+
+# 2001: Odyssee im Weltall (1968)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/ARJ8cAGm6JE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=ARJ8cAGm6JE>
+
+---
+
+# Star Wars: A New Hope (1977)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/ElZfE1AVDPQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=ElZfE1AVDPQ>
+
+---
+
+# Knight Rider (1982)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/OY_nGtN4ARA" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=OY_nGtN4ARA> (at around 2:00)
+
+---
+
+# Charlie's Angels (2000)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/rRHRa80wVq8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=rRHRa80wVq8> (at around 0:50)
+
+---
+
+# 24 (S02E23, 2003)
+
+.center[
+<img style="width: 70%" src="{{site.baseurl}}/00-introduction/24-s02e23.png" alt="24 S02E23">
+]
+
+"Cypress Recording" wurde durch Sound Engine mit angelernter Sprachsynthese erstellt.
+
+---
+
+# Wild Hogs (2007)
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/qVZtE3rL_sQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=qVZtE3rL_sQ>
+
+
+---
+
+# Her (2013)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/ne6p6MfLBxc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=ne6p6MfLBxc>
+
+
+---
+
+# Blade Runner 2049 (2018)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/RL0gX1_NWTk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=RL0gX1_NWTk>
+
+---
+
+# Motivation
+
+## Sequence Learning in Products
+
+---
+
+# Radio Rex (1920)
+
+<img style="width: 45%" src="{{site.baseurl}}/00-introduction/rrex1.png" alt="Radio Rex 1">
+<img style="width: 45%" src="{{site.baseurl}}/00-introduction/rrex2.png" alt="Radio Rex 2">
+
+"Classic" signal processing: triggers on 500Hz ("re**ks**")
+
+
+---
+
+# Worlds of Wonder's Julie Doll (1987)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/UkU9SbIictc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=UkU9SbIictc>
+
+---
+
+# PenPoint OS (1991)
+<div class="yt-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x0XE08BjQDQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<https://www.youtube.com/watch?v=x0XE08BjQDQ>
+
+---
+
+# Graffiti (Palm OS, 1997)
+
+Xerox PARC Unistrokes <https://patents.google.com/patent/US5596656>
+
+<div class="yt-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iL0YLuClysY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+Required defined stroke/trajectory for letters.
+
+---
+
+# Microsoft Spracherkennung (2008)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/-0kDcUEDfmY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<www.youtube.com/watch?v=-0kDcUEDfmY>
+
+---
+
+# BMW Sprachsteuerung (2009)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/xJo9pK42VRs" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://youtu.be/xJo9pK42VRs>
+
+
+---
+
+# Siri (2011)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/agzItTz35QQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=agzItTz35QQ&t=140s> (at about 2:20)
+
+---
+
+# Alexa (2014)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/YvT_gqs5ETk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=YvT_gqs5ETk>
+
+---
+
+# Microsoft Cortana (2015)
+
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/96gPKLaSeHk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<www.youtube.com/watch?v=96gPKLaSeHk>
+
+---
+
+# HELLO Barbie "She Talks" (2015)
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/RJMvmVCwoNM" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<https://www.youtube.com/watch?v=RJMvmVCwoNM>
+
+---
+
+# Apple iPad Pro Handwriting
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/mdExOgCmhWM" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Google GBoard Predictive Text and Autocorrect
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/5DSfFDdybzg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Google GBoard Glide Typing
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/ut8vHJOn3Ic" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Spelling and Grammar Correction
+
+<https://www.grammarly.com>
+
+---
+
+# Smart Home Voice Activation
+
+Alexa, Google, Cortana hotword activation and retraining.
+
+---
+
+# Automatic Summarization
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/ogrJaOIuBx4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Stock Market Prediction
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/ftMq5ps503w" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Music Composer
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/S_f2qV2_U00" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+---
+
+# Digital Sports: Drop Jump Classification
+
+<img src="{{site.baseurl}}/00-introduction/dropjump2.jpg" class="w40">
+<img src="{{site.baseurl}}/00-introduction/dropjump.png" class="w55">
+
+.right[...mit JSTK]
+
+---
+
+# Machine Translation
+
+Moses: <https://github.com/moses-smt/mosesdecoder> ([demo](http://demo.statmt.org/index.cgi))
+
+OpenNMT: <http://opennmt.net/> ([demo](https://demo-pnmt.systran.net/production))
+
+---
+
+# MarI/O
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/qv6UVOQ0F44" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# MariFlow
+
+<div class="yt-container">
+<iframe class="video" src="https://www.youtube.com/embed/Ipi40cb_RsI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# Current Research (2018-2020)
+
+## Embedded non-obstructive monitoring of voice and speech disorders 
+
+Eingebettetes nicht-obstruktives Monitoring von Stimm- und Sprachstörungen unter besonderer Berücksichtigung der Privatsphäre.
+
+<http://www.kasseler-stottertherapie.de/>
+
+---
+
+# Machine Learning (ML)
+
+- how to conduct ML experiments
+- principles of classification and training
+- various instance classifiers (eg. k-nn, DNN, SVM, Bayes, ...)
+- unsupervised learning (clustering)
+
+# Sequence Learning (SL)
+
+### Instance vs. Sequence Classification
+
+- all supervised
+- aka. _offline_ vs. _online_
+- static snapshot vs. temporal trajectory
+- add _time_ to any signal to make it a sequence!
+
+---
+
+# Data Sources
+
+Analog signals (digitized)
+
+- microphones
+- vibration
+- conductivity
+- ambient: pressure, temperature, humidity, ...
+- positional: GPS, gyro, distances
+- user input: key-press, gestures, pressure, swipe
+
+Digital or "Big Data" signals
+
+- log streams
+- network traffic
+- events (IoT, MQTT)
+- user-generated content
+
+---
+
+# Toolkits
+
+### JSTK <https://github.com/sikoried/jstk>
+
+- basic speech processing and recognition
+- reference implementation for HMM and related algorithms
+
+### Kaldi <https://github.com/kaldi-asr/kaldi>
+
+- speech recognition toolkit
+- deep learning
+- sequence classification of analog signals
+
+### Tensorflow <https://www.tensorflow.org/>
+
+- general purpose machine learning toolkit
+- extensions for sequence learning (LSTM, encoder-decoder, ...)
+
+---
+
+# Syllabus
+
+- matching and comparing discrete sequences ("auto-correct")
+- improving auto-correct with probabilities
+- extending on auto-complete
+- basic sequence classification (HMM)
+- sequence kernels for instance classifiers
+- neural networks ("deep learning")
+- deep dive: speech recognition as prototype sequence learning application
+- sequence to sequence learning
+
+---
+
+# What you should bring to this class.
+
+### A little bit of probability theory. (Mathe 3, MVI)
+
+### A little bit of optimization. (ML)
+
+### Algorithms and Programming (GdI, AuD)
+
+### Genuine interest in sequence classification.
+

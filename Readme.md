@@ -28,9 +28,9 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 ## Syllabus
 
-- **March 20: Introduction.**
+- **March 20: Introduction. [[slides](00/introduction/), [exercise](00/exercise/)]**
 	
-	We'll start with the general concepts of supervised vs. unsupervised learning and classification of indepentent pobservations vs. sequences of observations.
+	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning.
 
 - **March 27: Auto-Correct.**
