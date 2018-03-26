@@ -23,17 +23,19 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 - Niemann, H: _Klassifikation von Mustern._ 2. Überarbeitete Auflage, 2003 ([available online](https://www5.cs.fau.de/fileadmin/Persons/NiemannHeinrich/klassifikation-von-mustern/m00-www.pdf))
 - Huang, Acero, Hon: _Spoken Language Processing: A Guide to Theory, Algorithm and System Development._ (ISBN-13: 978-0130226167)
 - Goodfellow, I and Bengio,Y and Courville, A: _Deep Learning._ 2016 ([available online](http://www.deeplearningbook.org/))
+- Jurafsky, D and Martin, J: _Speech and Language Processing._ 2017 ([available online](http://web.stanford.edu/~jurafsky/slp3/))
+- Manning, C, Raghavan P and Schütze, H: _Introduction to Information Retrieval_, Cambridge University Press. 2008. ([available online](https://nlp.stanford.edu/IR-book/))
 
 
 
 ## Syllabus
 
-- **March 20: Introduction. [[slides](00/introduction/), [exercise](00/exercise/)]**
+- **March 20: Introduction.** ([slides](00/introduction/), [exercise](00/exercise/))
 	
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning.
 
-- **March 27: Auto-Correct.**
+- **March 27: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
 	
 	We'll start with a classic implementation of auto-correcting mispelled words to bring dynamic programming back to memory.
 	We'll also look at scalability regarding computation and memory efforts.

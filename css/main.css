@@ -84,7 +84,7 @@ img {
 
 /* Custom CSS for pages */
 .figcenter {
-  text-align: center;
+  text-align: center !important;
 }
 .fig img {
   max-width: 98%;

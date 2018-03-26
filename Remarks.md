@@ -28,6 +28,8 @@
 	+ Estimating n-gram models
 	+ Factored language model weights for improved auto-correct
 	+ Predicting symbols based on n-gram models
+	+ http://norvig.com/ngrams/
+	+ http://norvig.com/spell-correct.html
 - 4/Discrete Hidden Markov Models
 	Learn how DTW is a (very) special case of an HMM and how it can be used to model sequences.
 	+ Basic HMM evaluation (no training just yet)
