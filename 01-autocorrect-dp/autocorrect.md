@@ -18,6 +18,11 @@ Compute the Hamming and Levenshtein (edit) distances between these word pairs, f
 ![gurken schaben, schurkengaben]({{site.baseurl}}/01-autocorrect-dp/97669.jpg)
 {: .figcenter}
 
+### Further Reading
+
+- <https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/>
+- <https://www.geeksforgeeks.org/?p=12635>
+- <https://www.geeksforgeeks.org/?p=12819>
 
 # 2. Spelling Correction
 
@@ -43,12 +48,11 @@ $$
 You can find word statistics and training data at: <http://norvig.com/ngrams/>
 
 
-### Literature for Noisy Channel (1960s)
+### Further Reading
 
-- **IBM:** 
-	Mays, Eric, Fred J. Damerau and Robert L. Mercer. 1991. Context based spelling correction. _Information Processing and Management_, 23(5), 517–522.
-- **AT&T Bell Labs:** 
-	Kernighan, Mark D., Kenneth W. Church, and William A. Gale. 1990. A spelling correction program based on a noisy channel model. _Proceedings of COLING_ 1990, 205-210.
+- <http://norvig.com/spell-correct.html>
+- Mays, Eric, Fred J. Damerau and Robert L. Mercer. 1991. Context based spelling correction. _Information Processing and Management_, 23(5), 517–522. (IBM)
+- Kernighan, Mark D., Kenneth W. Church, and William A. Gale. 1990. A spelling correction program based on a noisy channel model. _Proceedings of COLING_ 1990, 205-210. (Bell Labs)
 
 
 
@@ -62,4 +66,5 @@ Food for thought:
 
 1. How could you optimize the distance computation for words that share a prefix?
 2. What about unknown words?
+3. How would you couple your algorithm to a user interface? Would [functional programming](https://github.com/ReactiveX/RxJava) be an option?
 
