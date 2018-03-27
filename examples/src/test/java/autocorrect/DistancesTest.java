@@ -2,6 +2,9 @@ package autocorrect;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class DistancesTest {
@@ -23,9 +26,14 @@ class DistancesTest {
 				{{"", "ab"}, {"a", "abc"}, {"ab", "bc"}, {"ab", "cd"}}  // dist=2
 		};
 
+		int[] cost = new int[] {0, 1, 1, 1};
 		for (int l = 0; l < xs.length; l++) {
-			for (String[] pair : xs[l])
-				assertEquals(l, Distances.edit(pair[0], pair[1]));
+			for (String[] pair : xs[l]) {
+				List<Integer> trace = new LinkedList<>();
+				int d = Distances.edit(pair[0], pair[1], cost, trace);
+				assertEquals(l, d);
+				System.err.println(pair[0] + ":" + pair[1] + " = " + d + " " + trace);
+			}
 		}
 	}
 }
