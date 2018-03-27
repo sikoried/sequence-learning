@@ -23,7 +23,7 @@ public class AutoCorrectSimple {
 	/**
 	 * Suggest words. Heuristic is that there is exactly one suggestion if there's a lexicon match,
 	 * or otherwise first all hits with edit distance 1 ranked by P(w), then all with dist=2 etc.
-	 * @url{https://en.wikipedia.org/wiki/Exponential_distribution}
+	 *
 	 * @param x word
 	 * @param m max edits
 	 * @param n maximum number of suggestions
@@ -62,6 +62,7 @@ public class AutoCorrectSimple {
 	 * Suggest words. Heuristic is to model P(x|w)^z P(w) where P(x|w) ~ exp(-lambda*d), d=dist,
 	 * and lambda dampens the exponential distribution and z is a weighting factor to balance the two probabilities
 	 * We'll apply logarithm, so that the score becomes -z*lambda*d + log(P(w))
+	 * @url{https://en.wikipedia.org/wiki/Exponential_distribution}
 	 * @param x word
 	 * @param m max edits
 	 * @param n max number of suggestions
