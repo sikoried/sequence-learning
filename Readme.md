@@ -44,9 +44,9 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _April 10: no class_
 
-- **April 17: States and Cost Functions.**
+- **April 17: States and Cost Functions.** ([slides](02/cost-and-states/slides/), [exercise](02/cost-and-states/))
 	
-	Understand how DP can be used on an abstraction of states and distances.
+	Understand how DP can be used on an abstraction of distances and states.
 	We'll build a smarter, keyboard layout aware auto-correct and start looking into some applications in signal processing (isolated word and DTMF sequence classification).
 
 - **April 24: Modeling Sequences.**

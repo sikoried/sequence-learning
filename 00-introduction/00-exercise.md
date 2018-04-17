@@ -39,9 +39,8 @@ Although we won't be using it for just a few more weeks, please clone and build 
 You should set the class path so that you can conveniently run its applications:
 
 ```bash
-$ export CLASSPATH=$(find path/to/jstk/jstk/build/libs -name '*.jar' | xargs e
-cho | tr ' ' ':')
-$ java de.fau.cs.jstk.Version
+$ export CLASSPATH=$(find path/to/jstk/jstk/build/libs -name '*.jar' | xargs echo | tr ' ' ':')
+$ java de.fau.cs.jstk.app.Version
 ```
 
 ## Refresh Your Java Knowledge
