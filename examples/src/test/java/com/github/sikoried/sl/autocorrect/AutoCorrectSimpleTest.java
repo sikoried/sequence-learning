@@ -1,13 +1,8 @@
-package autocorrect;
+package com.github.sikoried.sl.autocorrect;
 
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
-import java.util.Map;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class AutoCorrectSimpleTest {
 

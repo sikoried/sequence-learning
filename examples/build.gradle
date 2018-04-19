@@ -1,4 +1,4 @@
-group 'de.fh-rosenheim.wif-prg2'
+group 'com.github.sikoried.sl'
 version '1.0'
 
 buildscript {

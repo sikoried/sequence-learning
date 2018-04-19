@@ -1,4 +1,4 @@
-package dtw;
+package com.github.sikoried.sl.dtw;
 
 import com.github.sikoried.jstk.io.FrameInputStream;
 import com.github.sikoried.jstk.util.Distances;

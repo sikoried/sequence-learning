@@ -1,4 +1,4 @@
-package autocorrect;
+package com.github.sikoried.sl.autocorrect;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.junit.jupiter.api.Test;
