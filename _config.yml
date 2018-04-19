@@ -9,6 +9,7 @@ baseurl: "/sequence-learning"
 exclude:
   - "LICENSE"
   - "Remarks.md"
+  - "jstk"
 
 github_username: ["sikoried"]
 
