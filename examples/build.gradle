@@ -12,7 +12,6 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'application'
 apply plugin: 'org.junit.platform.gradle.plugin'
 apply plugin: 'com.github.ben-manes.versions'
 
@@ -21,6 +20,11 @@ sourceCompatibility = 1.8
 
 repositories {
     jcenter()
+
+    /* for using single precision Jama library */
+    maven {
+        url  "https://dl.bintray.com/sikoried/github"
+    }
 }
 
 task classpath (dependsOn: configurations.testRuntime) {
@@ -31,7 +35,7 @@ task classpath (dependsOn: configurations.testRuntime) {
 
 dependencies {
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
-    compile ':jstk'
+    compile project(':jstk')
 
     testCompile("org.junit.jupiter:junit-jupiter-api:${junit_jupiter_version}")
     testCompile("org.apache.logging.log4j:log4j-core:${log4j_version}")
