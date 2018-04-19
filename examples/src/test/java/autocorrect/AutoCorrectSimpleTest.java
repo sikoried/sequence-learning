@@ -20,6 +20,7 @@ class AutoCorrectSimpleTest {
 		for (String x : xs) {
 			System.out.println(x + " => " + ac.suggestA(x, 2, 10));
 			System.out.println(x + " => " + ac.suggestB(x, 2, 10, 0.2, 1.0));
+			System.out.println(x + " => " + ac.suggestD(x, 2, 10, 0.2, 1.0));
 		}
 	}
 
@@ -35,7 +36,7 @@ class AutoCorrectSimpleTest {
 		for (String x : xs) {
 			System.out.println(x + " => " + ac.suggestA(x, 2, 10));
 			System.out.println(x + " => " + ac.suggestB(x, 2, 10, 0.2, 1.0));
-			System.out.println(x + " => " + ac.suggestB(x, 2, 10, 1.0, 1.0));  // dist ist wichtiger
+			System.out.println(x + " => " + ac.suggestD(x, 2, 10, 1.0, 1.0));  // dist ist wichtiger
 		}
 
 		String in = "shagesbeer";
@@ -43,7 +44,7 @@ class AutoCorrectSimpleTest {
 
 		for (int i = 1; i < in.length(); ++i) {
 			String x = in.substring(0, i+1);
-			System.out.println(x + " => " + ac.suggestB(x, 3, 5, 1.0, 1.0));
+			System.out.println(x + " => " + ac.suggestD(x, 3, 5, 1.0, 1.0));
 		}
 
 	}

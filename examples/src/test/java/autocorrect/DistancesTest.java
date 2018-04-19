@@ -1,5 +1,6 @@
 package autocorrect;
 
+import org.apache.commons.lang3.tuple.Pair;
 import org.junit.jupiter.api.Test;
 
 import java.util.LinkedList;
@@ -34,6 +35,39 @@ class DistancesTest {
 				assertEquals(l, d);
 				System.err.println(pair[0] + ":" + pair[1] + " = " + d + " " + trace);
 			}
+		}
+	}
+
+	@Test
+	void testPenalty() {
+		assertEquals(Pair.of(0, 0), Distances.coord('q'));
+		assertEquals(Pair.of(0, 1), Distances.coord('w'));
+		assertEquals(Pair.of(0, 2), Distances.coord('e'));
+		assertEquals(Pair.of(1, 0), Distances.coord('a'));
+		assertEquals(Pair.of(2, 2), Distances.coord('c'));
+
+		String a = "asdf";
+		String b = "qwer";
+
+		for (int i = 0; i < a.length(); i++)
+			System.out.println(Distances.penalty(a.charAt(i), b.charAt(i)));
+	}
+
+	@Test
+	void testEditd() {
+		String[][] xs = {
+				{"hans", "haus"},
+				{"hans", "hajs"},
+				{"hans", "wans"},
+				{"hans", "hans"}
+		};
+
+		int[] cost = new int[] {0, 1, 1, 1};
+
+		for (String[] pair : xs) {
+			List<Integer> trace = new LinkedList<>();
+			double d = Distances.editd(pair[0], pair[1], cost, trace);
+			System.err.println(pair[0] + ":" + pair[1] + " = " + d + " " + trace);
 		}
 	}
 }

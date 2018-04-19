@@ -17,7 +17,7 @@ public class AutoCorrectSimple {
 
 	public List<Pair<String, Double>> suggest(String x) {
 		// return suggestA(x, 2, 10);
-		return suggestB(x, 2, 10, 0.2, 1.0);
+		return suggestD(x, 2, 10, 0.2, 1.0);
 	}
 
 	/**
@@ -88,6 +88,50 @@ public class AutoCorrectSimple {
 			// compute edit distance; discard if too far away
 			int ed = Distances.edit(x, e.getKey());
 			if (ed > m)
+				continue;
+
+			double score = -lambda * z * ed + e.getValue();  // we actually have lop(P(w))
+			li.add(Pair.of(e.getKey(), score));
+		}
+
+		// sort (log-)likelihood, descending, limit to 15
+		return li.stream()
+				.sorted((a, b) -> Double.compare(b.getValue(), a.getValue()))
+				.limit(n)
+				.collect(Collectors.toList());
+	}
+
+
+	/**
+	 * Suggest words. Heuristic is to model P(x|w)^z P(w) where P(x|w) ~ exp(-lambda*d), d=dist,
+	 * and lambda dampens the exponential distribution and z is a weighting factor to balance the two probabilities
+	 * We'll apply logarithm, so that the score becomes -z*lambda*d + log(P(w))
+	 * @url{https://en.wikipedia.org/wiki/Exponential_distribution}
+	 * @param x word
+	 * @param m max edits
+	 * @param n max number of suggestions
+	 * @param lambda weighting for exponential function (0.2 yields about .5 likelihood for edit distance 2)
+	 * @param z weighting factor for P(x|w)
+	 * @return
+	 */
+	public List<Pair<String, Double>> suggestD(String x, int m, int n, double lambda, double z) {
+		List<Pair<String, Double>> li = new LinkedList<>();
+
+		// exact hit
+		if (logpw.containsKey(x)) {
+			li.add(Pair.of(x, 0.0));
+			return li;
+		}
+
+		// here, we can directly compute the scores:
+		for (Map.Entry<String, Double> e : logpw.entrySet()) {
+			// discard if too far away
+			if (Math.abs(x.length() - e.getKey().length()) > m)
+				continue;
+
+			// compute edit distance; discard if too far away
+			double ed = Distances.editd(x, e.getKey());
+			if (ed > m + 6)
 				continue;
 
 			double score = -lambda * z * ed + e.getValue();  // we actually have lop(P(w))
