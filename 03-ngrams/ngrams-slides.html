@@ -1,0 +1,683 @@
+---
+layout: presentation
+permalink: /03/ngrams/slides/
+title: n-grams
+mathjax: true
+---
+
+layout: true
+
+<footer>
+	<span class="icon github">
+	<svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+	</svg>
+	</span>
+	<a href="https://github.com/sikoried"><span class="username">sikoried</span></a>
+</footer>
+
+---
+
+# Sequence Learning
+
+## Language Models with Markov Chains (n-grams)
+
+Korbinian Riedhammer
+
+
+.skip[
+_Based on slides by Elmar Nöth and Georg Stemmer_
+]
+
+---
+
+# Why do we need syntactic structure?
+
+
+Wouldn't the sentence 
+
+> "I want to put a hyphen between the words Fish and And and And and
+Chips in my Fish-And-Chips sign"
+
+have been clearer if quotation marks had been placed before Fish, 
+and between Fish and and, 
+and and and And, 
+and And and and, 
+and and and And,
+and And and and, 
+and and and Chips, 
+as well as after Chips?
+
+
+#### Yes, it makes sense
+
+
+---
+
+# Why do we need syntactic structure?
+
+John where James had had had had had had had had had had been correct
+
+.skip[
+John, where James had had "had," had had "had had"; "had had" had been correct.
+]
+
+.skip[
+John, where James had had "had had," had had "had"; "had had" had been correct.
+]
+
+---
+
+# To Know What Was Said Without Listening
+
+- utterance: `We must resolve some problems`
+- we hear NOTHING!
+- we count on 91243 sentences of the Wall Street Journal (WSJ) which words are at the beginning of a sentence, and how often so
+- the text contains 2265839 words; (47343 different)
+- can we guess the correct utterance?
+- the utterance is not contained in the data set
+
+---
+
+# Which Words Start a Sentence? (7170)
+
+ Rank | Count | Word | &nbsp;&nbsp;&nbsp;&nbsp; | Rank | Count | Word
+------|-------|------||------|-------|------
+1 | 14844 | THE  |  | 11 | 881 | THIS
+2 | 3877 | IN    |  | 12 | 849 | I
+3 | 3801 | BUT   |  | 13 | 822 | THEY
+4 | 3307 | MR.   |  | 14 | 820 | AS
+5 | 1776 | HE    |  | 15 | 798 | **WE**
+6 | 1742 | A     |  | 16 | 789 | IF
+7 | 1722 | QUOTE |  | 17 | 751 | THAT
+8 | 1631 | IT    |  | 18 | 733 | AT
+9 | 1290 | AND   |  | 19 | 622 | SOME
+10 | 1184 | FOR  |  | 20 | 568 | IT'S
+
+
+---
+
+# Which Words follow a "we" in WSJ? 416!
+
+Rank | Count | Word  | &nbsp;&nbsp;&nbsp;&nbsp;| Rank | Count | Word
+-----|-------|-------||------|-------|-------
+1 | 295   | HAVE  |  |   11 |  50   | WOULD
+2 | 245   | ARE   |  |   12 |  42   | BELIEVE
+3 | 119   | DON'T |  |   13 |  39   | KNOW
+4 | 108   | WERE  |  |   14 |  39   | DO
+5 | 101   | WILL  |  |   15 |  37   | CAN'T
+6 |  95   | CAN   |  |   16 |  36   | COULD
+7 |  70   | HAD   |  |   17 |  34   | DIDN'T
+8 |  66   | WANT  |  |   18 |  33   | EXPECT
+9 |  55   | THINK |  |   19 |  31   | SHOULD
+10 |  52   | NEED  |  |   20 |  29   | **MUST**
+
+
+
+---
+
+# Which Words follow a "must" in WSJ? 247!
+
+Rank | Count | Word  | &nbsp;&nbsp;&nbsp;&nbsp;| Rank | Count | Word
+-----|-------|-------||------|-------|-------
+1 |    26 | HAVE    |  |   11 |     6 | COME   
+2 |    15 | PAY     | |   12 |     5 | SHOW   
+3 |    15 | MAKE    |  |   13 |     5 | DECIDE 
+4 |    11 | TAKE    |  |   14 |     5 | CLEAR  
+5 |    11 | ALSO    |  |   15 |     4 | STILL  
+6 |    10 | APPROVE |  |   16 |     4 | REMAIN 
+7 |     8 | NOT     |  |   17 |     4 | PROVIDE
+8 |     8 | MEET    |  |   18 |     4 | KNOW   
+9 |     6 | GO      |  |   19 |     4 | GET    
+10 |     6 | FIND    |  |   .. |    .. | ..     
+&nbsp; |       |         |  |  109 |     1 | **RESOLVE**
+
+
+
+---
+
+# Which Words follow a "resolve" in WSJ? 36!
+
+
+Rank | Count | Word  | &nbsp;&nbsp;&nbsp;&nbsp;| Rank | Count | Word
+-----|-------|-------||------|-------|-------
+1 |    18 | THE         | |   11 |     2 | ANY
+2 |     6 | A           | |   12 |     1 | TODAY
+3 |     5 | TO          | |   13 |     1 | THROUGH
+4 |     3 | THEIR       | |   14 |     1 | THESE
+5 |     3 | ITS         | |   15 |     1 | TECHNICALLY
+6 |     3 | DISPUTES    | |   16 |     1 | TECHNICAL
+7 |     3 | CASES       | |   17 |     1 | **SOME**
+8 |     2 | THIS        | |   18 |     1 | SOCIAL
+9 |     2 | OUR         | |   19 |     1 | SEVERAL
+10 |     2 | DIFFERENCES | |   20 |     1 | REMAINING
+
+
+
+---
+
+# Which Words follow a "some" in WSJ? 1364!
+
+
+Rank | Count | Word  | &nbsp;&nbsp;&nbsp;&nbsp;| Rank | Count | Word
+-----|-------|-------||------|-------|-------
+1 |   667 | OF        |  |   11 |    31 | COMPANIES
+2 |   152 | ANALYSTS  |  |   12 |    28 | TRADERS
+3 |    58 | TIME      |  |   13 |    24 | INDUSTRY
+4 |    57 | PEOPLE    |  |   14 |    23 | U.
+5 |    56 | CASES     |  |   15 |    23 | OBSERVERS
+6 |    49 | INVESTORS |  |   16 |    23 | ARE
+7 |    47 | OTHER     |  |   17 |    21 | KIND
+8 |    36 | POINT     |  |   18 |    21 | IN
+9 |    34 | ONE       |  |   19 |    20 | ECONOMISTS
+10 |    31 | TWO       |  |   20 |    20 | BIG
+&nbsp; |       |           |  |   .. |    .. | ..
+&nbsp; |       |           |  |  112 |     5 | **PROBLEMS**
+
+---
+
+# N-gram Models
+
+
+- Use Bayes formula to express the probability of a word sequence $\mathbf{w}$
+
+$$
+P(\mathbf{w}) = P(w_1, .., w_N)
+$$
+
+- Expand using chain rule
+
+$$P(\mathbf{w}) = P(w_1, .., w_N) = P(w_1) \cdot P(w_2 | w_1) \cdot \ldots \cdot P(w_N | w_1, \ldots , w_{N-1})$$
+
+- likelihood of $w_i$ depends on previous words (= "history")
+- $P(w_i | w_1, \ldots, w_{i-1})$ cannot be estimated for large $i$
+- Solution: define equivalence class for preceding words
+
+
+---
+
+# N-Gram Language Models
+
+- Equivalence classes: $w_i$ only depends on a shortened history $\Phi(w_1,...,w_{i-1})$
+	
+$$
+P(\mathbf{w}) = P(w_1) \cdot \prod_{i=2}^N P(w_i | \Phi(w_1,...,w_{i-1})
+$$
+
+- Unigram language model: All histories are equivalent
+
+$$
+P(\mathbf{w}) = \prod_{i=1}^N P(w_i)                                 
+$$
+
+- Bigram language model: all histories which end in the same word are equivalent
+
+$$
+P(\mathbf{w}) = P(w_1) \cdot \prod_{i=2}^N P(w_i|w_{i-1})  
+$$
+
+- Trigram language model: all histories with the same last two words are equivalent:
+
+$$
+P(\mathbf{w}) = P(w_1) \cdot P(w_2|w_{1}) \cdot \prod_{i=1}^N P(w_i|w_{i-2},w_{i-1})     
+$$
+
+
+---
+
+# ML Estimation of N-Gram Language Models
+
+
+
+\item Compute the relative frequencies
+          $f(w_i|w_{i-2},w_{i-1})$, $f(w_i|w_{i-1})$,
+         $f(w_i)$
+         from a training corpus
+\item e.g., $f(w_i|w_{i-2},w_{i-1}) = \frac{\#(w_{i-2},w_{i-1},w_i)}{\#(w_{i-2},w_{i-1})}$\\
+%\vspace{0.5cm}
+ {\small $\#$ stands for the number of occurrences in the training corpus}
+
+\item  ML estimate of $P(w_i|w_{i-n+1},w_{i-1}) = f(w_i|w_{i-n+1},w_{i-1})$
+\item Problem: Many trigrams do not occur in the training corpus 
+ $\rightarrow$  $P(\mathbf{w}) = 0$  $\Rightarrow$ recognition error
+\item Example: $\mbox{Size of vocabulary} = |{\cal V}| = 20000$ $\Rightarrow$ $8
+ \cdot 10^{12}$ trigrams are possible 
+\item In a training corpus with 100000 words a maximum of $10^5$ different
+n-grams can be observed, in reality significantly less
+\item Remedy: Smoothing of the estimates or using categories
+
+
+
+---
+
+# Frequencies of Bigrams
+
+
+The plot shows a histogram of absolute frequencies of bigrams in a sample
+of about 52000 words (1780 words in the vocabulary)
+\begin{center}
+\includegraphics[width=0.6\textwidth]{\psdir/haeufigkeiten_bigram.pdf}
+
+
+
+---
+
+# Smoothing of N-Grams
+
+
+
+\item Most simple possibility to prevent a situation where 
+ $\#(w_{i-n+1},...,w_i) = 0$  
+ is the \textbf{Jeffrey smoothing}: \\
+ Set  $\#^{'}(w_{i-n+1},...,w_i) = 1 + \#(w_{i-n+1},...,w_i)$
+\begin{center}
+$P(w_i|w_{i-n+1},...,w_{i-1}) = \frac{\#^{'}(w_{i-n+1},...,w_i)}{\#^{'}(w_{i-n+1},...,w_{i-1})} = \frac{1 + \#(w_{i-n+1},...,w_i)}{|{\cal V}| + \sum_{w_i \in {\cal V}} \#(w_{i-n+1},...,w_i)} $
+
+\item Problem: Impossible n-grams also receive a relatively high probability
+\item Example above: Even if --- having 1780
+ words (Types) and 500 000 words running text (Tokens) ---
+each bigram occurs exactly once in the training corpus, the probability 
+mass is increased from about 500 000 to about 3 670 000,
+for 52 000 tokens from about 50 000 to 3 200 000.
+
+
+
+---
+
+# Smoothing of N-Grams: Good-Turing Estimation
+
+
+
+\item Idea: All n-grams with the same frequency $r$ in the training corpus should be assigned the same probability
+\item Good-Turing estimate assigns to each n-gram, which occurred $r$ times
+ in the training corpus, a value $r^*$
+\begin{center}
+$
+r^* = (r+1) \frac{n_{r+1}}{n_r}
+$
+
+\item $r^*$ is the expected value of the frequency for this 
+ n-gram in another corpus with the size of the training corpus
+\item $n_l$ is the number of n-grams, which occurred exactly
+ $l$ in the training corpus          
+\item Transformation into a probability: Probability that an n-gram occurs
+ $k$-times in the data 
+\begin{center}
+$
+p_k = \frac{r^*}{N} ~~~~\mbox{with $N$ = number of n-grams in the 
+ training corpus}
+$
+
+
+
+
+---
+
+# Smoothing of N-Grams: Good-Turing Estimation
+
+
+
+\item The Good-Turing estimation does not work if
+ $n_r = 0$, i.e., before applying the Good-Turing smoothing, another 
+ smoothing has to be used such that
+ $n_r \ne 0$ for all n-grams
+
+\item important: even for the new, colored frequency values
+$r^*$  the sum of all frequencies is the same:
+\begin{center}
+{\small
+$
+(N)^* = \sum_{k=1}^{K} (N_k)^* = \sum_{r=0}^{\infty} n_r r^* = \sum_{r=0}^{\infty} (r+1)n_{r+1} = \sum_{r=1}^{\infty} r n_r = N
+$
+}
+
+\item Thus --- with the Good-Turing estimation --- the frequencies are 
+ not changed arbitrarily, only  \textbf{redistributed}
+
+
+
+---
+
+# Smoothing of N-Grams: Good-Turing Estimation
+
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{\psdir/good.pdf}
+
+
+
+---
+
+# Smoothing of N-Grams: Back-Off Strategies
+
+
+
+\item Idea: N-grams, which do not occur in the training corpus, 
+ are mapped onto a lower order n-gram (= with a shortened history) 
+\item General Back-off strategy (= Back-off-Smoothing):
+\begin{center}
+\small{
+$
+P_{smooth}(w \mid \vec{v})
+        ~=~$ \\ $ 
+\left\{\begin{array}{l @{\hspace{30mm}} l}
+                \hat{q}(w \mid \vec{v})
+                & \mbox{if $\#(\vec{v}w)>0$}
+                        \\
+                \beta(\vec{v}) \cdot P_{smooth}(w \mid \vec{v}')
+                & \mbox{if $\#(\vec{v}w)=0$}
+                
+                \right.
+$
+}
+
+\item   $\hat{q}(\cdot)$ colored estimation of the finer models
+\item   \textbf{Redistribution} of the saved probability mass
+        proportional to $P_{smooth}(w | \vec{v}')$
+\item   $\vec{v}'$ is the \textbf{reduced} antecedent of the more coarse
+        models
+\item   The weight $\beta(\vec{v})$ guarantees the stochasticity
+        of $P_{smooth}(w | \vec{v})$
+
+
+
+---
+
+# Smoothing of N-Grams: Katz-Smoothing
+
+
+\small{
+
+\item Combination of the Idea of Good-Turing Estimation
+ with back-off strategy
+\item Approach:
+
+\item The relative frequency of frequent n-grams with $r > k$ ($k = 5 .. 8$) is
+ not changed
+\item The relative frequency of n-grams with $k \ge r > 0$ is lowered in favour
+ of n-grams, which are not observed $r=0$ (\textbf{discounting})
+\item Each n-gram with $r=0$ receives some probability mass;
+ if the corresponding $(n-1)$-gram is observed very often in the corpus, 
+ a higher probability is assigned, if it is observed rarely, 
+ a lower probability is assigned
+
+\item Katz-Smoothing:
+\begin{center}
+$
+P_{katz}(w \mid \vec{v})
+        ~=~ \left\{\begin{array}{l @{\hspace{30mm}} l}
+           
+            \frac{\#({\vec{v}}, w)}{\#(\vec{v})}& \mbox{if $r>k$}\\
+    d_r \cdot \frac{\#({\vec{v}}, w)}{\#(\vec{v})}& \mbox{if $k\ge r > 0$}\\
+    \alpha(\vec{v})\cdot P(w\mid \vec{v}')& \mbox{if $r = 0$}
+                
+                \right.
+$
+
+
+}
+
+
+---
+
+# Smoothing of N-Grams: Katz-Smoothing
+
+
+
+\item The exact formulae are the result of the following conditions:
+
+\item The stochasticity has to be fulfilled
+\item The factor $d_r$ should be proportional to the Good-Turing estimation
+\item The probability mass which is taken from the frequent
+ n-grams should be equal to the probability mass which is assigned to
+ the not observed
+
+\item There is a unique solution:
+\begin{center}
+$
+d_r = \frac{\frac{r^*}{r}-\frac{(k+1)n_{k+1}}{n_1}}{1-\frac{(k+1)n_{k+1}}{n_1} } ~~~\mbox{and}~~~ \alpha(\vec{v}) = \frac{1-\sum\limits_{w|\#({\vec{v}}, w) > 0} P_{katz}(w \mid \vec{v})}{1-\sum\limits_{w|\#({\vec{v}}, w) > 0} P(w\mid \vec{v}')}
+$
+
+
+
+
+
+---
+
+# Smoothing of N-Grams: Interpolation
+
+
+
+\item Motivation: For small $r$ the ML estimation
+ is very imprecise, even if $r>0$ 
+\item Approach: Inclusion of statistics of lower order even if $r>0$
+\item linear interpolation:
+\begin{center}
+$
+P_I(w_n | w_1, .., w_{n-1}) =  \rho_o \cdot \frac{1}{|{\cal V}|} + \rho_1 \cdot f(w_n) + \rho_2 \cdot f(w_n | w_{n-1}) + \cdots + \rho_n \cdot f(w_n | w_1 .. w_{n-1})
+$\\
+with $\sum_i \rho_i = 1$
+\item The weights $\rho_i$ can be decided upon with, e.g., the EM algorithm
+on a separate validation set
+
+
+
+---
+
+# Other Important Interpolation methods
+
+
+Not treated because of time constraints:
+\item Kneser-Ney interpolation: non-linear interpolation 
+\item Interpolation using the principle of maximal entropy 
+\item log-linear interpolation
+%\item rational interpolation (only in Erlangen!)
+
+
+
+---
+
+# Categorisation
+
+
+
+\item Another approach to prevent unreliable estimation values
+\item $L=1000$ words $~\Longrightarrow~$ 1\,000\,000\,000 trigrams!
+\item[$\rightarrow$] reduce the effective size of the vocabulary
+\item Groups of words with similar functional and statistical properties
+are merged into
+\textbf{categories} 
+\begin{center}
+$
+        {\cal C} ~=~ \{C_1,\ldots,C_N\}
+                \mbox{~~~with~~~}
+        \bigcup_{k=1}^{N} C_k ~=~ {\cal V}
+       $
+
+\item e.g. all numerals, names of cities, persons, and months
+each form a category\\\item Categories should be disjunct $\rightarrow$ categorisation is unique \\
+problem: e.g. is 'Essen' the name of a city or not?    
+\begin{center}
+$
+       w \in {\cal V} ~ \longrightarrow ~ C(w) \in {\cal C}
+                \mbox{~~~with the property $w\in C(w)$}
+$
+
+
+
+
+---
+
+# Categorisation
+
+
+
+\item e.g. a categorical bigram language model is built as follows:
+\begin{center}
+$
+        P(\vec{w})
+        ~=~ P(w_1) \cdot P(w_1 \mid C(w_1)) \cdot \prod_{i=2}^{m}
+                P(w_i \mid C(w_i)) \cdot P(C(w_i) \mid C(w_{i-1}))
+$
+
+\item Necessary statistics:
+
+\item The $N^2-1$ bigram probabilities 
+ $P(C_i)$, $P(C_j \mid C_i)$ for the transitions of categories
+\item $|{\cal V}|-N$ probabilities to belong to a categories 
+ $P(W_k \mid C(W_k))$
+
+%\item Corresponding bonding of $n$--gram grammars 
+\item More complex: overlapping categories $\rightarrow$ category membership
+ is a not observable state $\rightarrow$ HMM 
+\item All interpolation and back-off strategies can be transferred to category
+systems 
+
+
+
+---
+
+# Parts of Speech (POS)
+
+
+
+\item   syntactically/semantically/pragmatically
+        oriented word classes \\ (50--100 POS)
+\item   Word class, casus, numerus, genus, tempus, modus, ...
+\item   effective for inflective languages like German, French, Czech
+
+
+
+---
+
+# Cache Models
+
+
+
+\item Approach, to dynamically \textbf{adapt} a  language model to the current subject
+\item A stochastic language model $P_{static}$ is  linearly interpolated
+ with a cache model $P_{cache}$ 
+\begin{center}
+$
+P_{total}(w_i | w_{i-n+1},.., w_{i-1}) = \rho_c P_{static}(w_i | w_{i-n+1},.., w_{i-1}) + (1-\rho_c) P_{cache}(w_i | w_{i-1})
+$
+
+\item The cache model $P_{cache}$ is estimated on the \textbf{last} spoken words
+\item Typically only a bi- or trigram, since there is only little data  
+ available for the cache model 
+\item The interpolation weight $\rho_c$ varies with the size of the Cache
+\item Significant improvement, especially with dictation systems
+
+
+
+---
+
+# Perplexity
+
+
+
+\item The perplexity is a measure for the
+ probabilities which are assigned to the sentences of the test set by the
+ language model
+\item Given: A language model, that assigns a probability $P(\mathbf{W})$ 
+to the sentences $\mathbf{W}$ of the test set 
+\item Approximation of the entropy $H(\mathbf{W})$ of the model 
+ $P(w_i|w_{i-n+1},..,w_{i-1})$ to the data $\mathbf{W}$:
+\begin{center}
+$
+H(\mathbf{W}) = - \frac{1}{N_W} \log_2 P(\mathbf{W})~~~~\mbox{$N_W$ is the
+ number of words in $\mathbf{W}$}
+$
+
+\item The (empirical) test-set perplexity $PP(\mathbf{W})$ is defined as
+\begin{center}
+$
+PP(\mathbf{W}) =  2^{H(\mathbf{W})}
+$
+
+\item Can be estimated with
+ $PP(\mathbf{W}) = P(\mathbf{W})^{-\frac{1}{N_W}}$ \item The smaller the empirically approximated perplexity of the language model,
+ the better the test set can be predicted and the better it is suited
+
+
+
+---
+
+# Perplexity
+
+
+
+\item The real perplexity $PP$ is always smaller than the 
+ empirical approximation $PP(\mathbf{W})$: $PP(\mathbf{W}) \ge PP$ 
+ (because of the Jensen Inequality)
+\item Real perplexity $PP = 2^H$ with
+\begin{center}
+$
+H = \lim\limits_{m\rightarrow\infty} H_m = - \lim\limits_{m\rightarrow\infty} \frac{1}{m} \sum\limits_{\mathbf{w}\in{\cal V}^m} P(\mathbf{w}) \cdot \log_2  P(\mathbf{w})
+$\\
+$
+= - \lim\limits_{m\rightarrow\infty}\frac{1}{m} E[ \log_2  P(\mathbf{w}) ] = - \lim\limits_{m\rightarrow\infty}\frac{1}{m} \log_2  P(\mathbf{w})
+$
+
+\item A random process has a maximal entropy $H=\log_2 L$ if $P(v|\mathbf{w}) = \frac{1}{L}$ with $L=|{\cal V}|$
+\item The perplexity can therefore also be seen as the average branching 
+ of the language
+\item The better the words of a language can be predicted the lower
+ the perplexity
+
+
+
+---
+
+# Perplexity
+
+
+
+\item The real perplexity of the English language is assumed to
+ be about 30-50
+\item The empirical perplexity of a language model 
+ for trigrams is typically significantly smaller than for 
+ bigrams and unigrams
+\item The empirical perplexity of a language model strongly depends
+ on the data:
+
+\item For newspaper texts (Wall Street Journal) with a 
+ vocabulary of 5000 words a typical  language model perplexity 
+ of about 128 (trigram)  and 176 (bigram) is achieved
+\item For spoken dialogue systems (e.g., ATIS-- Air Travel Information, 
+ EVAR--Zugauskunft) the perplexity of the trigrams is under 20
+
+
+
+
+
+---
+
+# Perplexity
+
+
+
+\item Because the perplexity is independent of the acoustic confusability
+of the words, the performance of a recogniser can be bad even with 
+low  perplexity 
+\item There are approaches to, e.g., design the categories such that acoustically confusable words fall into different categories and can thus be 
+better modeled by the language model
+
+
+
+---
+
+# Limits of the Statistical Language Modeling
+
+
+~\\
+~\\
+"`Dann das Problem des Nach--, eh, des Alters der Kinder, des, eh, wenn sie, eh,Nachzugsalters, dann kommt aber f"unftens und der sechste Punkt, gleichgeschlechtlich,nicht gleichgeschlechtlich, sondern, ob ich auch Asylgr"unde schaffe, eh, au"serhalb der
+Verfolgung, als auch Gr"unde, wenn aus, wenn andere Gr"unde sozusagen, aus dem
+Geschlecht oder "Ahnlichem, Frauen, die wegen ihres Frausein verfolgt werden."'
+~\\
+~\\
+\hspace*{\fill} Stoiber with Ms. Christiansen, EN, 25.1.02
+
+

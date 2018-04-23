@@ -49,7 +49,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	Understand how DP can be used on an abstraction of distances and states.
 	We'll build a smarter, keyboard layout aware auto-correct and start looking into some applications in signal processing (isolated word and DTMF sequence classification).
 
-- **April 24: Modeling Sequences.**
+- **April 24: Modeling Sequences.** ([slides](03-ngrams/sv-lm.pdf), [exercise](03/ngrams/))
 	
 	Learn about n-grams, a simple yet effective approach to learn contexts of distcrete symbols.
 	We'll use n-grams to improve our auto-correct by incorporating context and suggesting following words.
@@ -73,13 +73,13 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	Learn how to model complex sequences of arbitrary length that prohibit explicit modeling, such as in large vocabulary speech recognition or choreographies in sports.
 	Here we will combine what we've discussed so far: prefix trees, n-gram models and efficient search.
 
-- **June 6: Sequence Kernels for Classification.**
+- **June 5: Sequence Kernels for Classification.**
 	
 	We'll take a little detour into how to leverage basic classification algorithms for sequence classification, and demonstrate its use for speaker identification.
 
 - **June 12: Neural Networks.**
 	
-	A brief introduction to neural networks: fundamentals, topographies, training and embeddings.
+	A brief introduction to neural networks: fundamentals, topologies, training and embeddings.
 	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
 
 - **June 19: Case Study: LVCSR.**
