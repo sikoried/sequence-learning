@@ -1,0 +1,379 @@
+2D Objekterkennung mit OpenCV auf Android Geräten
+Abbildung und Unterstützung von Softwareprozessen mit Werkzeugen
+Abfrageoptimierung von MySQL
+Abhängigkeitsanalyse in Quelltexten der Programmiersprache C++
+Analyse des Marktes sowie der technischen und wirtschaftlichen Realisierbarkeit von eDiscovery unter Berücksichtigung der Lean Startup Methode
+Analyse und Bewertung verschiedener Chart-Bibliotheken für den Einsatz in AngularJS basierten Webanwendungen
+Analyse und Design einer Dublettenprüfung im SAP Umfeld mi prototypischer Realisierung
+Analyse und Implementierung einer Persistenzschicht am konkreten Beispiel einer Webanwendung
+Analyse und Optimierung eines ALM Prozesses anhand eines bestehenden CRM Projektes
+Analyse und Optimierung und Unterstützung eines Softwareentwicklungsprozesses am Beispiel eines kleinen Unternehmens
+Analyse und Teilimplementierung einer Mitarbeiterverwaltung und eines Dienstleistungssteuerungssystems in einem Eisenbahngüterverkehrsunternehmen
+Analyse und Vergleich von Web Service Server Implementierungen in Java mit Plattform übergreifender Client-Anwendung und Sicherheitsmaßnahmen bei der Datenübertragung
+Analysieren und optimieren der Toolkette und Prozesskette mit Fokus auf Bedienbarkeit in einem Infotainment Testhaus
+Anbindung eines Archivierungssystems an ein Dokumentenmanagementsystem
+Android GPS-Tracker für Läufer zum Intervalltraining
+Anforderungen und praktische Umsetzung der Vorgaben der EU-Datenschutzverordnung am Beispiel einer Seminarverwaltungssoftware
+Anforderungsmanagement in Software-Produktlinien
+Anomaliedetektion im Software-EKG - Automatische Erkennung von Krankheitsbildern bei der dynamischen Analyse von Softwaresystemen
+Anpassung einer Datenschnittstelle für ein unterschiedlich konfigurierbares CAE-System
+Anwendbarkeit von BCI im industriellen Umfeld
+Anwendung eines Ratingalgorithmus und Gruppierungsalgorithmus auf individuelle Reisetouren im Rahmen eines Web-CMS
+Anwendung eines userzentrierten Designprozesses auf ein bestehendes ETL Tool
+Anwendungs-Integrationsszenarien für eine Bilddatenbank auf Basis von Microsoft SharePoint 2012
+Applikation für die Suchthilfe Rosenheim
+Architektur und UX einer transaktionsbasierten Terminvergabe
+Architektur und Umsetzung einer JavaEE Middleware im BI-Umfeld
+Asynchrones Nachladen dynamischer Inhalte zur Performancesteigerung der E-Commerce Plattform Magento
+Aufbereitung von CAD Zeichnungen für FEM basierte 2D Wärmestromberechnung
+Ausarbeitung eines Interaction Designs und prototypische Realisierung eines Online Shops für Mountainbikes und Zubehör
+Auswahl und Einsatz von Entwurfsmustern in der Praxis
+Authentifizierung und Autorisierung in der Cloud mithilfe von claims-based-indentity 
+Automatisierung der Verteilung einer Middleware zur Nutzung der Corporate PKI mit SmartCards für externe Geschäftspartner
+Automatisierung von Akzeptanztests im agilen Umfeld
+Azure Service Fabric on-premise
+Behandlung von Bibliotheksabhängigkeiten in Softwareprojekten
+Berücksichtigung von Umweltdaten in einem Routenplaner für Elektrofahrzeuge
+Bewertung der Einsetzbarkeit und Erweiterbarkeit des Werkzeugs PreeVision für die Bordnetzentwicklung
+Browsergames mit HTML5 und CSS3
+Business Intelligence für ein Software-Projekthaus
+Client-Server basiertes Lizenzmanagement für mobile Applikationen - Konzeption und Implementierung
+Cloud-basiertes Continuous Delivery
+Clustering von deutschen Zeitungsartikeln
+CodeLeaves als neues Konzept der 3D Visualisieruung und dessen Umsetzung für die Augmented Reality
+Codeanalyse mit Hilfe von Java8 Type Annotationen
+Containerisierung eines ERP-Systems
+Continuous Delivery eines ERP-Systems
+Continuous Delivery für Android Geräte
+Continuous Delivery in der SharePoint Entwicklung
+Das V-Modell-XT in kleinen Unternehmen
+Databinding für dynamische Benutzeroberflächen und komplexe Domänenmodelle
+Datenlogistik am Beispiel eines kontextgebundenen Musikwiedergabedienstes für mobile Clients
+DevSecOps - Continuous Security
+Die digitale Transformation der Prozesse und Benutzeroberflächen in Finanzbuchhaltungssystemen anhand von SAP S/4 HANA Finance und SAP Fiori
+Dokumentenmanagement : Konzeption eines Workflow Management Systems für die Steuerung dokumentbasierter Prozesse
+Einbindung von AFDX-Karten in eine Hardware Abstraktionsschicht
+Einfluss agiler Methoden auf die Arbeitsmotivation
+Einfluss des Softwarewartungspersonals auf die Softwareentwicklung am Beispiel CampusWeb
+Einführung und Implementierung einer OCR Softwarelösung zur automatischen Lieferschein Erkennung am Beispiel der Media-Concept Bürobedarf GmbH
+Einsatz des Wii Fit Balance Board in der Therapie
+Einsatz und Nutzen von agilen Methoden in kleinen und mittleren Unternehmen
+Einsatz von MDA zur Entwicklung einer Client Server Stammdatenverwaltung mit Integration in den Softwareentwicklungsprozess
+Entwicklung der Hardware und Software zur automatischen Helligkeitsanpassung mehrerer Lichtquellen im Studioeinsatz mit passiver Ortserfassung
+Entwicklung einer Bibliothek zur Nutzung von Design-by-Contract in PHP
+Entwicklung einer Business Intelligence Lösung zur Optimierung eines Banken Direktvertriebs
+Entwicklung einer Cyber-Diode zur Absicherung von Industrieanlagen
+Entwicklung einer DSL für einen OR-Mapper
+Entwicklung einer Datenschnittstelle zwischen Internet Backend und Cloud Frontend eines Messestand-Verwaltungssystems
+Entwicklung einer Erweiterung zur Echtzeit-Zusammenarbeit im Magento2 Content-Management
+Entwicklung einer Flexray-Toolchain zur Optimierung des Datenbordnetz Entwicklungsprozesses bei einem OEM
+Entwicklung einer Panorama Anwendung für Android Smartphones mit Adobe AIR
+Entwicklung einer Prozesskette für den modellbasierten Blackbox-Test
+Entwicklung einer SAP Fiori App zur Kondenauftragserstellung mit Cross Selling Vorschlag
+Entwicklung einer Web Visualisierung auf Basis ASP.NET für Automatisierungsgeräte
+Entwicklung einer cross-platform Applikation zum Verschlagworten von Medien für Android und iOS mit Hilfe von Xamarin
+Entwicklung einer mobilen Anwendung zur Fernsteuerung eines Beschallungssystems
+Entwicklung einer neuen mobilen Webseite für ein soziales Netzwerk
+Entwicklung einer plattformunabhängigen App mit verschiedenen Navigations-Patterns unter Xamarin und Xamarin.Forms
+Entwicklung eines Backends für eine Android Applikation mit Anbindung an das Social Network Facebook
+Entwicklung eines Budgetmanagementsystems
+Entwicklung eines Custom Rankings auf Basis von ElasticSearch
+Entwicklung eines Datenmodells zur performanten und effizienten Bearbeitung hierarchisch strukturierter Massendaten
+Entwicklung eines Frameworks für Client Server Architekturen basierend auf WPF und WCF und dem Halvotec Framework
+Entwicklung eines Frameworks für den standardisierten Datenaustausch zwischen Testmanagement und Automationswerkzeugen
+Entwicklung eines Frameworks zur Generierung von Netzwerkplänen
+Entwicklung eines Frontends für eine Android Applikation unter Berücksichtigung der Usability
+Entwicklung eines OpenSource Modells aus einem kommerziellen Produkt
+Entwicklung eines Systems zur Erfassung von Verschattungssituationen an Gebäuden und Simulation von Abschattungsverlusten
+Entwicklung eines Treibers zur WebService basierten Datenintegration im Rahmen eines ETL-Tools
+Entwicklung eines VST-Host Prototypen
+Entwicklung eines Verfahrens zur Berechnung und Visualisierung von Temperaturverläufen auf Basis einer DXF-Zeichnung
+Entwicklung eines Visualisierungswerkzeugs für Dialoglandkarten auf mobilen Endgeräten
+Entwicklung eines anwendergesteuerten Plugins-Generators für eine workflow-gestützte Intranet Datenbank Applikation
+Entwicklung eines prototypischen Datenbanktreibers zum Modellieren einer spaltenbasierten Datenbank
+Entwicklung und Distribution einer mobilen Multiplattform-Applikation mit JQuery-Mobile auf einer Code-Basis
+Entwicklung und Implementierung eines Zoomable User Interfaces für die synthetische Außenansicht
+Entwicklung von Middle-Tier Frameworks für Java Business-Anwendungen
+Entwurf einer Musterarchitektur für Microservices auf Basis von Sprint Cloud
+Entwurf und Design einer Notation sowie eines graphischen Editors für Workflows des Telekommunikationsumternehmes Verizon Business
+Entwurf und Entwicklung eines Verwaltungsprogramms mit Microsoft Access
+Entwurf und Implementierung eines Kommunikationsframeworks für Android
+Entwurf und Implementierung eines Kommunikationsprotokolls zur effizienten Übertragung generischer Daten von eingebetteten Systemen
+Entwurf und Teilimplementierung eines Webportals auf der Basis Ruby on Rails
+Entwurf und prototypische Implementierung einer graphischen Benutzersteuerung für Beleuchtung und Verschattung für ein Plus-Energie-Aus auf Basis von KNX und DALI
+Entwurf und prototypische Implementierung einer parametrisierbaren und erweiterbaren Lösungsplattform für Content Enabled Applikationen
+Entwurf und prototypische Implementierung einer webbasierten virtuellen Kommunikationsplattform unter Berücksichtigung der Web-Usability
+Entwurf und prototypische Implementierung eines Kommissionierungssystems
+Entwurf und prototypische Umsetzung eines StyleCheckers für den Webauftritt der Hochschule Rosenheim
+Entwurf und prototypische Umsetzung eines Webportals zur Erfassung von Störungsmeldungen für Straßenbeleuchtungen
+Entwurfsvarianten für Push-Notifikationen in Cloud und on-premise Architektur
+Erarbeitung eines Konzepts zur Erstbefüllung für ein IT-gestütztes Tool zur Kalkulation von Fremdentwicklungsanteilen
+Erfassung und Visualisierung von Messdaten einer KNX BACnet Gebäudesteuerung im Rahmen des Solar Decathlon Europe
+Erkennen und Zusammenführen von Duplikaten in einem Server-Live System
+Erkennung anomalen Webverkehrs durch Fingerprinting von HTTP Requests
+Erstellung einer Appliance für Zutrittskontrolle zur Ablösung eines alten Produkts
+Erstellung eines Berechtigungskonzepts für pro-alpha bei Rosenberger Hochfrequenztechnik GmbH&CoKG
+Erstellung eines Online Marketing Konzeptes für die Fakultät der Informatik der Hochschule Rosenheim
+Erstellung eines grafischen Thesaurusverarbeitungsprogramms für ein modulares Wissensmanagementsystem
+Erstellung und Umsetzung eines Konzepts zur Hausautomatisierung durch die Entwicklung eines KNX Clients für Home Connect Geräte
+Erweiterung eines Validierungswerkzeugs für Softwarearchitekturen in einen Software-Leitstand
+Evaluation eines Frameworks zur Erstellung einer Mobile Application zur Anbindung an die interne Projektverwaltungssoftware TDProject
+Evaluation maschineller Lernverfahren zur Anomaliedetektion in Zeiterfassungsdaten - Fallbeispiel Intrusion Detection
+Evaluation und Vergleich von Frameworks für maschinelles Lernen
+Evaluation von Software-Engineering-Prozessen in kleinen und mittleren Unternehmen unter Berücksichtigung des CMMI
+Evaluation von Verfahren zum Text-Rendering mit OpenGL
+Evaluierung der Verwendung von Docker für ein mittelständisches Unternehmen
+Evaluierung einer Smartphone-Applikation zur Verbesserung der Mobilität im ländlichen Raum
+Evaluierung und Integration einer cloudbasierten Payment-Lösung für moderne SAAS-Anwendung
+Evaluierung von JMS Providern zur Systemintegration
+Evaluierung von SAP NetWeaver CE anhand einer SOA Applikation
+Evaluierung von webbasierten Technologie-Stacks für die Entwicklung mobiler Applikationen
+Experimentelle Analyse der Lastverschiebung durch programmbasierte Steuerung eines internetfähigen Kühlschranks
+Fehlermanagement in Scrum
+Geo-Visualisierung von technischen Netzparametern im Docsis-Umfeld
+Grafische Oberfläche zur Verwaltung von virtuellen Containernetzwerken
+Heuristik zur Segmentierung von HTML-Seiten zur Rauschfreien Suche und Indexierung
+Implementierung einer Microservice Architektur mit dem .NET-Framework zur Modularisierung und Skalierung von Enterprise-Anwendungen
+Implementierung eines prozessübergreifenden Log-Frameworks mit Live-Debugging-Schnittstelle
+Implementierung von Bearbeitungsmöglichkeiten geometrischer Objekte in der 3D-Ansicht eines Straßeneditors
+Indexierung von Dokumenten und Metadaten in einem revisionssicheren Archiv
+Informationssystem für Bergwanderungen realisiert mit Ruby-on-Rails
+Innovative Steuerkonzepte für Software-Applikationen
+Integration durch Sport : Design und Implementierung einer responsiven und geobasierten Webapplikation als Angebotsunterstützung für Vereine
+Integration eines Monitoring Tools in die CMDB und Service-Management-Umgebung des Rechenzentrums der Hochschule Rosenheim
+Integration eines SAP-Systems in einen Bestellprozess mithilfe von MS BizTalk Server
+Integration von Augmented Reality in eine Game Engine
+Integration von Java Server Faces in eine bestehende Webarchitektur und Prototypische Realisierung am Beispiel des Berichtswesens
+Integrationskonzept für die Multiprojektmanagementsoftware mit einem Werkzeug des agilen Projektmanagements
+Interaktionsdesign für ein Visualisierungstool im Gebäudemonitoring
+Interface Konzept und Prototyp für die modulare Erweiterung eines Kartenbasierten Marktplatzes für Outdoorführer
+JPA für NoSQL
+KI für die Umsetzung farbpsychologischer Tests in der Badeinrichtung
+Kaskadierung autonomer Buildsysteme
+Kinect-Sensor : Evaluation und Entwicklung eines Prototyps für die 3D Bildverarbeitung
+Konzept eines Anforderungsmanagements und Testmanagements für Steuergerätelieferanten am Beispiel Doors
+Konzept eines dynamischen Web-Clients für ein Condition Monitoring Tool
+Konzept für Redeployment von SharePoint Projekten
+Konzept für den Einsatz agiler Methoden in einem Software-KMU im Webumfeld
+Konzept für die statische Analyse von Magento XML Konfigurationen
+Konzept für einen Datentransferservice mit Plugin-Architektur
+Konzept und prototypische Umsetzung eines Managementsystems für erneuerbare Energien in einem Einfamilienhaus mit Strom/Wärmekopplung
+Konzept und prototypische Umsetzung für die Wartung eines Projektmanagement Werkzeugs
+Konzept zur Testautomatisierung für ein Projektmanagement-Werkzeug
+Konzept zur modularen Nachladbarkeit und Verwaltung von Software-Funktionalität in einem Diagnosegerät für Messsysteme
+Konzeption der Anbindung einer Produktionslinie an ein MES
+Konzeption einer Architektur für die Internationalisierung in Microsoft .NET
+Konzeption einer Basisbibliothek zum Standardisieren von Anwendung auf einer Vuzix Datenbrille mit Anbindung an ein SAP System
+Konzeption einer Business Intelligence Lösung auf Basis von HiveQL-Implementierungen
+Konzeption einer Datenbank-Basierten Konstruktionssoftware für Innentüren im exklusiven Yachtausbau
+Konzeption einer Domain Specific Language mit einem interaktiven Editor im Kontext eines Semantic Web Projekts
+Konzeption einer Entwicklungsumgebung zur kontinuierlichen Auslieferung von Software in agilen Web-Projekten
+Konzeption einer IT-Sicherheitsarchitektur für eine Online Lernplattform
+Konzeption einer Komponente zur Darstellung in XAML beschriebener Dialog mit Hilfe der MFC
+Konzeption einer Lehreinheit für die Entwicklung sicherer Webanwendungen mit dem Zend2 Framework
+Konzeption einer Schnittstelle zwischen BMC Remedy und dem Mercury Quality Center
+Konzeption einer SharePoint basieren IT-Unterstützung für die Organisation und Durchführung von Messen am Beispiel der IKORO
+Konzeption einer Supportanwendung für ein Telekommunikationsunternehmen
+Konzeption einer Volltextsuche zur Erweiterung eines Dokumenten-Management-Systems
+Konzeption einer Werkzeugunterstützung für Teilereiche der Softwareentwicklung am Beispiel der Firma Haitec
+Konzeption einer automatisierten Testsuite für Cross-Browser-Tests mit Selenium
+Konzeption einer cross-platform Anwendung auf Basis von HTML5 für Mobile Devices
+Konzeption einer iOS App zur Unterstützung der Angebotserstellung im Baugewerbe
+Konzeption einer iPad-App für Menschen mit mehrfacher Behinderung
+Konzeption einer integrierten Entwicklungsumgebung für Engineering Workflows
+Konzeption einer internationalen Verteilungslösung von virtuellen Clients
+Konzeption einer konzernweiten Logdaten-Lösung auf der Grundlage von Hadoop und BigData-Technologien
+Konzeption einer mehrsprachigen und webbasierten Seminarverwaltung im .NET-Umfeld mit Hilfe des responsiven Web-Designs
+Konzeption einer plattformunabhängigen Software zur mobilen Maschinensteuerung
+Konzeption einer sicheren Zwischenablage zum kontrollierten Informationstransfer auf mikrokernel basierten MILS Workstations
+Konzeption einer technischen Referenzarchitektur für Community Server Plattformen
+Konzeption einer verteilten Anwendung mit entfernter GUI zur ereignisgesteuerten Automatisierung am Beispiel der FMS-Telegramme für Feuerwehren
+Konzeption eines Autorisierungssystems für eine Portallösung im ASP.NET Umfeld
+Konzeption eines Continuous Integration Systems für C++ auf verschiedenen Plattformen
+Konzeption eines Durchführungsprozesses für Neukundenprojekte mit der Software Astras
+Konzeption eines Fassaden-Kalkulationsprogramms basierend auf Java
+Konzeption eines Informationssystems für die Materialsammlung und Bauteilsammlung von Holzbauten mit Berücksichtigung der Vibroakustik
+Konzeption eines Komponentenmodells für ein ETL Werkzeug
+Konzeption eines One-Click-Mechanismus zur automatischen Generierung von Updates
+Konzeption eines SPS Debuggers
+Konzeption eines Vertriebsoptimierungstools
+Konzeption eines plattformunabhängigen Dienstes für mobiles Offline-Reporting in einer bestehenden webbasierten Business Intelligence Infrastruktur
+Konzeption eines webbasierten Seminarmanagementsystems mit einer Schnittstelle zu SAP HCM-Systemen
+Konzeption und Einführung einer Monitoring Struktur für Internetportale
+Konzeption und Entwicklung einer Projektmanagement Web-Anwendung für ein mittelständisches Unternehmen
+Konzeption und Entwicklung einer Software zur Verwaltung unternehmensspezifischer Abläufe
+Konzeption und Entwicklung einer metadatenbasierten Lösung zum Importieren von SAP Tabellen in einen Microsoft SQL Server für die Revision und Wirtschaftsprüfung
+Konzeption und Entwicklung eines JavaEE Backends für ein soziales Geodatennetzwerk in der Amazon Cloud
+Konzeption und Entwicklung eines Prototyps für eine Android Mobile Application mit Anbindung ein einen REST-ful WebService
+Konzeption und Erstellung einer Anwendung zur SAP Stammdaten Klassifizierung für kleine und mittelständische Unternehmen
+Konzeption und Implementierung einer Notenerkennung aus E-Gitarrenaufnahmen
+Konzeption und Implementierung einer cross-platform Desktopanwendung auf Basis von Webtechnologien
+Konzeption und Implementierung einer fachlichen Oberfläche für die Einbindung von SAP Businessobjekten an ein bestehendes BI Modellierungstool
+Konzeption und Implementierung einer plattformunabhängigen grafischen Benutzeroberfläche unter Berücksichtigung eines bestehenden REST-ful Backends mit Integration eines Spracherkennungsdienstes
+Konzeption und Implementierung einer prototypischen Analysesoftware zur Untersuchung einer Social Business Collaboration Plattform
+Konzeption und Implementierung eines E-Mail CMS zur Generierung von sprachspezifischen und landesspezifischen E-Mail-Templates
+Konzeption und Implementierung eines flexiblen Regeleditors vom Prototyp des Paricon Validation Frameworks
+Konzeption und Implementierung eines webbasierten Administrationsbereichs für ein PHP Portal mit Ajax
+Konzeption und Implementierung von Selektionsfunktionalität in der 3D-Ansicht eines Straßeneditors
+Konzeption und Implementierung von produktportfolioübergreifenden Loggingkomponenten und Profilingkomponenten und Tracingkomponenten und einem Analysetool
+Konzeption und Prototypisches Deployment und Vergleich von BI-Financial Dashboards
+Konzeption und Provisionierung eines sicheren und performanten Mailserversystems auf Basis von Open Source Komponenten
+Konzeption und Realisierung der Negativ-Kommissionierung im Rahmen eines Warehouse Management Systems
+Konzeption und Realisierung einer mobilen JavaME Anwendung zur Erfassung und Verbesserung der Herzratenvariabilität
+Konzeption und Teilrealisierung des Controlling-Systems für ein IT-Projekthaus
+Konzeption und Umsetzung einer SAP-Testautomatisierung für ein komplexes Data-Query-Framework
+Konzeption und prototypische Entwicklung einer Webapplikation zur Dokumentation von Pflegedaten
+Konzeption und prototypische Entwicklung einer iPad-Applikation zur Koordination der Darstellung von HTML Präsentationen auf mehreren Geräten
+Konzeption und prototypische Implementierung einer Android-App des SZ Kaufdowns unter Verwendung nutzergetriebener Entwicklungsmethoden
+Konzeption und prototypische Implementierung einer Applikation auf Basis SAP zur Bedarfsberechnung von Fonds-Order für die WWK-Versicherungen
+Konzeption und prototypische Implementierung einer Komponenten zur Graphischen Erstellung und Manipulation datenbankunabhängiger SQL Abfragen
+Konzeption und prototypische Implementierung einer Kontaktverwaltung mit ExtBase und Fluid
+Konzeption und prototypische Implementierung einer mobilen Anwendung zur Fehleranalyse und Dokumentation von technischen Anlagen unter Verwendung des SAP UI5 Frameworks und gerätespezifischen Sensoren
+Konzeption und prototypische Implementierung eines Multimedia-Systems mit multi-room Audio und Video sowie dessen grafischer Benutzersteuerung im Rahmen des Solar-Decathlon Projektes
+Konzeption und prototypische Implementierung eines Steuerungs-Cockpits im Kontext des Managements von Unternehmensarchitekturen
+Konzeption und prototypische Implementierung von Tools zu Unterstützung der GUI-Entwicklung mit dem JRC-Framework
+Konzeption und prototypische Realisierung eines Continuous Delivery Prozesses
+Konzeption und prototypische Umsetzung einer plattformabhängigen mobilen Anwendung zur Darstellung von News aus Microsoft SharePoint
+Konzeption und prototypische Umsetzung eines skalierbaren Monitoring-Frameworks für eine verteilte IoT Middleware
+Konzeption und protypische Implementierung eines Lasttesttools für ASP.NET
+Konzeption und protypische Umsetzung einer Rahmenarchitektur für Web-Applikationen am Beispiel eines Datenerfassungssystems
+Konzeptionelle Entwicklung einer grafischen Benutzeroberfläche eines serverbasierten Konfigurationsdienstes
+Konzeptionierung einer grafischen Programmierumgebung zur Datenvalidierung im SAP Umfeld
+Konzeptionierung und Implementierung eines alternativen Messverfahrens für die Tragezeit eines Okklusionspflasters
+Konzeptionierung und prototyphafte Implementierung einer webbasierten Schnittstelle zur Anbindung mobiler Endgeräte an eine bestehende Business Intelligence Infrastruktur am Beispiel des Apple iPad
+Konzeptionierung und prototypische Implementierung eines Exportmoduls auf Basis von OpenXML am Beispiel von Microsoft PowerPoint
+Koordination eines Fertigungsprozesses durch einen JavaEE Application Server mithilfe von RFID und OPC UA
+Kundenverwaltung und Rechnungsverwaltung für Selbstständige und kleine Handwerksunternehmen
+Ladezeitoptimierung und Frameratenoptimierung für die Darstellung komplexer 3D Polygonnetze
+Lastmodellierung für einen Webservice im eToursim-Umfeld und Evaluation möglicher Optimierungsmaßnahmen
+Layoutvergleich dynamischer Webseiten mit Selenium2
+Leuchtenvarianten : Neukonzeption eines Werkzeugs zur Beurteilung der technischen Machbarkeit und zur Preisfindung
+Load-Balancing mit Software-Defined Networks
+Merkmalsextraktion aus 2D Laserscans für konturbasierte Navigation
+Messung und Visualisierung von ausgewählten Laufzeitindikatoren von Software
+Microservice Architektur zur automatisierten Bereitstellung von Online Marketing Daten mit Similar Web und Wettbewerbsanalyse mit Tableau
+Migration einer Objective-C iOS Applikation zu Swift3 mit neuer graphischer Benutzeroberfläche
+Migration von .NET-Komponenten in eine Cross-Platform App auf Basis von Xamarin
+Migration von digitalen Akten in ein SharePoint DMS
+Modellierung eines IT-Bebauungsplans für eine Versicherungsgruppe
+Modellierung und Visualisierung inhomogener Daten
+Modularisierung und Wiederverwendbarkeit in Webapplikationen anhand von AngularJS und Bower und Gulp
+Monitoring und Logging in Microservice Architekturen
+Monitoring von GIT Repositories
+Neukonzeption eines Informationserfassungssystems und Auftragserfassungssystems für die mobile Nutzung
+Optimierung der Entwicklungsprozesse in einem KMU für Software-Produkte mit Hilfe von CMMI for Development 1.2 am Bespiel des requirements management
+Optimierung der User Experience des Kaufabschlusses in einem Jobportal
+Optimierung des Web-Auftritts der FH-Rosenheim
+Optimierung einer Software zur Gebäudesteuerung in einem Plus-Energie Haus
+Optimierung eines Reservierungsprozesses und Kommunikationsprozesses mit Hilfe einer Webapplikation
+Performanceanalyse und Optimierung eines PHP-basierten Tabellenplugins für die Auswertung und Optimierung von Big Data
+Performanceoptimierung von Magento
+Planung und Umsetzung eines Application Marketplaces für cloud-basierte Anwendungen anhand des Beispiels ZeyConnect
+Pluginkonzept für Microservice Oberflächen
+Portierung einer HTML5 Webanwendung zu einer Hypbrid App am Beispiel Posty-Soft
+Praktischer Einsatz der Waldorfpädagogik im Informatikunterricht der 10. Klasse
+Prindo.AI - künstliche Intelligenz zur Unterstützung im E-Commerce Umfeld
+Programm zur automatisierten Generierung von Projektseiten durch Erweiterung eines CMS
+Projektmanagement in einem kleinen Unternehmen der Elektroinformationstechnik
+Projektmanagement-Leitfaden für die Migration eines Web-Content-Managementsystems am Beispiel eines internationalen Großunternehmens
+Prototypentwicklung eines webbasierten Verleihsystems für Babyartikel
+Prototypische Implementierung einer Smart Glass Applikation zur automatischen Stromzählererkennung mit SAP-Anbindung unter Verwendung von Google Glass
+Prototypische Integration des plixos Outsourcing Directors mit Atlassian JIRA zur Steuerung agiler Softwareentwicklung
+Prozessanalyse und methodische Entwicklung eines IT-gerechten Konzepts zur Verbesserung des Prozessflusses
+Qualitätssicherung von Softwareprojekten die auf agentenbasierten Systemen beruhen
+Quantenkryptographie - Übertragung eines Schlüssels nach BB84 Protokoll
+REST-Interface für ein Bauteilinformationssystem zur Anbindung von Software zur Gebäudekonstruktion
+Realisierung einer Softwarekomponente zum Auslesen des öffentlichen Bereichs der elektronischen Gesundheitskarte mit einer Windows Universal App
+Realtime-Analyse eines Internetportals unter Berücksichtigung europäischer Datenschutzrichtlinien
+Reengineering einer News-Applikation
+Referenzanwendung für einen PHP Application Server
+Rekeying : Neoverschlüsselung persistenter Daten in einem L4-Basierten Produkt
+Repository Mining als Mittel des Projektcontrollings
+Reproduzierbare Testsysteme durch Automatisierung von Installation und Konfiguration am Beispiel GeNUGate
+Restrukturierung einer JavaEE Softwarearchitektur am Beispiel einer Internet Community
+Retail 4.0 - Machine Learning im Einzelhandel
+Role-Profile-Pattern in der Netzwerkadministration
+Sanierung einer Fakturasoftware
+Sanierung eines Legacysystems
+Search Engine Optimization mit Content Analyse im CMS Typo3 Neos
+Serverless Computing
+Sicherheit von Apple iOS im Unternehmenskontext
+Skalierung eines großen elektronischen Archivsystems
+SmallCostTalk : eine preisgünstige busbasierte Ansteuerung mehrerer Microcontroller durch einen PC
+Software zur Dokumentation und Verwaltung von Vertriebspartnerdaten basierend auf .NET-Framework VB.NET und C# und ASP.NET und JavaScript mit JQuery-Framework
+Softwarearchitektur mobiler Systeme
+Softwaredokumentation : ein Konzept zur automatischen Erstellung
+Softwareeinführung in kleinen und mittleren Unternehmen Entwicklung eines Prototyps für einen Leitfaden
+Softwarequalität in PHP Projekten
+Softwaretests anhand des Programms WinISO
+Steuerung eines Fabrikmodells unter dem Echtzeitbetriebssystem VxWorks - Überarbeitung und Integration von EtherCat
+Suchmaschinen Optimierung eines Onlineshops
+Systemintegration am Beispiel eines E-Commerce Systems
+Technologievergleich zur Integration von SAP basierten Anwendungen in dezentrale Prozesse
+Teilimplementierung eines Community-Portal und Lifestyle-Portal mit Web 2.0 Techniken in PHP
+Testdaten-Management im Kontext von Typo3
+Testfallbasierte Dokumententwicklung
+Testkonzept für E-Communities auf Beispiel der INF-Community der HS-Rosenheim
+Testkonzeption einer technisch heterogenen Anwendung
+Transfer von Usability-Engineering Methoden in das Requirements Engineering
+Transformation einer internen Anwendung in einen digitalen Service
+Transformation und Visualisierung einer 360° Ansicht eines multi-kamera-basierten Ringsensors
+Umsetzung der sd&m SOA-Referenzarchitektur auf Basis der IBM SOA Produktlinie
+Umsetzung eines Software-Repository Miningkonzepts für ein internationales Großprojekt
+Umsetzung eines Vorgehensmodells zur Messstreckenintegration in Sanierungsprojekten
+Untersuchung verschiedener Virtualisierungskonzepte zur Konsolidierung einer weltweiten Firmennetz-Infrastruktur
+Usability vs. Security : Passwortverwaltung für Smartphone
+Usability-Studie zur Dialogmodellierung eines Voice-Interfaces am Beispiel Sprachsteuerung in der Küche
+Validierung einer Multi-Channel Architektur in Microsoft .NET
+Vergleich von Backend-as-a-Service Anbietern für die Umsetzung einer Social Media App
+Vergleich von Strategien zum dynamischen Auslagern großer 3D Punktwolken für die schritthaltende Registrierung von Messdaten
+Versionierung von Gesetzestexten
+Vertriebsbelegfluss als mobile Anwendung mit SAP UI5
+Visualisierung von tabellarischen Daten im Bereich des Facility Management
+Volltextsuche von versionierten Dokumenten mit Solr
+Vom manuellen GUI Test bis hin zum automatisierten Testen
+Web Application Frameworks - Architektur und Analyse und Vergleich
+Web Application Security - Analyse der häufigsten Sicherheitslücken und ihre Gegenmaßnahmen
+Websitecaching im Magento E-Commerce Framework - Analyse und Optimierung
+Werkzeugunterstützung für das Configuration Management nach ITIL
+Werkzeugunterstützung für den IT-Betrieb nach ITIL
+Werkzeugunterstützung für dezentrale Softwareentwicklung
+Wissensmanagement im Großanlagenbau : Konzept für Wissensarbeit unter Realisierung und Integration eines Enterprise 2.0 Systems bei der Linde AG
+Workflowgetriebene ERP-Systeme
+Wärmebrückenproblematik : ganzheitlicher Lösungsansatz für den Umgang mit Wärmebrücken Konstruktionsdetails
+XML Datenverarbeitung mit SAP
+Zentrales Backupmanagement dezentraler gespeicherter Daten
+automatische Generierung staßenbaukonformer Geometrie aus Punktlisten für virtuelle 3D Simulationsumgebungen
+automatische Katalogerstellung mit regelbasierten Layoutanpassungen
+automatische Testfallgenerierung einer SAP Dynpro-Applikation
+automatisierte Architekturanalyse mithilfe statischer Java-Byte Analyse
+automatisierte statische Code-Analyse im Typo3 Umfeld
+automatisiertes Deployment lokaler und standardisierter Entwicklungsumgebungen
+automatisiertes Security Screening mobiler Applikationen
+automatisiertes Testen eines Szenengenerators
+bedürfnisgesteuerte intelligente Agenten für Computerspiele - Implementierung und Evaluation
+beispielhafte Portierung eines grafischen Editors von Linux auf Windows XP
+cross-platform Entwicklung für Smartphones am Beispiel der Rosenheimer Campus App
+cross-platform Entwicklung für mobile Endgeräte
+datenflussorientierte vergleichende Betrachtung ausgewählter EAI Plattformen
+die Arbeit eines Optimierers am Beispiel eines MySQL Systems
+einheitliches Rollenkonzept in ERP/CRM von Genua
+elektronische Urlaubsverwaltung in einer mittelständischen IT-Firma - Make-or-Buy
+fachliche und technische Konzeptionierung eins Kundenauftragssystems für den BMW Versuchsfahrzeugbau
+generische Prüfpläne für Werkzeugmaschinen
+generisches Failover von Legacy-Systemen mit Raft
+grafische Visualisierung von Daten in mobilen Anwendungen
+intelligente Verknüpfung voneinander unabhängiger Datenquellen im Automotive Aftersales Bereich
+methodengestützte und toolgestützte Analyse für Testprozesse als Voraussetzung zur Durchführung von Testaktivitäten
+modellbasierte Softwareentwicklung im Rahmen einer Business Process Engine auf Basis von SAP
+modernes C++ auf Embedded-Systemen
+nicht-destruktive Bildmanipulation mit einem Modifikatorstack
+nutzerzentriertes Redesign eines Straßeneditors
+offene Übersetzungen im Rahmen der Software-Internationalisierung
+prototypische Generierung einer Web-Oberfläche
+prototypische Implementierung eines Reisekostenantragsprozesses in Microsoft SharePoint
+prototypische Realisierung einer Anwendungsübergreifenden JavaEE Autorisierungskomponente
+reaktive Programmierung für automotive Telematikanwendungen
+skalierbare Softwarearchitekturen
+visuelle Software Performanceoptimierung
+Überwachung der Sicherheitskennzahlen von Fremdbibliotheken in einem automatisierten Softwareentwicklungsprozess

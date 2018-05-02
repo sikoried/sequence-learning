@@ -1,0 +1,19 @@
+
+# Modell schaetzen:
+
+ngram-count -text werther1.txt -lm werther1.arpa
+
+# Modell auswerten:
+
+ngram -lm werther1.arpa -ppl faust.txt
+
+
+
+erlassen hab ich Feld und Auen, Die eine tiefe Nacht bedeckt, Mit ahnungsvollem, heil’gem Grauen In uns die beßre Seele weckt. Entschlafen sind nun wilde Triebe Mit jedem ungestümen Tun; Es reget sich die Menschenliebe, Die Liebe Gottes regt sich nun. Sei ruhig, Pudel! renne nicht hin und wider! An der Schwelle was schnoperst du hier? Lege dich hinter den Ofen nieder, Mein bestes Kissen geb ich dir. Wie du draußen auf dem bergigen Wege Durch Rennen und Springen ergetzt uns hast, So nimm nun auch von mir die Pflege,
+
+
+cat testtext | tr A-Z a-z  
+
+
+
+scp sl2018@tesla.inf.fh-rosenheim.de:/mnt/raid0/scratch/riko493/ngrams2/gemischt.arpa .
