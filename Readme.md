@@ -42,7 +42,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _April 3: Easter holidays_
 
-- _April 10: no class_
+- _April 10: no class (extra classes on 4/24 and 5/8)_
 
 - **April 17: States and Cost Functions.** ([slides](02/cost-and-states/slides/), [exercise](02/cost-and-states/))
 	
@@ -56,50 +56,46 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _May 1: Labor Day_
 
-- **Maz 8: Hidden Markov Models.**
+- **Maz 8: Hidden Markov Models.** ([slides](04-hmms/hmm.pdf), [exercise](03/hmms/))
 	
-	We'll take a close look at hidden Markov models and how to (efficiently) evaluate them.
+	We'll take a close look at hidden Markov models and how to (efficiently) evaluate and train them.
 	The Viterbi decoding algorithm tells us the most likely sequence and the path that lead to it.
+	We'll use them to build a proof-of-concept isolated word recognizer.
 
-- **May 15: Training of HMM.**
+- **May 15: Higher-Level Sequence Modeling with HMM.**
 	
-	We'll look into the difficulties of training HMMs and how the Viterbi algorithm can be used for a much more efficient training.
-	Build your own isolated word recognizer to understand how training and decoding works in practice.
+	Learn how to model complex sequences of arbitrary length that prohibit explicit modeling, such as speech recognition or choreographies in sports.
+	Here we will combine what we've discussed so far: prefix trees, n-gram models and efficient search.
 
 - _May 22: Pentecost_
 
-- **May 29: Higher-Level Sequence Modeling with HMM.**
-	
-	Learn how to model complex sequences of arbitrary length that prohibit explicit modeling, such as in large vocabulary speech recognition or choreographies in sports.
-	Here we will combine what we've discussed so far: prefix trees, n-gram models and efficient search.
-
-- **June 5: Sequence Kernels for Classification.**
+- **May 29: Sequence Kernels for Classification.**
 	
 	We'll take a little detour into how to leverage basic classification algorithms for sequence classification, and demonstrate its use for speaker identification.
 
-- **June 12: Neural Networks.**
+- **June 5: Neural Networks.**
 	
 	A brief introduction to neural networks: fundamentals, topologies, training and embeddings.
 	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
 
-- **June 19: Case Study: LVCSR.**
+- **June 12: Case Study: LVCSR.**
 	
 	Large vocabular continuous speech recognition (LVCSR) is a flagship application of sequence learning: The state of the art is to combine weighted finite state transducers (as HMM) with deep neural networks (as emission probability surrogate).
 	Follow a basic recipe (US/English) to understand which steps and what data is necessary to train a system.
 
-- **June 26: Sequence to Sequence Learning.**
+- **June 19: Sequence to Sequence Learning.**
 	
 	Previous algorithms explicitly modeled the sequence, either via the kernel or via a graph-like structure such as an HMM.
 	Encoder-decoder networks are a special kind topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
 
-- **July 3: Deep Learning: Practical Considerations.**
+- **June 26: Deep Learning: Practical Considerations.**
 	
 	We'll compare different deep learning toolkits and their requirements or potential to get a grip on what's necessary to apply them to a new problem.
 
-- **NN: Review, Q&A and Exam Prep**
+- **July 3: Review, Q&A and Exam Prep**
 	
 	We'll recap the topics we've covered and work through a set of example questions to prepare for the oral exam.
-	Please come prepared to get the most out of this class!
+	Please come prepared to get the most out of this class! 
 
 - **July 10: oral exams**
 

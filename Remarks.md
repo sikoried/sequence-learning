@@ -30,23 +30,22 @@
 	+ Predicting symbols based on n-gram models
 	+ http://norvig.com/ngrams/
 	+ http://norvig.com/spell-correct.html
-- 4/Discrete Hidden Markov Models
+- 4/Hidden Markov Models
 	Learn how DTW is a (very) special case of an HMM and how it can be used to model sequences.
 	+ Basic HMM evaluation (no training just yet)
 	+ Alignment and Viterbi Algorithm
-- 5/Training of Hidden Markov Models
 	+ EM/Baum-Welch training
 	+ Viterbi training
 	+ Isolated word recognition
-- 6/Higher-level models and efficient decoding
+- 5/Higher-level models and efficient decoding
 	+ jump sequence detection
 	+ basic word recognition
 	+ TIMIT/word sequences?
-- 7/Sequence kernels and classification
+- 6/Sequence kernels and classification
 	+ Isolated word recognition
 	+ Speaker identification
-- 8/Neural Networks: Basics, Training and Topographies
-- 9/Sequence to Sequence Learning
-- 10/Case Study: large vocabylary speech recognition with kaldi
-- 11/Deep Learning Toolkits
+- 7/Neural Networks: Basics, Training and Topographies
+- 8/Sequence to Sequence Learning
+- 9/Case Study: large vocabylary speech recognition with kaldi
+- 10/Deep Learning Toolkits
 
