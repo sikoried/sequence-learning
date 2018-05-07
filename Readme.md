@@ -56,7 +56,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _May 1: Labor Day_
 
-- **Maz 8: Hidden Markov Models.** ([slides](04-hmms/hmm.pdf), [exercise](03/hmms/))
+- **Maz 8: Hidden Markov Models.** ([slides](04-hmms/hmm.pdf), [exercise](04/hmms/))
 	
 	We'll take a close look at hidden Markov models and how to (efficiently) evaluate and train them.
 	The Viterbi decoding algorithm tells us the most likely sequence and the path that lead to it.
