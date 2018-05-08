@@ -69,19 +69,17 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _May 22: Pentecost_
 
-- **May 29: Sequence Kernels for Classification.**
-	
-	We'll take a little detour into how to leverage basic classification algorithms for sequence classification, and demonstrate its use for speaker identification.
-
-- **June 5: Neural Networks.**
-	
-	A brief introduction to neural networks: fundamentals, topologies, training and embeddings.
-	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
-
-- **June 12: Case Study: LVCSR.**
+- **May 29: Case Study: LVCSR.** (extended class, 9.45-3.15)
 	
 	Large vocabular continuous speech recognition (LVCSR) is a flagship application of sequence learning: The state of the art is to combine weighted finite state transducers (as HMM) with deep neural networks (as emission probability surrogate).
 	Follow a basic recipe (US/English) to understand which steps and what data is necessary to train a system.
+
+- _June 5: no class (see extended classes on 5/29 and 6/12)_
+
+- **June 12: Neural Networks.** (extended class, 11.45-5.00)
+	
+	A brief introduction to neural networks: fundamentals, topologies, training and embeddings.
+	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
 
 - **June 19: Sequence to Sequence Learning.**
 	

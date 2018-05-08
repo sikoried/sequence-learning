@@ -49,3 +49,5 @@
 - 9/Case Study: large vocabylary speech recognition with kaldi
 - 10/Deep Learning Toolkits
 
+
+Sequence Kernels in 2018 gestrichen
