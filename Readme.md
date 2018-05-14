@@ -62,7 +62,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	The Viterbi decoding algorithm tells us the most likely sequence and the path that lead to it.
 	We'll use them to build a proof-of-concept isolated word recognizer.
 
-- **May 15: Higher-Level Sequence Modeling with HMM.**
+- **May 15: Higher-Level Sequence Modeling with HMM.** ([slides](05-decoding/decoding.pdf), [exercise](05/decoding/))
 	
 	Learn how to model complex sequences of arbitrary length that prohibit explicit modeling, such as speech recognition or choreographies in sports.
 	Here we will combine what we've discussed so far: prefix trees, n-gram models and efficient search.
