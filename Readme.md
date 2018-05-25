@@ -69,22 +69,22 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _May 22: Pentecost_
 
-- **May 29: Case Study: LVCSR.** (extended class, 9.45-3.15)
+- **May 29: Feed-Forward Neural Networks.** (extended class, 9.45-3.15)
 	
-	Large vocabular continuous speech recognition (LVCSR) is a flagship application of sequence learning: The state of the art is to combine weighted finite state transducers (as HMM) with deep neural networks (as emission probability surrogate).
-	Follow a basic recipe (US/English) to understand which steps and what data is necessary to train a system.
+	A brief introduction to neural networks: fundamentals, topologies and training.
+	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
 
 - _June 5: no class (see extended classes on 5/29 and 6/12)_
 
-- **June 12: Neural Networks.** (extended class, 11.45-5.00)
+- **June 12: Recurrent Neural Networks.** (extended class, 11.45-5.00)
 	
-	A brief introduction to neural networks: fundamentals, topologies, training and embeddings.
-	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
+	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
+	We'll study them using two examples: language modeling and drawing classification.
 
 - **June 19: Sequence to Sequence Learning.**
 	
-	Previous algorithms explicitly modeled the sequence, either via the kernel or via a graph-like structure such as an HMM.
-	Encoder-decoder networks are a special kind topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
+	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
+	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
 
 - **June 26: Deep Learning: Practical Considerations.**
 	

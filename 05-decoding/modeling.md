@@ -212,7 +212,7 @@ done
 For decoding, you can try a number of different parameters, and see what happens...
 
 ```bash
-cb_test=conf.cb.1
+cb_test=conf.cb.40
 lm=timit.ug.arpa
 beam_size=300
 lm_weight=1
@@ -226,3 +226,7 @@ java com.github.sikoried.jstk.app.Decoder \
 	-m $mode -o outfile
 ```
 
+```
+# convert alignment to Wavesurfer label (transcription) format
+awk -v s=0 -v f=160 '{print s, s+($2*f), $1; s+=($2*f)}' test-dr1-faks0-sa1.ali > test-dr1-faks0-sa1.lab
+```
