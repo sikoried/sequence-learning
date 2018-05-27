@@ -69,14 +69,15 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _May 22: Pentecost_
 
-- **May 29: Feed-Forward Neural Networks.** (extended class, 9.45-3.15)
+- **May 29: Feed-Forward Neural Networks (extended class, 9.45-3.15).** (slides [perceptron](06-nnets/sl-perceptron.pdf) and [nnets](06-nnets/sl-mlp.pdf), [fizzbuzz.py](06-nnets/fizzbuzz.tf), [exercise](06/nnets/)).
 	
 	A brief introduction to neural networks: fundamentals, topologies and training.
 	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
+	_Please have Python with Numpy and TensorFlow installed and operational on your machine!_
 
 - _June 5: no class (see extended classes on 5/29 and 6/12)_
 
-- **June 12: Recurrent Neural Networks.** (extended class, 11.45-5.00)
+- **June 12: Recurrent Neural Networks (extended class, 11.45-5.00).**
 	
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We'll study them using two examples: language modeling and drawing classification.
