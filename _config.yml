@@ -7,9 +7,12 @@ url: "https://sikoried.github.io"
 baseurl: "/sequence-learning"
 
 exclude:
-  - "LICENSE"
-  - "Remarks.md"
-  - "jstk"
+  - LICENSE
+  - Remarks.md
+  - jstk
+  - 05-decoding/exp
+  - 06-nnets/admission.csv
+  - 06-nnets/wheat-seeds.csv
 
 github_username: ["sikoried"]
 
