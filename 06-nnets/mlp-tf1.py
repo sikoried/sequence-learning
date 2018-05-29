@@ -1,6 +1,7 @@
 #!/usr/bin/pyton
 
 import csv
+import numpy as np
 
 X = []
 Y = []
@@ -10,8 +11,8 @@ with open('wheat-seeds.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     for row in readCSV:
         X.append([float(f) if f else 0.0 for f in row[:-1]])
-        y = [0, 0, 0]
-        y[int(row[-1])-1] = 1
+        y = [0., 0., 0.]
+        y[int(row[-1])-1] = 1.0
         Y.append(y)
 
 X = np.array(X)
@@ -27,42 +28,44 @@ Yte = Y[-nte:]
 
 import tensorflow as tf
 
-inputs = len(Xtr[0])
+inputs = 7  # see wheat-seed.csv
 hidden = 25
-output = 3
+outputs = 3  # one-hot encoding of three classes (line 14)
 
-x = tf.placeholder(tf.float32, [None, inputs])
+x_ = tf.placeholder(tf.float32, [None, inputs])
 
 # hidden
-W1 = tf.Variable(tf.zeros([inputs, hidden]))
+W1 = tf.Variable(tf.random_normal([inputs, hidden], stddev=0.01))
 b1 = tf.Variable(tf.zeros([hidden]))
-y1 = tf.nn.sigmoid(tf.matmul(x, W1) + b1)
+y1 = tf.nn.sigmoid(tf.matmul(x_, W1) + b1)
 
 # output
-W2 = tf.Variable(tf.zeros([hidden, 3]))
-b2 = tf.Variable(tf.zeros([3]))
+W2 = tf.Variable(tf.zeros([hidden, outputs]))
+b2 = tf.Variable(tf.zeros([outputs]))
 y2 = tf.nn.softmax(tf.matmul(y1, W2) + b2)
 
 #output
-y = y2
-y_ = tf.placeholder(tf.float32, [None, 3])
+pred_y = tf.argmax(y2, 1)
+y_ = tf.placeholder(tf.float32, [None, outputs])
 
 
 # training
-cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), 
+cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y2), 
 	reduction_indices=[1]))
 
 train_step = tf.train.GradientDescentOptimizer(0.2).minimize(cross_entropy)
 
-with tf.InteractiveSession() as sess:
-	tf.global_variables_initializer().run()
+
+with tf.Session() as sess:
+	sess.run(tf.global_variables_initializer())
 
 	for _ in range(10000):
-	  batch_xs, batch_ys = mnist.train.next_batch(100)
-	  sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
+		p = np.random.permutation(len(Xtr))
+		x_batch = Xtr[p]
+		y_batch = Ytr[p]
+		sess.run(train_step, feed_dict={x_: x_batch, y_: y_batch})
 
-	correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
-	accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+	Ypred = sess.run(y2, feed_dict={x_: Xte})
+	correct_prediction = tf.equal(tf.argmax(Yte, 1), tf.argmax(Ypred, 1))
 
-	print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: 
-	mnist.test.labels}))
+	print Yte, Ypred, sess.run(correct_prediction)

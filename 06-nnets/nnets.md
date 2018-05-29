@@ -364,9 +364,13 @@ with tf.Session() as sess:
 	teY = sess.run(predict_op, feed_dict={X: ...})
 ```
 
+See the solution: [mlp-tf1.py](06-nnets/mlp-tf1.py)
+
 
 
 # Pseudo-Sequences: Fizz-Buzz
+
+_Adapted from [Joel Grus: Fizz Buzz in Tensorflow](http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/)._
 
 Do you know [_fizz buzz_](https://en.wikipedia.org/wiki/Fizz_buzz)?
 It is a game played in early school years to practice 101, where players would call out the numbers starting from 1, but instead say _fizz_ if the number is divisible by 3, _buzz_ if divisible by 5, or _fizzbuzz_ if divisible by both.
@@ -394,7 +398,7 @@ def fizz_buzz_encode(i):
     else:             return np.array([1, 0, 0, 0])
 ```
 
-[solution](06-nnets/fizzbuzz.py)
+See the solution: [fizzbuzz.py](06-nnets/fizzbuzz.py)
 
 
 # Homework: Hotwords Recognition in TensorFlow

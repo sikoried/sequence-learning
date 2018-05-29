@@ -68,3 +68,11 @@ for j in xrange(60000):
     layer0 += (learning_rate * np.matmul(l1_delta, l0.T))
 
 print layer0, layer1
+
+l0 = X.T
+l1 = nonlin(np.matmul(layer0, l0))
+l2 = nonlin(np.matmul(layer1, l1))
+
+print X
+print y.T
+print l2
