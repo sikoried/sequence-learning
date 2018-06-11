@@ -21,6 +21,7 @@ Fun exercise: Dump your own message log and train an email generator for yoursel
 For a better task using LSTMs, we'll use the [quick, draw!](https://quickdraw.withgoogle.com/data) data.
 
 The task is to classify a drawing of an object based on the pen strokes (ie. a sequence of drawing inputs).
+For image processing tasks (and in fact, also for speech!), [convolutional neural networks]({{site.baseurl}}/07-rnns/sl-convnets.pdf) are a great choice to learn image structures.
 
 Work your way through the respective [TensorFlow Tutorial](https://www.tensorflow.org/tutorials/recurrent_quickdraw).
 
