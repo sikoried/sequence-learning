@@ -77,7 +77,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _June 5: no class (see extended classes on 5/29 and 6/12)_
 
-- **June 12: Recurrent Neural Networks (extended class, 11.45-5.00).**
+- **June 12: Recurrent Neural Networks (extended class, 11.45-5.00).** (slides [cs231n: RNNs](07-rnns/cs231n_2018_lecture10_excerpts.pdf), [exercise](07/rnns/))
 	
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We'll study them using two examples: language modeling and drawing classification.
