@@ -7,7 +7,7 @@ tail -n +53 pg2229.txt |\
     sed -E 's/^[ A-Z]+://' |\
     perl -pe 's/,\R/ /g; $_=lc' |\
     tr 'ÄÖÜ' 'äöü' |\
-    sed -E 's/[,.?!:;-()]//g' |\
+    sed -E 's/[,.?!:;()-]//g' |\
     awk '{if (NF>1) print}' > faust.txt
 
 # Goethe Werther 1+2

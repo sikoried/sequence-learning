@@ -1,6 +1,6 @@
 # Remarks for 2018
 
-## Syllabis Brainstorm
+## Syllabus Brainstorm
 
 - Intro:
 	+ Supervised and unsupervised learning
@@ -41,13 +41,29 @@
 	+ jump sequence detection
 	+ basic word recognition
 	+ TIMIT/word sequences?
-- 6/Sequence kernels and classification
-	+ Isolated word recognition
-	+ Speaker identification
-- 7/Neural Networks: Basics, Training and Topographies
-- 8/Sequence to Sequence Learning
-- 9/Case Study: large vocabylary speech recognition with kaldi
+- 7/nnets: feed-forward networs
+	+ intro to python
+	+ intro numpy and linalg
+	+ basic feed-forward nets
+	+ backprop
+	+ Intro to Tensorflow (comp. graphs)
+- 8/nnets: recurrent nets, lstm
+	+ basic RNN
+	+ backprop through time
+	+ LSTM
+	+ BLSTM 
+- 9/nnets: seq2seq
+	+ loss functions
+	+ seq2seq for stationary data
+	+ speech recognition
+	+ image captioning
 - 10/Deep Learning Toolkits
 
 
-Sequence Kernels in 2018 gestrichen
+
+- better documentation for JSTK
+- better documentation for exercises
+- format:
+	+ 3-hr sessions?
+	+ 2-hr sessions with alternating lecture and assignments?
+	+ homeworks? three blocks: DP, HMM, nnets (x2?)
