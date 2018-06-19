@@ -1,0 +1,17 @@
+diff --git a/utils/normalise_netcdf.py b/utils/normalise_netcdf.py
+index a68ffaa..b5eb6f7 100755
+--- a/utils/normalise_netcdf.py
++++ b/utils/normalise_netcdf.py
+@@ -93,8 +93,9 @@ outfile = netcdf_helpers.NetCDFFile(outputFilename, 'w')
+ for d in inputVar.dimensions:
+ 	netcdf_helpers.createNcDim(outfile,d,infile.dimensions[d])
+ 
++print inputVar.dimensions
+ if options.stdMeanFilename == "":
+-	netcdf_helpers.createNcVar(outfile,options.outputArrayName+'Means',inputMeans,'f',(inputVar.dimensions[1],),'input means')
+-	netcdf_helpers.createNcVar(outfile,options.outputArrayName+'Stds',inputStds,'f',(inputVar.dimensions[1],),'input std deviations')
+-netcdf_helpers.createNcVar(outfile,options.outputArrayName,outputArray,'f',inputVar.dimensions,options.inputArrayName+' adjusted for mean 0 and std dev 1')
++	netcdf_helpers.createNcVar(outfile,options.outputArrayName+'Means',inputMeans,'f',(str(inputVar.dimensions[1]),),'input means')
++	netcdf_helpers.createNcVar(outfile,options.outputArrayName+'Stds',inputStds,'f',(str(inputVar.dimensions[1]),),'input std deviations')
++netcdf_helpers.createNcVar(outfile,options.outputArrayName,outputArray,'f',(str(inputVar.dimensions[0]), str(inputVar.dimensions[1])),options.inputArrayName+' adjusted for mean 0 and std dev 1')
+ outfile.close()

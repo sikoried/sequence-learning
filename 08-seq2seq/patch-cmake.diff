@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 24e2778..2421385 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -14,7 +14,7 @@ set( CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} ${CMAKE_SOURCE_DIR}/install/lib )
+ FIND_LIBRARY(openblas_LIB NAMES libopenblas.a openblas PATHS install/lib NO_DEFAULT_PATH)
+ IF(NOT openblas_LIB)
+        execute_process ( COMMAND git submodule update --init openblas )
+-       execute_process ( COMMAND make  NO_LAPACKE=1 NO_SHARED=1
++       execute_process ( COMMAND make TARGET=HASWELL NO_LAPACKE=1 NO_SHARED=1
+                        WORKING_DIRECTORY openblas )
+        execute_process ( COMMAND make install NO_SHARED=1 NO_LAPACKE=1 PREFIX=${CMAKE_SOURCE_DIR}/install
+                        WORKING_DIRECTORY openblas )

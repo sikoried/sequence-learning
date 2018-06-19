@@ -82,7 +82,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We'll study them using two examples: language modeling and drawing classification.
 
-- **June 19: Sequence to Sequence Learning.** ([literature and exercise](08/seq2seq/))
+- **June 19: Sequence to Sequence Learning.** ([literature and exercise](08/seq2seq/), [CCL'17 tutorial slides](http://www.cips-cl.org/static/CCL2017/slides/T1_part2.pdf))
 	
 	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
 	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!

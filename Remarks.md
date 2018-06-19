@@ -58,6 +58,8 @@
 	+ speech recognition
 	+ image captioning
 - 10/Deep Learning Toolkits
+	+ practical considerations: same-length outputs
+	+ data processing
 
 
 
