@@ -25,19 +25,19 @@ Pick two toolkits.
 
 - What are pros and cons?
 - Which one would you choose, and why?
-- Work out a basic example that gets you started: [admission.asc](09-toolkits/admission.asc) is a tiny classification task, the last column is the label
+- Work out a basic example that gets you started: [admission.asc]({{site.baseurl}}/09-toolkits/admission.asc) is a tiny classification task, the last column is the label
 
 For your reference, Wikipedia maintains a [comparison of deep learning software](https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software), and there's a recent arxiv article that [compares numerous toolkits](https://arxiv.org/pdf/1803.04818.pdf).
 
 
 # Part 2: Practical Considerations
 
-See the [slide deck](09/toolkits/practical-considerations/).
+See the [slide deck]({{site.baseurl}}/09/toolkits/practical-considerations/).
 
 ## Exercise
 
 For sequence to sequence learning, it is common practice to use training examples that have a fixed number of _output frames_, with variable-but-similar number of _input frames_.
-For an example problem, you've been provided the following [alignments](09-toolkits/alignments.txt) to be used to partition your data:
+For an example problem, you've been provided the following [alignments]({{site.baseurl}}/09-toolkits/alignments.txt) to be used to partition your data:
 
 ```
 # <file-id> [<symbol> <length> (; <symbol> <length>)*]
@@ -46,7 +46,7 @@ AAA_m159dxx0_010_AAA 1 5 ; 23 13 ; 35 5 ; 9 4 ; 41 7 ; 32 6 ; 35 6 ; 17 10 ; 40 
 
 Where `symbol` is an integer ID of the output symbol, and `length` is the number of input samples corresponding to this segment.
 
-- Write a function that reads in the [alignments file](09-toolkits/alignments.txt) and outputs a list of examples, similar to the lines below
+- Write a function that reads in the [alignments file]({{site.baseurl}}/09-toolkits/alignments.txt) and outputs a list of examples, similar to the lines below
 - Files with less output symbols than the desired length should be ignored
 
 ```
@@ -70,4 +70,4 @@ def make_examples(file, num_outputs=8, stride=1):
 
 # Part 3: Deploying Machine Learning Models
 
-See the [slide deck](09/toolkits/deployment/).
+See the [slide deck]({{site.baseurl}}/09/toolkits/deployment/).
