@@ -87,7 +87,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
 	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
 
-- **June 26: Deep Learning: Practical Considerations.**
+- **June 26: Deep Learning: Practical Considerations.** (slides: [toolkits](09/toolkits/slides/), [practical considerations](09/toolkits/practical-considerations/), [deployment](09/toolkits/deployment/), [exercise](09/toolkits/))
 	
 	We'll compare different deep learning toolkits and their requirements or potential to get a grip on what's necessary to apply them to a new problem.
 

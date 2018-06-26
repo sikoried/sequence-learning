@@ -1,0 +1,9 @@
+Theano
+TensorFlow
+Microsoft Cognitive Toolkit
+Torch
+MXNet
+Caffe
+Keras
+deeplearning4j
+Core ML

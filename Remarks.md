@@ -47,16 +47,21 @@
 	+ basic feed-forward nets
 	+ backprop
 	+ Intro to Tensorflow (comp. graphs)
+	+ https://www.jeremyjordan.me/neural-networks-training/
+	+ https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
 - 8/nnets: recurrent nets, lstm
 	+ basic RNN
-	+ backprop through time
-	+ LSTM
+	+ backprop through time (BPTT)
+	+ larger Exercise?
+	+ LSTM --> move to 9/?
 	+ BLSTM 
 - 9/nnets: seq2seq
 	+ loss functions
-	+ seq2seq for stationary data
-	+ speech recognition
-	+ image captioning
+	+ seq2seq: CTC
+	+ applications
+		+ for stationary data
+		+ speech recognition
+		+ image captioning
 - 10/Deep Learning Toolkits
 	+ practical considerations: same-length outputs
 	+ data processing
