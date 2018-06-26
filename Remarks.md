@@ -52,20 +52,24 @@
 - 8/nnets: recurrent nets, lstm
 	+ basic RNN
 	+ backprop through time (BPTT)
-	+ larger Exercise?
+	+ larger Exercise? BPTT selber programmieren?
 	+ LSTM --> move to 9/?
 	+ BLSTM 
 - 9/nnets: seq2seq
 	+ loss functions
-	+ seq2seq: CTC
-	+ applications
+	+ seq2seq: CTC ausfuehrlicher naechstes mal!
+	+ applications...advanced topologies?
 		+ for stationary data
 		+ speech recognition
 		+ image captioning
 - 10/Deep Learning Toolkits
 	+ practical considerations: same-length outputs
-	+ data processing
+	+ data processing: Pandas, Pickle, TFRecord genauer
+	+ deployment: das war gut, sollte mehr sein, und mit Anwendung! Brainstorming aber gut
+	+ => auf zwei Termine aufteilen?! Oder vielleicht "hausaufgabe" davor?
+	+ Kurzvortraege zu den Toolkits durch Studis?
 
+- GANs usw??
 
 
 - better documentation for JSTK
@@ -73,4 +77,4 @@
 - format:
 	+ 3-hr sessions?
 	+ 2-hr sessions with alternating lecture and assignments?
-	+ homeworks? three blocks: DP, HMM, nnets (x2?)
+	+ homeworks? 4 blocks: DP, HMM, nnets, deeplearning (project)

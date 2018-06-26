@@ -2,31 +2,9 @@
 
 # usage: batches.py phones.txt 50 1 alis.txt
 
-# sikoried, 6/22/2018
-
-# read kaldi-style phone alignments
-#   eg. ali-to-phones --write-lengths=true final.mdl 'ark:gunzip -c /ali.*.gz|' ark,t:alis.txt
-#
-# AAA_m159dxx0_000_AAA 1 4 ; 36 20 ; 29 5 ; 6 3 ; 42 3 ; 9 3 ; 38 3 ; 42 6 ; 17 15 ; 32 6 ; 30 7 ; 34 5 ; 11 6 ; 14 6 ; 41 9 ; 42 3 ; 26 3 ; 21 3 ; 11 3 ; 30 9 ; 12 3 ; 11 7 ; 29 17 ; 20 5 ; 11 4 ; 42 16 ; 38 9 ; 11 25 ; 1 21 ; 36 12 ; 37 9 ; 14 4 ; 42 4 ; 43 3 ; 21 3 ; 37 8 ; 18 7 ; 39 4 ; 40 3 ; 12 3 ; 10 6 ; 9 3 ; 14 3 ; 10 3 ; 26 6 ; 12 3 ; 38 5 ; 24 5 ; 14 5 ; 42 6 ; 9 26 ; 1 8 ; 14 9 ; 10 6 ; 43 3 ; 21 5 ; 11 4 ; 26 3 ; 9 13 ; 1 16 ; 36 12 ; 37 39 ; 1 9 ; 29 9 ; 21 19 ; 7 21 ; 12 10 ; 11 12 ; 1 5 ; 42 8 ; 21 15 ; 12 8 ; 38 10 ; 1 3 ; 21 22 ; 12 13 ; 11 11 ; 29 5 ; 9 6 ; 18 7 ; 40 4 ; 34 16 ; 24 3 ; 9 3 ; 38 10 
-# ...
-#
-# and map them to "egs", fixed-output-length training examples for seq2seq
-# training
-#   eg. <utt-sub-key> <start-mfcc> <end-mfcc> <label-seq...>
-#
-# AAA_m159dxx0_000_AAA_0000 0 334 1 36 29 6 42 9 38 42 17 32 30 34 11 14 41 42 26 21 11 30 12 11 29 20 11 42 38 11 1 36 37 14 42 43 21 37 18 39 40 12 10 9 14 10 26 12 38 24 14 42
-# AAA_m159dxx0_000_AAA_0001 334 690 36 29 6 42 9 38 42 17 32 30 34 11 14 41 42 26 21 11 30 12 11 29 20 11 42 38 11 1 36 37 14 42 43 21 37 18 39 40 12 10 9 14 10 26 12 38 24 14 42 9
-# ...
-#
-# Expects `phones.txt` to verify that the alignments are ok. Note that since
-# the `<eps>` "phone" is always 0, the label ids should be decreased by 1,
-# depending on the downstream seq2seq library (in case of CTC, labels should
-# start at 0).
-
 import sys
 
 from operator import itemgetter
-
 
 if len(sys.argv) != 4:
 	print >>sys.stderr, "usage: %s <egs-size> <stride> <alis-txt>" % sys.argv[0]
