@@ -28,34 +28,18 @@ import sys
 from operator import itemgetter
 
 
-if len(sys.argv) != 5:
-	print >>sys.stderr, "usage: %s <phone-map> <egs-size> <stride> <alis-txt>" % sys.argv[0]
-	print >>sys.stderr, "  eg. %s phone.txt 50 1 alis.txt" % sys.argv[0]
+if len(sys.argv) != 4:
+	print >>sys.stderr, "usage: %s <egs-size> <stride> <alis-txt>" % sys.argv[0]
+	print >>sys.stderr, "  eg. %s 50 1 alis.txt" % sys.argv[0]
 	sys.exit(1)
 
-# read phone map; used to check for potential alignment errors (invalid symbols)
-int2sym = dict()
-with open(sys.argv[1]) as f:
-	for line in f:
-		p, i = line.strip().split()
-		if p == '<eps>':
-			continue
-		# ignore disambiguation symbols; those are at the end of phones.txt
-		elif p.startswith('#'):
-			break
-		int2sym[int(i)] = p
-
-# find minimum and maximum phone ids to detect ali errors
-minp = min(int2sym.keys())
-maxp = max(int2sym.keys())
-
 # number of output frames
-nof = int(sys.argv[2])
-stride = int(sys.argv[3])
+nof = int(sys.argv[1])
+stride = int(sys.argv[2])
 
 # read labels, write to a list of (utt-key, [(phn, len), (phn, len) ...])
 alis = list()
-with open(sys.argv[4]) as f:
+with open(sys.argv[3]) as f:
 	for i, line in enumerate(f):
 		# AAA_m159dxx0_000_AAA 1 4 ; 36 20 ; 29 5 ; 6 3  where tuples are (phn, len)
 		utt, ali = line.strip().split(' ', 1)
@@ -63,12 +47,6 @@ with open(sys.argv[4]) as f:
 		ali = zip(ali[::2], ali[1::2])  # [::2] is every other; [1::2] is every other starting at 1
 		if len(ali) < nof:
 			print >>sys.stderr, "Ignoring %d: %s since its too short (%d)" % (i, utt, len(ali))
-			continue
-		# diagnostics: verify that every phone in this alignment is ok
-		if min(map(itemgetter(0), ali)) < minp or max(map(itemgetter(0), ali)) > maxp:
-			m1 = min(map(itemgetter(0), ali))
-			m2 = max(map(itemgetter(0), ali))
-			print >>sys.stderr, "Ignoring invalid alignment in line %d: minp=%d min=%d max=%d maxp=%d %s %s" % (i, minp, m1, m2, maxp, utt, ' '.join(map(str, map(itemgetter(0), ali))))
 			continue
 		# looks good, make tuple (utt-key, [(phn, len), (phn, len) ...])
 		alis.append((utt, ali))
