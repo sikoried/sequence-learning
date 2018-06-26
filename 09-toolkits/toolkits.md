@@ -68,6 +68,8 @@ def make_examples(file, num_outputs=8, stride=1):
 ```
 
 
+Solution: [examples.py]({{site.baseurl}}/09-toolkits/examples.py)
+
 # Part 3: Deploying Machine Learning Models
 
 See the [slide deck]({{site.baseurl}}/09/toolkits/deployment/).

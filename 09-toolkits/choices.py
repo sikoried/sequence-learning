@@ -10,5 +10,5 @@ with open('toolkits.txt') as f:
 from numpy import random
 
 for i in range(int(sys.argv[1])):
-	print random.choice(tks, size=2)
+	print random.choice(tks, size=2, replace=False)
 
