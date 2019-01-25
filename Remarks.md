@@ -70,6 +70,10 @@
 	+ Kurzvortraege zu den Toolkits durch Studis?
 
 - GANs usw??
+- CNN https://towardsdatascience.com/sentence-classification-using-cnn-with-deep-learning-studio-fe54eb53e24
+
+https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f
+https://towardsdatascience.com/automated-machine-learning-hyperparameter-tuning-in-python-dfda59b72f8a
 
 
 - better documentation for JSTK
@@ -78,3 +82,7 @@
 	+ 3-hr sessions?
 	+ 2-hr sessions with alternating lecture and assignments?
 	+ homeworks? 4 blocks: DP, HMM, nnets, deeplearning (project)
+- credits:
+	+ 6p paper IEEEtran style
+	+ 3 peer reviews
+	+ 15min presentation with 5m q/a
