@@ -58,6 +58,7 @@
 - 9/nnets: seq2seq
 	+ loss functions
 	+ seq2seq: CTC ausfuehrlicher naechstes mal!
+	+ Attention
 	+ applications...advanced topologies?
 		+ for stationary data
 		+ speech recognition
@@ -69,12 +70,17 @@
 	+ => auf zwei Termine aufteilen?! Oder vielleicht "hausaufgabe" davor?
 	+ Kurzvortraege zu den Toolkits durch Studis?
 
+- Deep Dive Speech Recognition, from classical via hybrid to fully neural?
+
 - GANs usw??
 - CNN https://towardsdatascience.com/sentence-classification-using-cnn-with-deep-learning-studio-fe54eb53e24
 
 https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f
 https://towardsdatascience.com/automated-machine-learning-hyperparameter-tuning-in-python-dfda59b72f8a
 
+https://github.com/acharroux/Movidius-On-MacOS
+
+- deep learning: conceptual exercises? TF architectures?
 
 - better documentation for JSTK
 - better documentation for exercises
