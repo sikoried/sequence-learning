@@ -28,18 +28,52 @@ Things you should be familar with:
 
 ## JSTK
 
-Although we won't be using it for just a few more weeks, please clone and build the [JSTK](https://github.com/sikoried/jstk).
-
-You should set the class path so that you can conveniently run its applications:
+Although we won't be using it for just a few more weeks, please set up a new git repository, and add [JSTK](https://github.com/sikoried/jstk) as a submodule.
 
 ```bash
-$ export CLASSPATH=$(find path/to/jstk/jstk/build/libs -name '*.jar' | xargs echo | tr ' ' ':')
-$ java de.fau.cs.jstk.app.Version
+mkdir sl-examples
+git init
+git submodule add https://github.com/sikoried/jstk
 ```
+
+Make sure to include `jstk` in your gradle build file.
+We will also be using the Apache Commons [`lang3`](https://commons.apache.org/proper/commons-lang/), [`beanutils`](http://commons.apache.org/proper/commons-beanutils/) and [`configuration2`](https://commons.apache.org/proper/commons-configuration/userguide/upgradeto2_0.html) as well as `junit5`.
+While IntelliJ does all the env magic for you, you may want to specify an `env` target that produces the correct `CLASSPATH` variable to be exported.
+Here's a partial example:
+
+```groovy
+task env (dependsOn: configurations.runtime) {
+    doLast {
+        println "export CLASSPATH=${(configurations.runtime + sourceSets.main.runtimeClasspath).collect { File file -> file.absolutePath } join ':' }"
+    }
+}
+
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile group: 'commons-beanutils', name: 'commons-beanutils', version: '1.9.3'
+    compile group: 'org.apache.commons', name: 'commons-configuration2', version: '2.2'
+    compile project(':jstk')  // comes with junit
+
+    testCompile("org.junit.jupiter:junit-jupiter-api:${junit_jupiter_version}")
+    testCompile("org.apache.logging.log4j:log4j-core:${log4j_version}")
+    testCompile("org.apache.logging.log4j:log4j-jul:${log4j_version}")
+
+    testRuntime("org.junit.jupiter:junit-jupiter-params:${junit_jupiter_version}")
+    testRuntime("org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_version}")
+    testRuntime("org.junit.platform:junit-platform-launcher:${junit_platform_version}")
+}
+```
+
+Note: The solutions to the Java exercises can be found in [sikoried/sl-examples](https://github.com/sikoried/sl-examples/), which has `jstk` as a submodule.
 
 
 ## Refresh Your Bash Skills
 
 Throughout this class, we'll be using a lot of [bash](https://www.gnu.org/software/bash/).
 In case you're not familiar, here's a [bash scripting tutorial](https://ryanstutorials.net/bash-scripting-tutorial/).
+
+
+## Refresh Your Python Skills
+
+We won't be using Python for a while, but if you have never worked with python, you should start looking into it.
 

@@ -19,9 +19,9 @@ Java is suggested, pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org
 We'll adopt a common research routine: identify a problem, research prior work, engineer a solution, write it up in a paper, review other papers, present your work.
 Credits are earned through
 
-- your [6 page paper](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-article/authoring-tools-and-templates/ieee-article-templates/templates-for-transactions/) submitted by June 24 (60%)
-- revieweing 3 other papers by July 1 (20%)
-- presenting your work on July 8 (tentative date). (20%)
+- your [6 page paper](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-article/authoring-tools-and-templates/ieee-article-templates/templates-for-transactions/) submitted by **June 24** (60%)
+- revieweing 3 other papers by **July 1** (20%)
+- presenting your work on **July 8** (tentative date). (20%)
 
 _Note: Materials will be in English, the lectures/tutorials will be taught in German; class project in language of choice._
 
