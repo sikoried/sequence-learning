@@ -42,8 +42,6 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning.
 
-_The remaining syllabus is still subject to change!_
-
 - **March 25: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
 	
 	We'll start with a classic implementation of auto-correcting mispelled words to bring dynamic programming back to memory.
@@ -71,6 +69,8 @@ _The remaining syllabus is still subject to change!_
 	
 	Learn how to model complex sequences of arbitrary length that prohibit explicit modeling, such as speech recognition or choreographies in sports.
 	Here we will combine what we've discussed so far: prefix trees, n-gram models and efficient search.
+
+_The remaining syllabus is still subject to change!_
 
 - **May 8: Feed-Forward Neural Networks.** (slides [perceptron](06-nnets/sl-perceptron.pdf) and [nnets](06-nnets/sl-mlp.pdf), [fizzbuzz.py](06-nnets/fizzbuzz.tf), [exercise](06/nnets/)).
 	
