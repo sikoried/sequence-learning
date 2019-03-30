@@ -38,7 +38,7 @@ For the following two assignments, we will need the JSTK up and running, ideally
 
 ```
 $ export CLASSPATH=$(find path/to/jstk/jstk/build/libs -name '*.jar' | xargs echo | tr ' ' ':')
-$ java de.fau.cs.jstk.app.Version  # does this work?!
+$ java com.github.sikoried.jstk.app.Version  # does this work?!
 ```
 
 
@@ -52,18 +52,18 @@ Here's an example to record audio from using the JSTK, convert it to WAV, and th
 
 ```
 # query for audio mixers
-$ java de.fau.cs.jstk.sampled.AudioCapture -L
+$ java com.github.sikoried.jstk.sampled.AudioCapture -L
 Default Audio Device
 Built-in Microphone
 
 # reord 16khz/mono, convert to WAV
-$ java de.fau.cs.jstk.sampled.AudioCapture -m "Built-in Microphone" | sox -t s16 -r 16000 - rec.wav
+$ java com.github.sikoried.jstk.sampled.AudioCapture -m "Built-in Microphone" | sox -t s16 -r 16000 - rec.wav
 
 # compute MFCC features
-$ java de.fau.cs.jstk.app.Mfcc -f t:wav/16 -w hamm,25,10 -i rec.wav -o rec.ft
+$ java com.github.sikoried.jstk.app.Mfcc -f t:wav/16 -w hamm,25,10 -i rec.wav -o rec.ft
 ```
 
-These feature files can be read using the class `de.fau.cs.io.FrameInputStream`, for example
+These feature files can be read using the class `com.github.sikoried.jstk.io.FrameInputStream`, for example
 
 ```java
 FrameSource fs = new FrameInputStream(inFile);
@@ -111,15 +111,15 @@ Use a tool such as [Wavesurfer](https://sourceforge.net/projects/wavesurfer/file
 
 The idea is now to model DTMF sequences a small, fully corrected graph, that has 13 states:
 0-9, A-D, \*, \# and _silence_.
-The mapping from symbol to frequency pair is given as `[(1,697,1209), (2,697,1336), (3,697,1477), (A,697,1633), (4,770,1209), (5,770,1336), (6,770,1477), (B,770,1633), (7,852,1209), (8,852,1336), (9,852,1477), (C,852,1633), (*,941,1209), (0,941,1336), (#,941,1477), (D,941,1633)]` (see also [`de.fau.cs.jstk.framed.DTMF`](https://github.com/sikoried/jstk/blob/master/jstk/src/de/fau/cs/jstk/framed/DTMF.java)).
+The mapping from symbol to frequency pair is given as `[(1,697,1209), (2,697,1336), (3,697,1477), (A,697,1633), (4,770,1209), (5,770,1336), (6,770,1477), (B,770,1633), (7,852,1209), (8,852,1336), (9,852,1477), (C,852,1633), (*,941,1209), (0,941,1336), (#,941,1477), (D,941,1633)]` (see also [`com.github.sikoried.jstk.framed.DTMF`](https://github.com/sikoried/jstk/blob/master/src/main/java/com/github/sikoried/jstk/framed/DTMF.java)).
 
-Use the [DTMF](https://github.com/sikoried/jstk/blob/master/jstk/src/de/fau/cs/jstk/framed/DTMF.java) program to extract DTMF features, either using it as a `FrameSource`, or using its `main` function:
+Use the [DTMF](https://github.com/sikoried/jstk/blob/master/src/main/java/com/github/sikoried/jstk/framed/DTMF.java) program to extract DTMF features, either using it as a `FrameSource`, or using its `main` function:
 
 ```
-$ java de.fau.cs.jstk.framed.DTMF dtmf_123A_456B_789C_s0pD.wav | head -n10
-0 [main] INFO de.fau.cs.jstk.framed.DTMF  - FFT resolution (Hz/bin) = 15.625
-1 [main] INFO de.fau.cs.jstk.framed.DTMF  - frequencies = [697, 770, 852, 941, 1209, 1336, 1477, 1633]
-1 [main] INFO de.fau.cs.jstk.framed.DTMF  - corresponding FFT bins = [45, 49, 55, 60, 77, 86, 95, 105]
+$ java com.github.sikoried.jstk.framed.DTMF dtmf_123A_456B_789C_s0pD.wav | head -n10
+0 [main] INFO com.github.sikoried.jstk.framed.DTMF  - FFT resolution (Hz/bin) = 15.625
+1 [main] INFO com.github.sikoried.jstk.framed.DTMF  - frequencies = [697, 770, 852, 941, 1209, 1336, 1477, 1633]
+1 [main] INFO com.github.sikoried.jstk.framed.DTMF  - corresponding FFT bins = [45, 49, 55, 60, 77, 86, 95, 105]
 3687.88 0.50 0.01 0.00 0.00 0.50 0.00 0.00 0.00 1
 4640.80 0.50 0.00 0.00 0.00 0.50 0.00 0.00 0.00 1
 4638.79 0.50 0.00 0.00 0.00 0.50 0.00 0.00 0.00 1
@@ -160,7 +160,7 @@ D
 We will now abstract edit distance in a way, that we compute the "distance" of an observation sequence to a series of state occupation (ie. key presses).
 
 - For the decoding matrix, you will use the number of feature vectors in one dimension, and the number of states in the other.
-- Define prototype vectors for each state; see DTMF table, use 0.5 for each of the active frequencies, or all 0 for silence.
+- Define prototype vectors for each state; see DTMF table, use `0.5` for each of the active frequencies, or all `0` for silence.
 - Remember: you can now "go backwards" on one axis, thus you need to compute the minimum for the complete row (or column, depending on your choice).
 - Use uniform costs and the distance between the input vector and the state's prototype vector.
 - Compute the backtrace and `uniq` the sequence to get the punched keys.
