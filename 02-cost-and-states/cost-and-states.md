@@ -59,8 +59,15 @@ Built-in Microphone
 # reord 16khz/mono, convert to WAV
 $ java com.github.sikoried.jstk.sampled.AudioCapture -m "Built-in Microphone" | sox -t s16 -r 16000 - rec.wav
 
-# compute MFCC features
-$ java com.github.sikoried.jstk.app.Mfcc -f t:wav/16 -w hamm,25,10 -i rec.wav -o rec.ft
+# Features berechnen
+for i in *.wav; do
+	o=${i%%.wav}.ft
+	java com.github.sikoried.jstk.app.Mfcc -f t:wav/16 -w hamm,25,10 --turn-wise-mvn -i $i -o $o
+done
+
+# ...alternativ: in-out-liste (deutlich schneller!)
+for i in `/bin/ls *.wav`; do echo $i ${i%%.wav}.ft; done > inout
+java com.github.sikoried.jstk.app.Mfcc -f t:wav/16 -w hamm,25,10 --turn-wise-mvn --in-out-list inout
 ```
 
 These feature files can be read using the class `com.github.sikoried.jstk.io.FrameInputStream`, for example
@@ -86,12 +93,22 @@ while (fs.read(buf)) {
 	b. For each test word, compute the (normalized) distance to the training words
 	c. Select the closest word as classification result.
 
+```
+# Dateilisten erstellen: "training" (Referenz) und test
+for i in one two three four five six seven eight nine zero yes no; do 
+	/bin/ls ${i}_*.ft | head -n 9 > $i.lst.train
+	/bin/ls ${i}_*.ft | tail -n 1 > $i.lst.test
+done
+```
+
 
 ## Discuss your Implementation
 
 - How can you extend this idea to continuous speech?
 - How does this algorithm scale with a larger vocabulary, how can it be improved?
 - What are inherent issues of this approach?
+
+
 
 
 # DP and States: DTMF Decoding
