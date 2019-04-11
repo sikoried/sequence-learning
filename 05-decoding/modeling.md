@@ -146,7 +146,7 @@ ngram-count -order 1 -text <(cut -d' ' -f 2- list.train.trl) -lm timit.ug.arpa -
 
 The figure below shows the general architecture for the JSTK packages.
 
-![architecture overview](https://github.com/sikoried/jstk/blob/master/docs/architecture.png)
+![architecture overview](https://github.com/sikoried/jstk/raw/master/docs/architecture.png)
 
 For sequence decoding, we need to compile the alphabet and lexicon into a configuration (basically the model files).
 We'll allocate three Gaussians per state, and limit ourselves to monophones (phones without context).
