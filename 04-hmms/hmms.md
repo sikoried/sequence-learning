@@ -31,7 +31,7 @@ $(gradle -q env)  # will exec export CLASSPATH=...
 # Data Prep
 
 - Clone the [Free Spoken Digit Dataset](https://github.com/Jakobovski/free-spoken-digit-dataset).
-- Create file lists for training and test; we'll use `jackson` as training speaker, and `theo` for test.
+- Create file lists for training and test; we'll use the `*_?.wav` files for test, the `*_??.wav` files for train.
 - Compute MFCC features, using first derivatives and per-file normalization.
 - Train a Gaussian mixture model (128 diagonal densities), which we will be using as codebook later
 
@@ -41,8 +41,8 @@ git clone https://github.com/Jakobovski/free-spoken-digit-dataset.git
 cd free-spoken-digit-dataset/recordings
 
 # make lists
-/bin/ls [0-9]_jackson_*.wav > list.train
-/bin/ls [0-9]_theo_*.wav > list.test
+/bin/ls [0-9]_{jackson,theo,nicolas,yweweler}_??.wav > list.train
+/bin/ls [0-9]_{jackson,theo,nicolas,yweweler}_?.wav > list.test
 cat list.{train,test} > list.all
 
 # compute features
