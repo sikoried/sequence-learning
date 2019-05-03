@@ -70,13 +70,13 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	Learn how to model complex sequences of arbitrary length that prohibit explicit modeling, such as speech recognition or choreographies in sports.
 	Here we will combine what we've discussed so far: prefix trees, n-gram models and efficient search.
 
-_The remaining syllabus is still subject to change!_
-
 - **May 6: Feed-Forward Neural Networks.** (slides [perceptron](06-nnets/sl-perceptron.pdf) and [nnets](06-nnets/sl-mlp.pdf), [fizzbuzz.py](06-nnets/fizzbuzz.tf), [exercise](06/nnets/)).
 	
 	A brief introduction to neural networks: fundamentals, topologies and training.
 	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
 	_Please have Python with Numpy and TensorFlow installed and operational on your machine!_
+
+_The remaining syllabus is still subject to change!_
 
 - **May 13: Recurrent Neural Networks.** (slides [cs231n: RNNs](07-rnns/cs231n_2018_lecture10_excerpts.pdf), [exercise](07/rnns/))
 	
