@@ -23,6 +23,8 @@ Credits are earned through
 - reviewing 3 other papers by **July 1** (20%)
 - presenting your work on **July 8** (tentative date). (20%)
 
+_For more details see [these slides](99/credits-howto/)._
+
 _Note: Materials will be in English, the lectures/tutorials will be taught in German; class project in language of choice._
 
 
