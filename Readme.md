@@ -78,12 +78,12 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
 	_Please have Python with Numpy and TensorFlow installed and operational on your machine!_
 
-_The remaining syllabus is still subject to change!_
-
 - **May 13: Recurrent Neural Networks.** (slides [cs231n: RNNs](07-rnns/cs231n_2018_lecture10_excerpts.pdf), [exercise](07/rnns/))
 	
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We'll study them using two examples: language modeling and drawing classification.
+
+_The remaining syllabus is still subject to change!_
 
 - **May 20: Sequence Kernels and Embeddings for Instance Classification**
 
