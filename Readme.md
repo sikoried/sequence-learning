@@ -85,17 +85,21 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 _The remaining syllabus is still subject to change!_
 
-- **May 20: Sequence Kernels and Embeddings for Instance Classification**
+- **May 20: Project Proposals**
 
-	In many cases, classifying a sequence into a discrete class does not quite work with recurrent networks.
-	We'll learn about sequence kernels and embeddings that map sequences into a single observation of a continuous space, that can then be used by conventional classifiers.
+	No class; teams will meet individually with instructor to discuss their project proposals.
+	Plan for 10-15 minutes discussion and bring 5 slides: Team, Task and a brief summary of 3 pieces of related work (textbook, paper, github).
+	Book your time slot: <https://terminplaner4.dfn.de/SfHJAnhklDDhiWhB>
 
 - **May 27: Sequence to Sequence Learning.** ([literature and exercise](08/seq2seq/), [attention slides](08-seq2seq/sl-augmented.pdf), [CCL'17 tutorial slides](http://www.cips-cl.org/static/CCL2017/slides/T1_part2.pdf))
 	
 	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
 	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
 
-- **June 3: Project Kickoff**
+- **June 3: Sequence Kernels and Embeddings for Instance Classification**
+
+	In many cases, classifying a sequence into a discrete class does not quite work with recurrent networks.
+	We'll learn about sequence kernels and embeddings that map sequences into a single observation of a continuous space, that can then be used by conventional classifiers.**
 
 - _June 10: no class (Whit Monday)_
 
