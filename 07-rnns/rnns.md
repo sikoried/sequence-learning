@@ -16,7 +16,7 @@ Choose from a variety of datasets to train different models and sample some text
 - [Goethe's Faust]({{site.baseurl}}/03-ngrams/faust.txt)
 - [Schiller's Die Räuber]({{site.baseurl}}/03-ngrams/dieraeuber.txt)
 - [Thesis Titles]({{site.baseurl}}/03-ngrams/hsro-theses.txt)
-- [POTUS on Twitter]({{site.baseurl}}/07-rnns/putus.txt)
+- [POTUS on Twitter]({{site.baseurl}}/07-rnns/potus.txt)
 - ...or your `bash` history?
 
 
