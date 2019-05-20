@@ -83,8 +83,6 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	Recurrent neural networks use feedback loops to introduce temporal context or "memory" into the network.
 	We'll study them using two examples: language modeling and drawing classification.
 
-_The remaining syllabus is still subject to change!_
-
 - **May 20: Project Proposals**
 
 	No class; teams will meet individually with instructor to discuss their project proposals.
@@ -95,21 +93,26 @@ _The remaining syllabus is still subject to change!_
 	
 	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
 	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
+	We'll also talk about the concept of attention, which allows the networks to learn an even better understanding of the context.
 
-- **June 3: Sequence Kernels and Embeddings for Instance Classification**
+- **June 3: Project Check-In**
+
+	No class; teams will meetin individually with instructor to discuss their projects.
+	Plan for 10-15 minutes to talk about your related work, implementation and performance of the chosen baseline, and a rough outline (bullet points) of the method and experiments sections.
+	Book your time slot: <https://terminplaner4.dfn.de/coDapAxvNNILyKkg>
+
+- _June 10: no class (Whit Monday)_
+
+- **June 17: Sequence Kernels and Embeddings for Instance Classification**
 
 	In many cases, classifying a sequence into a discrete class does not quite work with recurrent networks.
 	We'll learn about sequence kernels and embeddings that map sequences into a single observation of a continuous space, that can then be used by conventional classifiers.**
 
-- _June 10: no class (Whit Monday)_
-
-- **June 17: Project Check-In**
-
-- **June 24: Deep Learning: Practical Considerations.** (slides: [toolkits](09/toolkits/slides/), [practical considerations](09/toolkits/practical-considerations/), [deployment](09/toolkits/deployment/), [exercise](09/toolkits/))
+- **June 24: How to Review a Paper, Deep Learning: Practical Considerations.** (slides: [toolkits](09/toolkits/slides/), [practical considerations](09/toolkits/practical-considerations/), [deployment](09/toolkits/deployment/), [exercise](09/toolkits/))
 
 	Papers due!
 	
-	We'll compare different deep learning toolkits and their requirements or potential to get a grip on what's necessary to apply them to a new problem.
+	We'll talk about how to review a (scientific) paper, and compare different deep learning toolkits and their requirements or potential to get a grip on what's necessary to apply them to a new problem.
 	
 
 - **July 1: tbd**
