@@ -25,8 +25,8 @@ As well as [_Attention and Augmented Recurrent Neural Networks_](https://distill
 There is way too much to cover in one exercise.
 Here are a few options:
 
+- [Transformer Implementation](https://github.com/lilianweng/transformer-tensorflow) in TensorFlow for Machine Translation. **Recommended exercise, using theses titles 2014-2018 (see Moodle)**
 - Extensive TensorFlow tutorial on [machine translation using attention](https://github.com/tensorflow/nmt) ([Colab](https://github.com/tensorflow/tensorflow/blob/r1.13/tensorflow/contrib/eager/python/examples/nmt_with_attention/nmt_with_attention.ipynb)).
-- [Transformer Implementation](https://github.com/lilianweng/transformer-tensorflow) in TensorFlow for Machine Translation
 - Synthesis of handwriting using [rnnlib](https://github.com/szcom/rnnlib) and the Uni Bern [IAM On-Line Handwriting Database](http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database); see remarks below.
 
 
