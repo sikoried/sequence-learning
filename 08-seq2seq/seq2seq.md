@@ -9,18 +9,25 @@ mathjax: true
 
 We'll cover three of the seminal papers in sequence to sequence learning:
 
-- _Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks_ by Alex Graves et al. (<https://dl.acm.org/citation.cfm?id=1143891>, [author's copy](https://www.cs.toronto.edu/~graves/icml_2006.pdf))
-- _Listen, Attend and Spell_ by William Chan et al. (<https://ieeexplore.ieee.org/document/7472621/>, <https://arxiv.org/abs/1508.01211>)
+- _Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks_ by Alex Graves et al. (<https://dl.acm.org/citation.cfm?id=1143891>, [author's copy](https://www.cs.toronto.edu/~graves/icml_2006.pdf)); check out this [very helpful visualization](https://distill.pub/2017/ctc/)
+- _Sequence to Sequence Learning for Neural Networls_ by Sutskever et al. (<https://arxiv.org/abs/1409.3215>)
 - _Neural Machine Translation by Jointly Learning to Align and Translate_ by Dzmitry Bahdanau et al. (<https://arxiv.org/abs/1409.0473>).
+- _Listen, Attend and Spell_ by William Chan et al. (<https://arxiv.org/abs/1508.01211>)
+- _Attention is all you need_ (<https://arxiv.org/abs/1706.03762>)
 
-As well as [_Attention and Augmented Recurrent Neural Networks_](https://distill.pub/2016/augmented-rnns/) by Chris Olah and Shan Carter.
+
+
+As well as [_Attention and Augmented Recurrent Neural Networks_](https://distill.pub/2016/augmented-rnns/#attentional-interfaces) by Chris Olah and Shan Carter.
 
 
 # Exercise
 
-There is a basic [TensorFlow tutorial on seq2seq](https://www.tensorflow.org/tutorials/seq2seq).
+There is way too much to cover in one exercise.
+Here are a few options:
 
-For this week, let's get a smaller example going: synthesis of handwriting using [rnnlib](https://github.com/szcom/rnnlib) and the Uni Bern [IAM On-Line Handwriting Database](http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database).
+- Extensive TensorFlow tutorial on [machine translation using attention](https://github.com/tensorflow/nmt) ([Colab](https://github.com/tensorflow/tensorflow/blob/r1.13/tensorflow/contrib/eager/python/examples/nmt_with_attention/nmt_with_attention.ipynb)).
+- [Transformer Implementation](https://github.com/lilianweng/transformer-tensorflow) in TensorFlow for Machine Translation
+- Synthesis of handwriting using [rnnlib](https://github.com/szcom/rnnlib) and the Uni Bern [IAM On-Line Handwriting Database](http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database); see remarks below.
 
 
 ## Remarks
