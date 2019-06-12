@@ -97,7 +97,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - **June 3: Project Check-In**
 
-	No class; teams will meetin individually with instructor to discuss their projects.
+	No class; teams will meet individually with instructor to discuss their projects.
 	Plan for 10-15 minutes to talk about your related work, implementation and performance of the chosen baseline, and a rough outline (bullet points) of the method and experiments sections.
 	Book your time slot: <https://terminplaner4.dfn.de/coDapAxvNNILyKkg>
 
@@ -106,20 +106,22 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 - **June 17: Sequence Kernels and Embeddings for Instance Classification**
 
 	In many cases, classifying a sequence into a discrete class does not quite work with recurrent networks.
-	We'll learn about sequence kernels and embeddings that map sequences into a single observation of a continuous space, that can then be used by conventional classifiers.**
+	We'll learn about sequence kernels and embeddings that map sequences into a single observation of a continuous space, which can then be used by conventional classifiers.
 
-- **June 24: How to Review a Paper, Deep Learning: Practical Considerations.** (slides: [toolkits](09/toolkits/slides/), [practical considerations](09/toolkits/practical-considerations/), [deployment](09/toolkits/deployment/), [exercise](09/toolkits/))
+- **June 24: Papers due! Software Architecture for ML**
 
-	Papers due!
+	We'll go through the process of reviewing and presenting a (scientific) paper.
+	We'll then look at architectural challenges when training and deploying machine learning models.
 	
-	We'll talk about how to review a (scientific) paper, and compare different deep learning toolkits and their requirements or potential to get a grip on what's necessary to apply them to a new problem.
+
+- **July 1: Reviews due! Project Feedback and Presentation Check-In**
 	
+	No class; teams will meet individually with instructor to get feedback on their paper and discuss the outline of their presentations.
+	Plan for 10-15 minutes total, and bring a rough outline of your presentation.
+	Book your time slot: _(link to follow...)_
 
-- **July 1: tbd**
-	Reviews due.
-
-- **July 8 _(tentative date)_**
-	Present your work.
+- **July 8**
+	Present your work!
 
 
 _Subscribe to [https://github.com/sikoried/sequence-learning/](https://github.com/sikoried/sequence-learning/) repository to follow updates._
