@@ -118,10 +118,9 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	
 	No class; teams will meet individually with instructor to get feedback on their paper and discuss the outline of their presentations.
 	Plan for 10-15 minutes total, and bring a rough outline of your presentation.
-	Book your time slot: _(link to follow...)_
+	Book your time slot: <https://terminplaner4.dfn.de/lvG45ebLuBSFG1u4>
 
-- **July 8**
-	Present your work!
+- **July 8: Present your work!**
 
 
 _Subscribe to [https://github.com/sikoried/sequence-learning/](https://github.com/sikoried/sequence-learning/) repository to follow updates._
