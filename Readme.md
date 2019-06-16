@@ -103,10 +103,11 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - _June 10: no class (Whit Monday)_
 
-- **June 17: Sequence Kernels and Embeddings for Instance Classification**
+- **June 17: SVM, Sequence Kernels and Embeddings** ([slides](09-sequence-kernels/seq-kernels.pdf), [SVM slides](09-sequence-kernels/intro_svm_new.pdf), [seq. kernels](09-sequence-kernels/pr-seq-kernels.pdf), [assignment](09/agerec/))
 
 	In many cases, classifying a sequence into a discrete class does not quite work with recurrent networks.
-	We'll learn about sequence kernels and embeddings that map sequences into a single observation of a continuous space, which can then be used by conventional classifiers.
+	We'll learn about support vector machines, sequence kernels and methods to map sequences into a single observation of a continuous space.
+	Embeddings are learned feature representations that can incorporate large quantities of unlabeled data.
 
 - **June 24: Papers due! Software Architecture for ML**
 
