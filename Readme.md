@@ -109,10 +109,10 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 	We'll learn about support vector machines, sequence kernels and methods to map sequences into a single observation of a continuous space.
 	Embeddings are learned feature representations that can incorporate large quantities of unlabeled data.
 
-- **June 24: Papers due! Software Architecture for ML**
+- **June 24: Papers due! [Peer Reviews](99/howto-peer-review/), [ML in Production](10/ml-in-production/)**
 
 	We'll go through the process of reviewing and presenting a (scientific) paper.
-	We'll then look at architectural challenges when training and deploying machine learning models.
+	We'll then look at architectural challenges when training and deploying machine learning models for production.
 	
 
 - **July 1: Reviews due! Project Feedback and Presentation Check-In**

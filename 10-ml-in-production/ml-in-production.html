@@ -1,0 +1,453 @@
+---
+layout: presentation
+title: Machine Learning in Production
+permalink: 10/ml-in-production/
+mathjax: true
+---
+
+layout: true
+
+<footer>
+	<span class="icon github">
+	<svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+	</svg>
+	</span>
+	<a href="https://github.com/sikoried"><span class="username">sikoried</span></a>
+</footer>
+
+---
+
+# Sequence Learning
+
+## Machine Learning in Production
+
+Korbinian Riedhammer
+
+---
+
+# Why are ML Systems Hard?
+
+## Separation of Expertise
+
+Devs write code.
+
+Devops deploy and maintain code.
+
+ML people write code that is typically messy and doesn't scale.
+
+_"It's all in the jupyter notebook, what's the problem?"_ 😱
+
+---
+
+# Why are ML Systems Hard?
+
+## Complex Models Erode Boundaries
+
+### Entanglement
+
+- mix of signals and systems makes isolation of improvements impossible
+- CACE - Changing Anything Changes Everything
+
+$\rightarrow$ Isolate models and serve ensembles.
+
+$\rightarrow$ Monitor prediction behavior.
+
+---
+
+# Why are ML Systems Hard?
+
+## Complex Models Erode Boundaries
+
+### Correction Cascades
+
+- solution to problem A exists
+- similar problem A' is trained on-top of A
+- similar problem A'' is trained on-top of A'
+- ...
+
+$\rightarrow$ avoid cascading, do transfer learning/adaptation.
+
+- different: model A feeds to model B &mdash; deliberate cascade
+	- _eg._ speech recognition $\rightarrow$ translation
+
+---
+# Why are ML Systems Hard?
+
+## Complex Models Erode Boundaries
+
+### Undeclared Consumers
+
+- prediction of system is made widely available (external or internal)
+- maintainer might be unaware of consumers
+- changes in prediction affects unknown systems
+
+$\rightarrow$ use access control or logging to identify users
+
+
+---
+
+# Why are ML Systems Hard?
+
+## Data Dependencies Cost More Than Code Dependencies
+
+- in SE: _dependency debt_ incurred by including other systems/libs
+- in ML: _data dependency debt_ incurred by data format
+
+### Unstable Data Dependencies
+
+- signals/features are often produced by other systems
+- _unstable_ features change (eg. TF-IDF) or go missing (words)
+
+$\rightarrow$ use versioned/frozen copy of signal/feature
+
+---
+
+# Why are ML Systems Hard?
+
+## Data Dependencies Cost More Than Code Dependencies
+
+### Underutilized Data Dependencies
+
+- legacy features: incorporated early on, but never re-evaluated
+- bundled features: previously identified groups of salient features are re-used because of deadline pressure or laziness
+- $\epsilon$-features: features that bring a tiny bit of improvement but incur a whole lot of dependencies or variance
+- correlated features: often, two features are strongly correlated, but one is better than the other
+
+$\rightarrow$ continuously evaluate your feature set
+
+???
+
+SE equivalent: systems/libs that are barely used
+
+---
+
+# Why are ML Systems Hard?
+
+## Data Dependencies Cost More Than Code Dependencies
+
+### Static Analysis of Data Dependencies
+
+- use tool for automated feature management via meta data validation
+- useful but hard to implement (for most applications)
+
+???
+
+SE equivalent: automated dependency checker
+
+---
+
+# Why are ML Systems Hard?
+
+## Feedback Loops
+
+### Direct Feedback Loops
+
+- systems can automatically adapt to new/unseen data
+- supervised algorithms prone to errors (garbage in - garbage out $\rightarrow$ garbage model!)
+- bendit algorithms [4] could help
+
+### Hidden Feedback Loops
+
+- systems might influence each other through the real world
+- _eg._ recommender and ad component on website
+
+---
+
+# Why are ML Systems Hard?
+
+### Configuration Debt
+
+ML algorithms come with **tons** of parameters.
+
+ML systems come with **even more** configuration options.
+
+- It should be easy to specify a configuration as a small change from a previous configuration.
+- It should be hard to make manual errors, omissions, or oversights.
+- It should be easy to see, visually, the difference in configuration between two models.
+- It should be easy to automatically assert and verify basic facts about the configuration: number of features used, transitive closure of data dependencies, etc.
+- It should be possible to detect unused or redundant settings.
+- Configurations should undergo a full code review and be checked into a repository.
+
+---
+
+# Why are ML Systems Hard?
+
+## ML-related Debt
+
+### Data Testing Debt
+
+If data replaces code, it should be tested!
+
+### Reproducibility Debt
+
+Real-world systems use randomization, non-determinism (parallel learning/inference!) and interactions with the users
+
+### Process Management Debt
+
+- How to update configurations for similar systems?
+- How to roll out models to dependent systems?
+
+---
+
+# Why are ML Systems Hard?
+
+## ML-related Debt
+
+### Cultural Debt
+
+- avoid hard line/red tape between ML and dev/devops
+- build diverse teams that include researchers and engineers
+- foster culture that rewards deletion of features, reduction of complexity and improvement of reproducibility
+
+---
+
+# ML Systems Anti-Patterns
+
+Typical architecture of a ML System exposed to the real world:
+
+.center[
+<img src="{{site.baseurl}}/10-ml-in-production/ml-arch.png" style="width:100%; margin-bottom: 10%">
+]
+
+**Observation: Only a tiny fraction of the code is actually ML-related.**
+
+_For a detailed analysis, see [2]._
+
+---
+
+# ML Systems Anti-Patterns
+
+## Glue Code
+
+Using generic packages often results in lots of _glue code_ to get data in, and results out.
+
+Dependency makes evaluation of alternate packages hard.
+
+Final system may be 5\% ML code, and 95\% glue code $\rightarrow$ it might be cheaper to create a clean native solution?
+
+$\rightarrow$ wrap toolkits in common APIs
+
+
+---
+
+# ML Systems Anti-Patterns
+
+## Pipeline Jungles
+
+Special case of glue code, often found in **data preparation**.
+
+Jungle of `sed`, `awk`, `python`, `perl` etc. are really hard to test and maintain.
+
+$\rightarrow$ modularize and test preprocessing steps
+
+$\rightarrow$ bring devs and ML people together
+
+---
+
+# ML Systems Anti-Patterns
+
+## Dead Experimental Codepaths
+
+_SEC vs. Knight Capital 2013:_ $465 lost in 45 minutes... due to dead code! [3]
+
+.center[
+<img src="{{site.baseurl}}/10-ml-in-production/knight.png" style="width:70%">
+]
+
+$\rightarrow$ examine codebase, remove unused code
+
+---
+
+# ML Systems Anti-Patterns
+
+## Abstraction Debt
+
+There is a strong lack of abstraction* compared to other domains (eg. relational databases).
+
+How to abstract training, inference, ...and parallelism?
+
+
+*recently, it's getting better, with Keras etc.
+
+---
+
+# ML Systems Anti-Patterns
+
+## Common Smells
+
+### Plain-Old-Data Type Smell
+
+Systems output raw datatypes (eg. float) without any meta-data or description.
+
+Is it a class label? Is it a log-prob? Is it a value from 0...1?
+
+$\rightarrow$ if you wrap your service in an API, add meta-data or supporting information to it
+
+
+---
+
+# ML Systems Anti-Patterns
+
+## Common Smells
+
+### Multiple-Language Smell
+
+It's tempting: C++ for the binary, python for the glue, bash for the containerization.
+
+$\rightarrow$ minimize the number of different languages and platforms
+
+---
+
+# ML Systems Anti-Patterns
+
+## Common Smells
+
+### Prototype Smell
+
+If you regularly rely on prototypes deployed in production, you lack behind on your engineering.
+
+
+---
+
+# Architecture for ML Systems
+
+## What are the constraints?
+
+- Response time? Real-time, near-real time, minutes or days?
+- How often do you expect to update your models?
+- What will the demand for predictions be (i.e. traffic)?
+- What size of data are you dealing with?
+- What sort(s) of algorithms do you expect to use; are they adequate?
+- Are you in a regulated environment where the ability to audit your system is important?
+- Does your company have product-market fit? (i.e. do you need to prepare for the system’s original purpose to radically change)
+- Can this task be done without ML?
+- How large and experienced is your team - including data scientists, engineers and devops?
+
+---
+
+# Architecture for ML Systems
+
+## ML System Patterns
+
+What use cases can you think of?
+
+---
+
+# Architecture for ML Systems
+
+## ML System Patterns
+
+|            | REST API   | Shared DB | Streaming | Streaming Client  |
+|------------|------------|-----------|-----------|-------------------|
+| Training   | batch      | batch     | streaming | streaming  |
+| Prediction | on-the-fly | batch     | streaming | on-the-fly |
+| Delivery   | REST API   | shared DB | message queue | websocket |
+| Latency    | msec       | uncritical | very low | low |
+| Ops Difficulty | easy | easy | very hard | moderate |
+
+---
+
+# Architecture for ML Systems
+
+## What Parts Do You Need?
+
+.center[
+<img src="{{site.baseurl}}/10-ml-in-production/ml-arch.png" style="width:100%; margin-bottom: 10%">
+]
+
+---
+
+# Key Principles for Designing ML Systems [1]
+
+### Build for reproducibility from the start
+
+Persist all model inputs and outputs, as well as all relevant metadata such as config, dependencies, geography, timezones and anything else you think you might need if you ever had to explain a prediction from the past. Pay attention to versioning, including of your training data.
+
+### Treat your ML steps as part of your build
+
+Which is to say, automate training and model publishing
+Plan for extensibility: If you are likely to be updating your models on a regular basis, you need to think carefully about how you will do this from the beginning.
+
+---
+
+# Key Principles for Designing ML Systems (cont'd)
+
+### Modularity
+
+To the largest extent possible, aim to reuse preprocessing and feature engineering code from the research environment in the production environment.
+
+Are your systems "one-off instances", or continuous processes?
+
+### Testing
+
+Plan to spend significantly more time on testing your machine learning applications, because they require additional types of testing.
+
+
+---
+
+# Tooling for ML Systems
+
+Code needs to be versioned.
+
+Data needs to be versioned.
+
+Configurations need to be versioned.
+
+**Containerization** is key.
+
+CI/CD model building, system bundling and deployment.
+
+Similar rules for deployment of "regular" software: soft rollout, etc.
+
+---
+
+# Testing ML Systems
+
+### Benchmark Tests
+
+Run your system against published datasets and benchmarks.
+
+Put the results in whitepapers and add it to your documentation.
+
+### Differential Tests
+
+If you build a new system release, compare it end-to-end to the previous ojne.
+
+### Load/Stress Tests
+
+Put your scaling under test: can you provide the desired response rate?
+
+---
+
+# Monitoring ML Systems
+
+Similar to regular systems.
+
+- load of nodes/machines
+- throughput (predictions and latency per minute/day/week/etc.)
+- prediction results (are predictions as expected?)
+- report errors or uncommon prediction results
+- add logging specific to ML systems, mind the privacy!
+
+---
+
+# Monitor What Others Do
+
+- <https://mlflow.org/>
+- <https://www.tensorflow.org/tfx>
+- <https://www.tensorflow.org/js>
+- <https://code.fb.com/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/>
+- <https://eng.uber.com/michelangelo/>
+- <https://github.com/kubeflow/kubeflow>
+- <https://pulsar.apache.org/>
+
+---
+
+# References
+
+1. [How to Deploy Machine Learning Models](https://christophergs.github.io/machine%20learning/2019/03/17/how-to-deploy-machine-learning-models/)
+2. [Sculley et al., Hidden Technical Debt in Machine Learning Systems, NIPS 2015](https://dl.acm.org/citation.cfm?id=2969519)
+3. [3] [SEC Administrative Proceeding File No. 3-15570: Re Kight Capital](https://www.sec.gov/litigation/admin/2013/34-70694.pdf)
+4. Tor Lattimore and Csaba Szepesvari, Bandit Algorithms, <https://tor-lattimore.com/downloads/book/book.pdf>
