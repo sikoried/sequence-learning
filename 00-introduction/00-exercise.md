@@ -76,4 +76,5 @@ In case you're not familiar, here's a [bash scripting tutorial](https://ryanstut
 ## Refresh Your Python Skills
 
 We won't be using Python for a while, but if you have never worked with python, you should start looking into it.
+If you have spare time, please go ahead and install [PyTorch](https://pytorch.org/)
 

@@ -10,6 +10,7 @@ exclude:
   - LICENSE
   - Remarks.md
   - jstk
+  - vendor
   - 05-decoding/exp
   - 06-nnets/admission.csv
   - 06-nnets/wheat-seeds.csv

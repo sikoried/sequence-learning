@@ -3,16 +3,12 @@
 _Elective for [CS grad students](https://www.th-nuernberg.de/fakultaeten/in/studium/masterstudiengang-informatik/) at the [Technical University of Applied Sciences Nuremberg](https://www.th-nuernberg.de/)._
 
 
-# Important Update Regarding Corona Virus
-
-**As of March 10, the start of the lecture has been postponed to the week of April 20. Alternatives using e-learning are under review. The Dates below are subject to change.**
-
 
 ## Class Schedule and Credits
 
-**Time and Location:** Thursdays at 8, HQ.104
+**Time and Location:** Thursdays at 8 (online)
 
-**Announcements and Discussions:** [Moodle course 5312](https://elearning.ohmportal.de/course/view.php?id=5312).
+**Announcements and Discussions:** Microsoft Teams: [Sequence Learning](https://teams.microsoft.com/l/team/19%3a4c844498dec6420ca6b0667b9ad02571%40thread.tacv2/conversations?groupId=9d0d8151-8b59-4160-a6ab-06afa1434d78&tenantId=2bb870ba-c8e4-4d13-b6c1-e78539138e20)
 
 **Format:** 
 
@@ -24,9 +20,9 @@ Java is suggested, pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org
 We'll adopt a common research routine: identify a problem, research prior work, engineer a solution, write it up in a paper, review other papers, present your work.
 Credits are earned through
 
-- your [6 page paper](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-article/authoring-tools-and-templates/ieee-article-templates/templates-for-transactions/) submitted by **June 24** (60%)
-- reviewing 3 other papers by **July 1** (20%)
-- presenting your work on **July 8** (tentative date). (20%)
+- your [4 page paper](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-article/authoring-tools-and-templates/ieee-article-templates/templates-for-transactions/), prepared in teams of two, due **June 24** (60%)
+- individually reviewing 3 other papers by **July 1** (20%)
+- presenting your paper on **July 8** (tentative date). (20%)
 
 _For more details see [these slides](99/credits-howto/)._
 
@@ -44,24 +40,26 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 ## Syllabus
 
-- **March 19: Introduction.** ([slides](00/introduction/), [exercise](00/exercise/))
+_All dates tentatively due to corona madness. ✆ indicates online Q&A._
+
+- ✆ **March 19: Introduction.** ([slides](00/introduction/), [exercise](00/exercise/))
 
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning.
 
-- **March 20: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
+- ✆ **March 20: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
 	
 	We'll start with a classic implementation of auto-correcting mispelled words to bring dynamic programming back to memory.
 	We'll also look at scalability regarding computation and memory efforts.
 
-- **April 2: States and Cost Functions.** ([slides](02/cost-and-states/slides/), [exercise](02/cost-and-states/))
+- ✆ **April 2: States and Cost Functions.** ([slides](02/cost-and-states/slides/), [exercise](02/cost-and-states/))
 	
 	Understand how DP can be used on an abstraction of distances and states.
 	We'll build a smarter, keyboard layout aware auto-correct and start looking into some applications in signal processing (isolated word and DTMF sequence classification).
 
 - _April 9: Maundy Thursday (Gründonnerstag)_
 
-- **April 16: Modeling Sequences.** ([slides](03-ngrams/sv-lm.pdf), [exercise](03/ngrams/))
+- ✆ **April 16: Modeling Sequences.** ([slides](03-ngrams/sv-lm.pdf), [exercise](03/ngrams/))
 	
 	Learn about n-grams, a simple yet effective approach to learn contexts of distcrete symbols.
 	We'll use n-grams to improve our auto-correct by incorporating context and suggesting following words.
@@ -80,8 +78,8 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 - **May 7: Feed-Forward Neural Networks.** (slides [perceptron](06-nnets/sl-perceptron.pdf) and [nnets](06-nnets/sl-mlp.pdf), [fizzbuzz.py](06-nnets/fizzbuzz.tf), [exercise](06/nnets/)).
 	
 	A brief introduction to neural networks: fundamentals, topologies and training.
-	We'll skip implementing the details and use tensorflow for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
-	_Please have Python with Numpy and TensorFlow installed and operational on your machine!_
+	We'll skip implementing the details and use pytorch for the examples. Did you know that you could program _fizzbuzz_ as a neural network?
+	_Please have Python with Numpy and PyTorch installed and operational on your machine!_
 
 - **May 14: Recurrent Neural Networks.** (slides [cs231n: RNNs](07-rnns/cs231n_2018_lecture10_excerpts.pdf), [exercise](07/rnns/))
 	
