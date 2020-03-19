@@ -47,7 +47,7 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning.
 
-- ✆ **March 20: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
+- ✆ **March 26: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
 	
 	We'll start with a classic implementation of auto-correcting mispelled words to bring dynamic programming back to memory.
 	We'll also look at scalability regarding computation and memory efforts.
