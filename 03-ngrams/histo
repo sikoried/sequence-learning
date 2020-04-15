@@ -2,10 +2,12 @@
 # Modell schaetzen:
 
 ngram-count -text werther1.txt -lm werther1.arpa
+ngram-count -order 3 -text <(cat hsro-theses.txt theses-ohm.txt) -lm theses.arpa.gz
 
 # Modell auswerten:
 
 ngram -lm werther1.arpa -ppl faust.txt
+ngram -lm theses.arpa.gz -gen 10
 
 
 
