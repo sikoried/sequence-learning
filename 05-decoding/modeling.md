@@ -21,7 +21,7 @@ We'll be _using_ JSTK from the commandline, putting things together using shell 
 
 # LDC93S1
 
-Start by downloading a copy of the dataset, located at `tesla:/mnt/raid0/scratch/riko493/ldc93s1.zip`, unzip, and familiarize ( skim through `timit/readme.doc`).
+Start by downloading a copy of the dataset, located at `ml0.informatik.fh-nuernberg.de/~riedhammerko/ldc93s1.zip` (VPN!), unzip, and familiarize ( skim through `timit/readme.doc`).
 We will be using all data (divided in training and test), as well as the audio and word-level transcriptions.
 
 
