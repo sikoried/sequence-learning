@@ -10,25 +10,36 @@ _Elective for [CS grad students](https://www.th-nuernberg.de/fakultaeten/in/stud
 
 **Announcements and Discussions:** [Moodle Course #5312](https://elearning.ohmportal.de/course/view.php?id=5312)
 
-**Format:** 
+### Format
 
 Each week, we will discuss algorithms and their theory before implementing them to get a better hands-on understanding.
 Assignments were originally developed in Java, but are ported to python3 this semester.
 Pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
 
 
-**Credits:**
+### Credits
 
 We'll adopt a common research routine: identify a problem, research prior work, engineer a solution, write it up in a paper, review other papers, present your work.
 Credits are earned through
 
 - your [4 page paper](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-article/authoring-tools-and-templates/ieee-article-templates/templates-for-transactions/), prepared in teams of two, due **June 25** (60%)
 - individually reviewing 3 other papers by **July 2** (20%)
-- presenting your paper on **July 9** (tentative date). (20%)
+- presenting your paper in a colloquium on **July 9** (tentative date). (20%)
 
 _For more details see [these slides](99/project-howto/)._
 
 _Note: Materials will be in English, the lectures/tutorials will be taught in German; class project in language of choice._
+
+
+### Important Dates
+
+- May 14: Intro to project work.
+- May 28: Project proposals due.
+- June 4: Project Check-In 1
+- June 18: Project Check-In 2
+- June 25: Papers due
+- July 2: Reviews due
+- July 9: Colloquium
 
 
 ## Recommended Textbooks
@@ -93,6 +104,8 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 
 > _May 21: Ascension Day (Christi Himmelfahrt)_
 
+> ⚠ **May 28: Project proposals due!** ⚠
+
 - ✆ **May 28: Embeddings and Sequence-to-Sequence Learning ([slides](08-seq2seq/seq2seq.pdf), [literature and exercise](08/seq2seq/))** 
 
 	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
@@ -100,25 +113,25 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 	Encoder-decoder networks are a special kind of topology of recurrent neural networks that can be used to model sequence to sequence mappings, such as found in end-to-end speech recognition, machine translation or automatic summarization -- without explicitly modeling states!
 	We'll also look at transformers which can capture temporal structures without recurrence.
 
-> ⚠ **June 4: Project Proposals due!** ⚠
+- ✆ **June 4: Project Check-In 1**
 
-- ✆ **June 4: Project Kick-Off**
+	No class; teams will meet individually with instructor to discuss their projects.
+	Plan for 20 minutes discussion and bring 5 slides: rough outline of related work section (3 slides), baseline results (1) and experiments outline (1).
 
-	No class; teams will meet individually with instructor to discuss their project proposals.
-	Plan for 10-15 minutes discussion and bring 5 slides: Intro to the Task, brief summary of 3 pieces of related work (textbook, paper, github) and experiments outline.
 	Book your time slot: (link will be published soon)
 
 > _June 11: Corpus Christ (Fronleichnam)_
 
-- ✆ **June 18: Project Check-In**
+- ✆ **June 18: Project Check-In 2**
 
 	No class; teams will meet individually with instructor to discuss their projects.
-	Plan for 20 minutes to talk about your implementation and performance of the chosen baseline, and a rough outline (bullet points) of the method and experiments sections.
+	Plan for 20 minutes to talk about your implementation and experiments, and a rough outline (bullet points) of the method and experiments sections (slides as needed).
+
 	Book your time slot: (link will be published soon)
 
 > ⚠ **June 25: Papers due!** ⚠
 
-- ✆ **June 25: [Peer Reviews](99/howto-peer-review/), Sequence Kernels ([slides](09-sequence-kernels/seq-kernels.pdf), [SVM slides](09-sequence-kernels/intro_svm_new.pdf), [seq. kernels](09-sequence-kernels/pr-seq-kernels.pdf), [assignment](09/agerec/))**
+- ✆ **June 25: [How-To Peer Review](99/howto-peer-review/), Sequence Kernels ([slides](09-sequence-kernels/seq-kernels.pdf), [SVM slides](09-sequence-kernels/intro_svm_new.pdf), [seq. kernels](09-sequence-kernels/pr-seq-kernels.pdf), [assignment](09/agerec/))**
 	
 	In many cases, classifying a sequence into a discrete class does not quite work with recurrent networks.
 	We'll learn about support vector machines, sequence kernels and methods to map sequences into a single observation of a continuous space.
@@ -132,10 +145,11 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 
 > ⚠ **July 9: Projects due!** ⚠
 
-- ✆ **July 9: Project Review and Feedback**
+- ✆ **July 9: Project Colloquium**
 	
 	No class; teams will meet individually with instructor to present and discuss their paper and code.
-	Plan for 20 minutes total, and bring a rough outline of your presentation.
+	Plan for 20 minutes total to discuss: data usage, baseline, method, experiments and conclusions (slides to support the colloqium, not to present).
+
 	Book your time slot: (link will be published soon)
 
 
