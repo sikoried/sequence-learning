@@ -21,7 +21,7 @@ We'll be _using_ JSTK from the commandline, putting things together using shell 
 
 # LDC93S1
 
-Start by downloading a copy of the dataset, located at `ml0.informatik.fh-nuernberg.de/~riedhammerko/ldc93s1.zip` (VPN!), unzip, and familiarize ( skim through `timit/readme.doc`).
+Start by downloading a copy of the [TIMIT dataset](http://ml0.informatik.fh-nuernberg.de/~riedhammerko/ldc93s1.zip) (vpn!), unzip, and familiarize (skim through `timit/readme.doc`).
 We will be using all data (divided in training and test), as well as the audio and word-level transcriptions.
 
 
@@ -51,8 +51,10 @@ Unfortunately, the audio data is in [NIST sphere](https://www.ldc.upenn.edu/lang
 Let's use `sox` to turn it into something useful, and while we're at it, rename them to something handy:
 
 ```bash
+export LDC93S1=/path/to/dataset
+
 mkdir wav
-for i in `find LDC93S1 -name "*.wav"`; do
+for i in `find $LDC93S1 -name "*.wav"`; do
 	n=$(echo $i | perl -F/ -nlae 'print join "-", @F[2..$#F]')
 	sox $i wav/$n
 done
@@ -66,13 +68,13 @@ Let's assemble some file lists, and get the transcripts:
 ```bash
 # file lists
 (cd wav; /bin/ls > ../list.all)
-grep ^train list.all > list.train
-grep ^test list.all > list.test
+grep train list.all > list.train
+grep test list.all > list.test
 
 # transcripts
-cat list.all | ../gettext.py <(cat LDC93S1/timit/doc/prompts.txt | sed -e 's:~vpres:~v_pres:g' | sed -e 's:~vpast:~v_past:g') > list.all.trl
-grep ^train list.all.trl > list.train.trl
-grep ^test list.all.trl > list.test.trl
+cat list.all | ../gettext.py <(cat $LDC93S1/timit/doc/prompts.txt | sed -e 's:~vpres:~v_pres:g' | sed -e 's:~vpast:~v_past:g') > list.all.trl
+grep train list.all.trl > list.train.trl
+grep test list.all.trl > list.test.trl
 ```
 
 
@@ -89,7 +91,7 @@ We'll use three states for each phone, and prepend a _silence_ word to the dicti
 ```bash
 # prepend a silence word to the dictionary; 
 # parse dict, write stdout to lex and stderr to alphabet
-cat <(echo 'sil sil') <(echo '-- sil') LDC93S1/timit/doc/timitdic.txt | ../parsedict.py > timit.l 2> timit.a
+cat <(echo 'sil sil') <(echo '-- sil') $LDC93S1/timit/doc/timitdic.txt | ../parsedict.py > timit.l 2> timit.a
 
 # verify files...
 head timit.[a,l]
@@ -212,12 +214,20 @@ done
 For decoding, you can try a number of different parameters, and see what happens...
 
 ```bash
+# get 10 test samples
+egrep 'si[0-9]+' list.test | head -n10 > list.test.short
+egrep 'si[0-9]+' list.test.trl | head -n10 > list.test.short.trl
+
+# parameters
 cb_test=conf.cb.40
 lm=timit.ug.arpa
 beam_size=300
 lm_weight=1
 insertion_penalty=1e-2
 mode=word  # use 'ma' (meta-alignment) with wavesurfer, or 'compact'
+
+
+
 java com.github.sikoried.jstk.app.Decoder \
 	conf.xml $cb_test $lm \
 	-f ft/test-dr1-faks0-sa1.wav \
@@ -226,7 +236,21 @@ java com.github.sikoried.jstk.app.Decoder \
 	-m $mode -o outfile
 ```
 
-```
-# convert alignment to Wavesurfer label (transcription) format
-awk -v s=0 -v f=160 '{print s, s+($2*f), $1; s+=($2*f)}' test-dr1-faks0-sa1.ali > test-dr1-faks0-sa1.lab
+# Evaluation
+
+We can use [NIST's sclite](https://github.com/usnistgov/SCTK) to evaluate the performance of our recognizer.
+
+```bash
+fn_ref=list.test.short.trl
+paste -d' ' \
+  <(cut -d' ' -f 2- $fn_ref) \
+  <(awk '{print $1}' $fn_ref | sed 's/.wav//' | awk -F- '{printf("(%s_%s)\n", $(NF-1), $NF)}') > ref
+
+fn_hyp=outfile
+paste -d' ' \
+  <(cut -d' ' -f 2- $fn_hyp) \
+  <(awk '{print $1}' $fn_ref | sed 's/.wav//' | awk -F- '{printf("(%s_%s)\n", $(NF-1), $NF)}') > hyp
+
+# score using sclite
+sclite -h hyp trn -r ref trn -i wsj -o snt stdout
 ```
