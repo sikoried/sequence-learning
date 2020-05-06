@@ -47,7 +47,7 @@ $$
 ## The Code
 
 Let's lift this formulation to python.
-First, let's load the [data](06-nnets/admission.zip); we need to read the CSV columns, and parse the fields to numeric values
+First, let's load the [data]({{site.baseurl}}/06-nnets/admission.zip); we need to read the CSV columns, and parse the fields to numeric values
 
 ```python
 import csv
@@ -137,7 +137,7 @@ print a0, a
 - Use numpy to do the math, eg. `dot`, `matmul`, `zeros`, `norm`, _etc._
 - The vector/matrix notation can be confusing in numpy; practice will help you write neat code!
 
-See the complete solution: [perceptron.py](06-nnets/perceptron.py).
+See the complete solution: [perceptron.py]({{site.baseurl}}/06-nnets/perceptron.py).
 
 
 # Multi-layer Perceptron and Backpropagation
@@ -148,7 +148,7 @@ The following is based on this [excellent tutorial](https://iamtrask.github.io/2
 
 ## Prelims
 
-The math is described in the [slides](06-nnets/sl-mlp.pdf), but here's two key takeaways:
+The math is described in the [slides]({{site.baseurl}}/06-nnets/sl-mlp.pdf), but here's two key takeaways:
 
 - We'll use the [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function) function as non-linearity:
 	$$
@@ -163,7 +163,7 @@ The math is described in the [slides](06-nnets/sl-mlp.pdf), but here's two key t
 
 ## A Toy Problem
 
-Consider the XOR function:
+Consider the mapping from input to (target) output:
 
 |Inputs|Output|
 |-------|-----|
@@ -288,15 +288,15 @@ You can also batch the features ("minibatches") by drawing random subsets from t
 In this case, an update after a batch is done is an _iteration_, and an _epoch_ is once all features have been visited once.
 
 
-See the complete solution: [mlp-basic.py](06-nnets/mlp-basic.py).
-For the special case of a single neuron (ie. a _perceptron_), the algorithm behaves almost identical to the Rosenblatt update above (see [perceptron-nonlinear.py](06-nnets/perceptron-nonlinear.py)).
+See the complete solution: [mlp-basic.py]({{site.baseurl}}/06-nnets/mlp-basic.py).
+For the special case of a single neuron (ie. a _perceptron_), the algorithm behaves almost identical to the Rosenblatt update above (see [perceptron-nonlinear.py]({{site.baseurl}}/06-nnets/perceptron-nonlinear.py)).
 
 
 # TensorFlow
 
 Here's a [gentle introduction to TensorFlow](https://michelleful.github.io/PyCon2017/#/).
 
-Build a TF network to work with the [Wheat Seeds](06-nnets/wheat-seeds.zip) data:
+Build a TF network to work with the [Wheat Seeds]({{site.baseurl}}/06-nnets/wheat-seeds.zip) data:
 
 ```python
 import csv
@@ -364,7 +364,7 @@ with tf.Session() as sess:
 	teY = sess.run(predict_op, feed_dict={X: ...})
 ```
 
-See the solution: [mlp-tf1.py](06-nnets/mlp-tf1.py)
+See the solution: [mlp-tf1.py]({{site.baseurl}}/06-nnets/mlp-tf1.py)
 
 
 
@@ -398,7 +398,7 @@ def fizz_buzz_encode(i):
     else:             return np.array([1, 0, 0, 0])
 ```
 
-See the solution: [fizzbuzz.py](06-nnets/fizzbuzz.py)
+See the solution: [fizzbuzz.py]({{site.baseurl}}/06-nnets/fizzbuzz.py)
 
 
 # Homework: Hotwords Recognition in TensorFlow
