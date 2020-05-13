@@ -20,11 +20,11 @@ Choose from a variety of datasets to train different models and sample some text
 - ...or your `bash` history?
 
 
-# Quick, draw! 
+# RNN using pytorch
 
-For a better task using LSTMs, we'll use the [quick, draw!](https://quickdraw.withgoogle.com/data) data.
+Here are a number of related tutorials:
 
-The task is to classify a drawing of an object based on the pen strokes (ie. a sequence of drawing inputs).
-For image processing tasks (and in fact, also for speech!), [convolutional neural networks]({{site.baseurl}}/07-rnns/sl-convnets.pdf) are a great choice to learn image structures.
-
-You can work your way through the respective [TensorFlow Tutorial](https://www.tensorflow.org/tutorials/recurrent_quickdraw), or if you prefer to work on Colab, follow [this tutorial](https://medium.com/tensorflow/train-on-google-colab-and-run-on-the-browser-a-case-study-8a45f9b1474e)
+- [Sentiment Analysis](https://medium.com/@dipikabaad/finding-the-hidden-sentiments-using-rnns-in-pytorch-f1e1e9638e9c)
+- [Practical Pytorch's RNN Character Generation](https://github.com/spro/practical-pytorch/blob/master/char-rnn-generation/char-rnn-generation.ipynb)
+- Ben Trevett's [basic](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb) and [advanced](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/2%20-%20Upgraded%20Sentiment%20Analysis.ipynb) sentiment analysis
+- Gabriel Loye's [LSTM Tutorial](https://github.com/gabrielloye/LSTM_Sentiment-Analysis/blob/master/LSTM_starter.ipynb)
