@@ -35,7 +35,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 - May 14: Intro to project work.
 - May 28: Project proposals due.
-- June 4: Project Check-In 1
+- June 4: Project Check-In 1 ([reserve a time slot](https://terminplaner4.dfn.de/4nLli4nJKcKILKED))
 - June 18: Project Check-In 2
 - June 25: Papers due
 - July 2: Reviews due
@@ -106,7 +106,7 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 
 > ⚠ **May 28: Project proposals due!** ⚠
 
-- ✆ **May 28: Embeddings and Sequence-to-Sequence Learning ([slides](08-seq2seq/seq2seq.pdf), [literature and exercise](08/seq2seq/))** 
+- ✆ **May 28: Embeddings and Sequence-to-Sequence Learning ([embeddings](08-seq2seq/embeddings.pdf), [s2s](08-seq2seq/seq2seq.pdf), [literature and exercise](08/seq2seq/))** 
 
 	Previous algorithms explicitly modeled the sequence, either as a graph-like structure such as an HMM or by concatenating observations to a single data point.
 	Embeddings are learned feature representations that can incorporate large quantities of unlabeled data.
@@ -118,7 +118,7 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 	No class; teams will meet individually with instructor to discuss their projects.
 	Plan for 20 minutes discussion and bring 5 slides: rough outline of related work section (3 slides), baseline results (1) and experiments outline (1).
 
-	Book your time slot: (link will be published soon)
+	Book your time slot: [DFN Terminplaner](https://terminplaner4.dfn.de/4nLli4nJKcKILKED)
 
 > _June 11: Corpus Christ (Fronleichnam)_
 
