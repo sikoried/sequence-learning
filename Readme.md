@@ -39,7 +39,8 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 - June 18: Project Check-In 2
 - June 25: Papers due
 - July 2: Reviews due
-- July 9: Colloquium
+- July 9: Projects due
+- July 15-16: Colloquium (**date changed**)
 
 
 ## Recommended Textbooks
@@ -127,7 +128,7 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 	No class; teams will meet individually with instructor to discuss their projects.
 	Plan for 20 minutes to talk about your implementation and experiments, and a rough outline (bullet points) of the method and experiments sections (slides as needed).
 
-	Book your time slot: (link will be published soon)
+	Book your time slot: [DFN Terminplaner](https://terminplaner4.dfn.de/ZFlbjfoKuaIer7kH)
 
 > ⚠ **June 25: Papers due!** ⚠
 
@@ -145,12 +146,12 @@ _All dates tentatively due to corona madness. ✆ indicates online Q&A._
 
 > ⚠ **July 9: Projects due!** ⚠
 
-- ✆ **July 9: Project Colloquium**
+- ✆ **July 15-16: Project Colloquium**
 	
 	No class; teams will meet individually with instructor to present and discuss their paper and code.
 	Plan for 20 minutes total to discuss: data usage, baseline, method, experiments and conclusions (slides to support the colloqium, not to present).
 
-	Book your time slot: (link will be published soon)
+	Timeslots will be coordinated in Project Check-In #2.
 
 
 _Subscribe to [https://github.com/sikoried/sequence-learning/](https://github.com/sikoried/sequence-learning/) to follow updates._
