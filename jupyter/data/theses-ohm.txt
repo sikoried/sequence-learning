@@ -1,0 +1,964 @@
+Handgestenerkennung zur Interaktion mit Webanwendungen unter Einsatz moderner Webtechnologien
+Überführung einer objektorientierten zu einer relationalen Datenbank - Evaluation, Konzeption und Umsetzung anhand des Softwareprodukts distribution.list
+Automatisierung der Bereitstellung fachlicher Web Services aus einem Kernbankensystem
+Analyse und Bewertung von Strategien zur Implementierung einer Cloud-Plattform für Customizing-Lösungen im Bereich Personalwirtschaftssysteme
+Realisierung und Evaluation alternativer Eingabekonzepte für Android-Smartwatches
+Konzeption und Entwicklung einer Web-Oberfläche zur Erfassung und Visualisierung  fachlicher Kompetenzen,  anhand einer parallel geführten Nutzerbefragung
+Analyse der neuen Programmiersprache Swift mit Identifikation neuer Programmierkonzepte gegenüber bekannten Sprachen und Zukunftsprognose in Hinsicht auf Nützlichkeit, Sicherheit und Performance im Kontext der Platformen iOS und OS X.
+Konzeption und Entwicklung einer Anwendung zur Verwaltung von team- und mitarbeiterübergreifenden Fachkompetenzen zur Ermittlung des Weiterbildungsbedarfs für die Firma
+Prototypische Umsetzung der Stammdatenversorgung einer weltweiten E-Commerce Lösung mit der Technologieplattform SAP HANA
+Entwicklung einer flexibel einsetzbaren Ansteuereinheit für LED-Leuchtmittel
+Mobile Zeiterfassung für das Projektmanagement mit Liferay
+Integration neuer Software innerhalb existierender IT Strukturen am Beispiel eines Skillmanagementtools
+Virtual Reality Software - A Comparison
+Einsatzmöglichkeiten der automatisierten Analyse von Artefakten und Metadaten aus Softwareprojekten zur Unterstützung der Wartbarkeitsoptimierung langlebiger Softwaresysteme der DATEV eG
+Einsatzmöglichkeiten und Chancen von BAM/CEP in Unternehmen der Logistikbranche
+Conception and prototypical implementation of a performance scorecard for PLM Solution Engineering at Siemens AG
+Konzeption und Entwicklung einer Standort-basierten Werbeplattform für mobile Endgeräte auf Basis eines Systemes zur lokalisierten Anzeige von Produkten
+Entwicklung einer App zur Korrektur individueller Rot-Grün-Farbsehschwächen
+Auswahl und Einführung eines Produktdatenmanagement-Systems in einem mittelständischen Unternehmen
+Anbindung einer Laborautomatisierungssoftware an die iLAB-Plattform via des Kommunikationsstandards SiLA
+Ermittlung, Vergleich und Bewertung von Frameworks für Web Apps als Alternative zu nativen Apps anhand einer Beispielanwendung der Versicherungsbranche
+Konzeption und Implementierung einer Low-Level Sprachsteuerung auf mobilen Android-Geräten
+Berechnung der Tabulatur aus dem Audiosignal einer Gitarrenaufnahme
+Entwickeln einer Web-basierten App für Embedded Geräte
+Implementierung und Evaluierung einer WebRTC-basierten Videokonferenz
+Konzeption und Realisierung eines Tools für kollaborative Vorlesungsmitschriften unter Ausnutzung gerätespezifischer Eingabeverfahren
+Analyse, Konzept und Implementierung eines Prototypen zur Pfaderkennung von C# Programmtext
+Analyse und Implementierung des DANE-Protokolls für EXIM 3
+Konzeption und Entwicklung einer Microsoft .NET Framework-Anwendung zum Management eines verteilt gespeicherten Kundendatenpools
+Konzeption und Realisierung einer Ausführungsplanerstellung für eine räumlich/symbolische Suchumgebung
+Implementierung einer prototypischen Anwendung auf Basis des iMED Web Service Hosts in der iMED Softwareplattform.
+Musikerkennungssoftware: Stand der Technik und vergleichende Evaluation
+Erstellung und Konzeption einer flexiblen Datenschnittstelle zur Integration von Sensornetzen in das Internet of Things.
+Konzeption und Entwicklung von agilen Deployment-Prozessen für DB-Code bei der ING-DiBa AG
+Visualisierung proprietärer Prozessdaten mit Prognose des Prozessverlaufs und prototypischer Umsetzung
+Entwicklung einer Benutzerschnittstelle eines Eclipse-basierten Plugins zur Optimierung von automobilen Steuergerätearchitekturen
+Konzeption, Implementierung und Evaluation einer HTML5-basierten Loopstation zur Nutzung mit Saiteninstrumenten
+Konzeption und Entwicklung eines Global Data Dictionaries zur Nachvollziehbarkeit von Datenstrukturänderungen im Mainframeumfeld der DATEV eG
+Über die Architektur dynamischer Single-Page-Applications
+Softwaregestützte Entscheidungshilfe für Planungsänderungen durch Auswertung von hierarchisch priorisierten Arbeitsaufgaben bei der DATEV eG
+Edition der Aufgabenstellungen aus Anton Neudörffers "Grosser Arithmetic" (~1610).
+Konzeption und Implementierung eines Android-Clients zur Darstellung von personalisierbaren Echtzeitinformationen für Studierende der TH Nürnberg GSO
+Entwicklung eines arbeitsplangestützten Reportings zur Optimierung der Aktivitäten im Kontinuierlichen Verbesserungsprozess
+Auswahl und prototypische Implementierung einer Einsatzplanungssoftware für den Ausbildungsbereich der DATEV eG
+Einführung von Agilität
+Entwicklung eines Datenrouting-Services für das Energiemanagementframework OGEMA 2.0
+Entwicklung eines Web-Portals zum zentralen Versand von institutsspezifischen Brief- und Vertragsdokumenten.
+Mehrkernfähige Konfiguration von Telekommunikationseinrichtungen durch Modellbasierte Abhängigkeiten
+Möglichkeiten der Datenanalyse bei einem mittelständischem Softwarehersteller
+Konzeption und prototypische Entwicklung eines wissensbasierten Systems zur Unterstützung der normierten Erfassung von Kundeninteraktionen am Service Desk des Produktionsbereichs der DATEV eG
+Planung und Realisierung des §21-Anzeigeprogramms getAEB mit Fokus auf die Entwicklung einer modularen Softwarearchitektur unter Verwendung geeigneter Patterns und Clean Code
+Visualisierung proprietärer Prozessdaten mit Prognose des Prozessverlaufs und prototypischer Umsetzung
+Mehrkernfähige Konfiguration von Telekommunikationseinrichtungen durch Modellbasierte Abhängigkeiten
+Konzeption und prototypische Realisierung eines Werkzeugs für den länderübergreifenden Datentransfer zwischen Lohnabrechnungssystemen bei der DATEV eG
+Konzeption und Implementierung eines Softwaresystems zur Visualisierung und Analyse von Algorithmen in Graphen
+Implementierung einer intelligenten Walk-Away App zur Steuerung von Laborgeräten mit SiLA
+Evaluierung und Bewertung von Identity-Management-Architekturen im Hinblick auf Federated Identity-Management
+Automatisiertes OnDemand-Provisioning von Testumgebungen in einer Private Cloud unter Einsatz von vCloud Automation Center
+Analyse und Optimierung von Reports in einem Betrieb und Aufzeigen der Abbildungsmöglichkeiten in ein DWH
+Tool Support for Organizing an Open Source Conference - Examination of the Practicability of Predictive Analytics
+Scene extraction by means of a Pan-Tilt-Zoom camera
+Kalibrierung von Panorama-Endoskopen
+Entwurf und Implementierung eines Projekt-Dashboards für ein Softwareunternehmen
+Prototypische Entwicklung eines Snapshoting-Tools zur Softwarequalitätssicherung
+"Loss Prevention" - Entwicklung von webbasierten Berichten zur Analyse von potentiellen Manipulationen an Kassensystemen im Retail-Sektor
+Portierung und Schnittstellenkonzeption/-implementierung einer Applikation zur Steuergerätediagnose
+Nutzung  von  Inter-Tag  Entfernungsmessung  in  der  RTLS-basierten Ortung
+Konzeption und Realisierung einer generischen Web-Benutzeroberfläche zur Planung von Arbeitsabläufen
+Unterstützung von logistischen Prozessen mithilfe von Smart Glasses und Mustererkennung
+Business Intelligence Einführung in einem mittelständischen Unternehmen - Eine Fallstudie
+Konzeption und prototypische Implementierung eines Performance Cockpits
+Implementierung eines Cross-Bilateralen-Filters für lichtfeldbasierte Tiefenkartendaten
+Semantische Technologien im Wissensmanagement in KMU - Einsatzmöglichkeiten, Umsetzung in die Praxis und strategische Ausrichtung
+Konzeption und prototypische Entwicklung einer Klassenbibliothek für das Android-Betriebssystem für den Zugriff auf die Umfrage-Plattform "Limesurvey"
+Konzeption, Design und Entwicklung einer nativen Android-App für mobile Endgeräte basierend auf der Umfrage-Plattform Limesurvey zur Anzeige von Antworten und Statistiken von Studiengangtests
+Best Practice für die Integration einer toolgestützten Codeanalyse mit dem Fokus Wartbarkeit und Codequalität
+Portierung und Evaluation von Algorithmen zur WLAN-basierten Richtungs- und Positionsbestimmung
+Analyse der technischen Aspekte an die Mehrsprachigkeit von IT-Applikationen zur Unterstützung von Geschäftsprozessen (Schwerpunkt PLM- und SCM-Prozesse) sowie Erarbeitung von Lösungskonzepten unter der Berücksichtigung von wirtschaftlichen Einflussfaktoren
+Konzeption, Realisierung und Einführung der IT-gestützten Kommissionierung im Online-Modehandel.
+Prototypische Implementierung eines Space Colonization Algorithmus in einer 3D-Engine
+Modellierung von Geschäftsprozessen in einer Standardnotation und prototypischer Import in ein IT-Service-Management-Tool
+Technische Entwicklung, Vorteile und  Risiken des Cloud Computings aus unternehmerischem und technischem Blickpunkt
+Optimierung von Modellen maschineller Lernverfahren im Rahmen eines Big Data Projektes zur Betrugsanzeigenerkennung
+Agiles IT-Management
+Einsatz von Data-Mining-Verfahren zur Entscheidungsunterstützung im Business Process Management (BPM) am Beispiel von Adaptive-Case-Management-Szenarien
+Implementation of Pipes for the Ulix Operating System
+Konzeption und Entwicklung einer dynamisch erzeugten Konfigurationsoberfläche für Funk- und Ortungstechnologien bei Fraunhofer
+Entwicklung einer 3D-Multitouchoberfläche auf Basis des Fused Deposition Modeling 3D-Druckverfahrens
+Konzeption und Implementierung einer Report-Software zur Analyse des Nutzungsverhaltens von CAD-Software bei der Robert Bosch GmbH
+Konzeption und prototypische Realisierung einer graphischen, workflowbasierten Steuerungs- und Überwachungsanwendung für ein Datenübermittlungssystem
+Konzeptionierung und Realisierung eines Konfigurations-Tools für die Echtzeit-Middleware Gamma V
+Implementierung eines Verfahrens zur Nachbearbeitung von zusammengesetzten Projektionen in der industriellen röntgen Radioskopie
+Konzeption und Implementierung eines Reputationssytems für ein soziales Netzwerk im Umfeld der Lehre
+Konzeption und prototypische Implementierung einer challengebasierten Bucketlist
+Verschiedene Wege der Integration von MongoDB in Liferay Applikationen
+Evaluierung und Bewertung von Methoden des Information Retrievals zur Berechnung von Code Metriken am Beispiel vom Quellcode der DATEV.
+Entwicklung einer prototypischen Tastatur für eine runde Smartwatch auf Basis von Android Wear
+Entwicklung eines sicheren Session- und Access-Managements für eine verteilte Anwendung
+Service Design und Service Transition in der IV-Abteilung am Klinikum Nürnberg Die in der IT-Abteilung des Klinikum Nürnberg angewendete IT Infrastructure Library (ITIL) ist eine Sammlung von Best Practices zur Umsetzung eines IT-Service-Managements (ITSM) und gilt aufgrund der weiten Verbreitung inzwischen als internationaler De-facto-Standard im Bereich IT-Geschäftsprozesse.
+Analyse und Verbesserung von Usability und Design bei ERP-Systemen anhand der Software v.Soft der Firma Vepos GmbH & Co. KG
+Vergleichende Studie zur Eignung von durch 3D-Druck erstellten optischen Markern
+Konzeption und Entwicklung eines Fax-Anzeige-Controls für SFF-Dateien in DATEVnet pro Fax nach CAPI
+Erstellung und inkrementelle Erweiterung zufallsgenerierter Höhenkarten unter Berücksichtigung geomorphographischer Eigenschaften
+Industrie 4.0: Agentenbasierte Modellierung industrieller Fertigungsnetze
+Entwicklung einer mobilen App, zur Fernsteuerung einer .NET Applikation
+"Entwicklung eines plattformübergreifenden Werkzeugs zur kollaborativen Echtzeit-Generierung von Mindmaps"
+Komparative Studie zur Lesbarkeit taktiler Ausdrucke von Schrift, Symbolen, Graphiken und taktilen Karten.
+Konzeption und Implementierung von TAG's in einem Verwaltungstool für medizinische Testbilder
+Relevanz und Auswirkungen der professionellen IT auf den Geschäftserfolg von Social Entrepreneurship am Beispiel der Helden Gesucht gGmbH
+Konzeption und Implementierung einer rechnergestützten Qualitätskontrolle studentischer Beiträge im Kontext kollaborativen e-Learnings
+Planung, Analyse und Entwurf eines skalierbaren und modularen Automaten für die Erfassung von verteilten Daten und Berücksichtigung sicherheitstechnischer Rahmenbedingungen.
+Abbilden des Scrum Prozesses auf die Anforderungen des Automotive SPICE Standards
+Optical Music Recognition for Mobile Devices
+3D-Objekt-Erkennung durch einen autonomen, mobilen Roboter
+Analyse, Design und Implementierung von generischen Business Intelligence-Auswertungen mit QlikSense basierend auf Microsoft Dynamics NAV
+Webbasierte Interaktion zwischen Smartphone und Public Display zur Verbesserung des Einkaufserlebnisses
+Ein Geschwindigkeitsassistenzsystem mit automatischer Verkehrszeichenerkennung für das iPhone
+Untersuchung der Güte der Klassifikation von User-Based Collaborative Filtering am Beispiel des MovieLens-Datensatzes
+Prototypische Implementierung eines Frameworks zur Kennzahlenanalyse eines Content-Management-Systems
+Analyse des Einflusses von sozialen Medien auf das Kaufverhalten am Beispiel der deutschen Buchbranche
+Analyse und Weiterentwicklung eines Business Intelligence Systems in einem mittelständischen Unternehmen.
+Fahrzeugdiagnose und –Service mittels mobiler Consumer-Endgeräte
+Konzeption und prototypische Entwicklung eines Brettspiels zur interaktiven Gestaltung der Lehrveranstaltung "Wissensmanagement" mittels Gamification
+Kritische Auseinandersetzung mit der Knowledge Modeling and Description Language und Modellieung eines geeigneten Prozesses
+Konzeption und Realisierung der Migration einer BI-Applikation am Beispiel von SAP BW nach SAP BW on HANA bei einem führenden Automobilhersteller
+Rekonstruktion der Gesamtansicht eines großflächigen Photovoltaik-Felds aus Quadrocopter-Videoaufnahmen
+Konzeption und Realisierung eines generischen Filters für Webservices am Beispiel des DATEV Schnittstellensystems Pro
+Konzeption und Realisierung einer Webservice-Anbindung zum automatisierten Datenaustausch zwischen einem ERP-System und E-Commerce-Plattformen
+Benutzerfreundliche Buchungs- und Transaktionskonzepte für mobile Consumer-Endgeräte
+Realisierung einer Android-App zur Unterstützung der Orientierung blinder Menschen
+Internationalisierung der HomeRun-Umgebung
+Routenoptimierung von öffentlichen Verkehrsmitteln mit Hilfe von Softcomputingmethoden
+Machbarkeitsstudie zur Evaluierung und Bewertung der Java-Basistechnologie für ein komplexes und laufzeitintensives Netz der DATEV-Rechnungsschreibung
+Online Marketing mit Schwerpunkt Search Engine Optimization auf Basis eines Content Management Systems für ein Unternehmen in der Finanz- und Versicherungsbranche
+Ermittlung und Analyse von Zielgruppenraster für den Einsatz von Gamification Patterns
+Konzeption und prototypische Realisierung eines Software-Werkzeugkastens zur Generierung praxisnaher Testdaten für die DATEV-on-premise-Komponente "Zentrale Stammdaten"
+Entwurf und prototypische Entwicklung einer intelligenten und vielseitigen Assistenzanwendung für den Einsatz im privaten und geschäftlichen Alltag
+Entwurf und Implementierung einer Smartwatch-/Smartphone-Anwendung zur Trainingskontrolle
+Konzeption und prototypische Umsetzung einer Skript-Sprache für Autoren von interaktiven Spielbüchern
+"Konzeption, Design und Entwicklung einer nativen Android-App für Zugriff, Bearbeitung und Auswertung von Online Self Assessments (OSAs) des OSA-Portals der TH Nürnberg."
+Entwurf und Implementierung einer Kommunikationsschnittstelle zwischen einem sozialen Netzwerk und einer Jobbörse
+Peer-to-Peer jenseits des Filesharing - Entwicklung und Potenziale
+Konzeption und Entwicklung einer Applikation für den Austausch von Kunden- und Bestelldaten zwischen E-Commerce-System OXID und E-Mail-Marketingplattform
+Workflow-Management-Systeme für digitale Formulare
+Entwicklung eines Handlungsleitfadens zur Erstellung einer adressatengerechten Softwaredokumentation
+Computer Supported Cooperative Work – Aufbau eines digitalen Arbeitsplatzes in SharePoint, der in den Niederlassungen einer mittelständischen Firma weltweit nutzbar ist.
+Konzeption und prototypische Implementierung zur Erneuerung des Kassensystems einer ERP-Software
+Konzeption & Umsetzung eines Kennzahlensystems im Bereich Business Intelligence auf Basis des ERP Systems Microsoft Dynamics NAV unter Verwendung der Technologie des Microsoft SQL Servers 2014
+Cloud-basierte Kurwenwarnung
+Systematischer Vergleich der Extraktionsstrategien aus SAP Business Warehouse zur Visualisierung und Aufbereitung der Daten mit Hilfe alternativer Analyse-Frontend-Systeme.
+Definition und Entwicklung einer kennzahlenbasierten Business Intelligence-Architektur
+Entwicklung eines Eclipse-Plugins zur Analyse von EAST-ADL-Modellen im Hinblick auf empirisch erhobene Qualitätskriterien
+Automatisierte Analyse von Systemdaten für das In-Memory-Datenbanksystem EXASolution
+Modern Frontend Development for Web Applications
+Entwurf und Bewertung einer generischen hoch skalierbaren strombasierten Monitoring Plattform
+Kinect One zur Beobachtung des Kundenverhaltens
+Konzeption und Implementierung eines webbasierten Systems zur Steuerung von Batch-Prozessen
+Entwicklung eines gestenunterstützten natürlichsprachlichen Dialogs mit einem humanoiden Roboter.
+Verwaltung von RDF-Graphen mittels non-RDF-Graphdatenbanken
+Konzeption und prototypische Realisierung eines Datenqualitätstools für das Dokumentenmanagementsystem der DATEV eG
+Entwicklung einer effizienten Vorgehensweise zur Analyse technischer Schulden des Software-Produkts "Zahlungsverkehr on premise" der DATEV eG unter Verwendung von Architekturanalysewerkzeugen
+Physically-based shading mit WebGL
+Entwicklung und Evaluation einer Benutzerschnittstelle für blinde Menschen zur Bedienung von 3D-Druck-Software
+Entwurf von IT-Architektur Modellierungsrichtlinien im Kontext der Architekturbeschreibungssprache ArchiMate®"
+Prozessmanagement in einem mittelständischen IT-Unternehmen
+Konzeption und Realisierung eines Front-End Wechsels für ein Kanzlei Management-System
+Entwicklung einer prototypischen AUTOSAR Implementierung für ein autonom fahrendes Modellfahrzeug
+Konzeption und Prototyping einer 2D/3D-Visualisierungskomponente zur Anzeige von Voxel-, Oberflächen- und Textdaten
+Konzeption und Realisierung einer vereinheitlichten Kollaborationsplattform auf Basis von MS Exchange im Bankenumfeld
+Neuronale Netze Analyse und Design zur Bewertung von Fußballspielern
+Architekturkonzept und Prototyp zur Visualisierung von Automaten aus der theoretischen Informatik
+Inkrementelle Restrukturierung der Softwarearchitektur eines Legacy-Systems im Produktivbetrieb
+Entwicklung und Implementierung eines Gamification-Konzepts am Beispiel einer Webseite zur Vereinsorganisation
+Untersuchung von Apple HTTP Live Streaming für AAC-basierte Musik-Streaming Dienste
+Konzeption und Realisierung einer Client-Virtualisierung im Umfeld der bayerischen Staatsbauverwaltung
+Fachliche Konzeption der automatisierten Zuordnung von Kreditkarten- sowie PayPal-Zahlungen zu Ausgangsrechnungen im Rahmen des SaaS-Projekts bei DATEV eG
+Entwicklung einer generischen Vorgehensweise zur Härtung von IT-Serversystemen
+Implementierung und Weiterentwicklung von Algorithmen der Spieltheorie auf der Basis von Algorithmen des Operations Research
+Konzeption und Projektkoordination für die Ablösung der DATEV "ASP Datenbank"
+Analyse einer bestehenden Hochverfügbarkeitslösung für Linux-Systeme sowie Evaluierung und Test von Alternativen
+Analyse und Konzeption einer Kundenverwaltung
+Werbestrategien im Zeitalter der Blogger und Online Shops - Klassisches Onlinemarketing oder Social Payments
+Efficient software image distribution in a chassis-based network switch
+Entwicklung einer Verarbeitungskette für Echtzeitfeedback im Training
+Konzeption, Entwicklung und Evaluation eines Entscheidungsverfahrens zur Festlegung geeigneter Testmethoden für UI-Tests im agilen Softwareentwicklungsumfeld bei DATEV eG
+Einsatz von Redfish zur Administration virtueller Maschinen
+Konzeption eines Customer-Relationship Management Prozesses für einen Online-Stellenmarkt
+Automatic classification of defects in photovoltaic modules using electroluminescence imaging
+Konzeption und Implementierung eines Tools zur Verwaltung von ARIS-Skripten mit Apache Subversion
+Konzeption und prototypische Umsetzung einer Client-Server-Architektur für die Datenübertragung von Augumented Reality Daten zwischen Webserver und iOS App.
+Konzeption und Integration eines Single-Page-Application-Designs in eine native Android-Anwendung
+Konzept zur Überführung von On-Premise-Produkten zu einer 3-Tier-Architektur am Beispiel der Expertisen- und Gestaltungssysteme der DATEV eG
+Evaluation relationaler und NoSQL Datenbanken hinsichtlich eines CMS mit prototypischer Implementierung für eine Kirchengemeindeema:
+Anonymisierung von Autokennzeichen in Videostreams
+Analyse und Erweiterung eines Trackingsystems für Vergleichsrechner im Internet und Mobile-Apps
+Analyse und Konzeption eines effektiven Datenmanagements bei der N-ERGIE AG am Beispiel des Netzanschlussprozesses
+Entwicklung eines Metadaten-Codegenerators zur automatischen Erstellung von Auswertungsprogrammen für IBM Mainframes.
+Konzeption und Implementierung von Usage Tracking in einer Messsoftware
+Konzeption und Mechanismen zur Prüfung der Plausibilität der Umsatzsteuervoranmeldung auf Basis einer mobilen Applikation im Auftrag der DATEV eG"
+Entwurf und Entwicklung einer mobilen Gamification-Lösung für Städtetouren
+Konzeption und Implementierung einer weiterentwickelten Testautomatisierungssoftware bei der DATEV eG
+Konzeption und Realisierung eines webbasierten Big Data Dashboards für Immowelt AG
+Beschleunigung der Visualisierung wasserbaulicher Simulationen durch Gitterreduktionsverfahren
+Konzeption und Entwicklung eines Fehlerberichts- und Feedbacksystems für eine Anwendungssoftware für Industrie- und Handelskammern
+Entwurf einer Applikationsserver-Architektur für das CRM System CAJAC
+Entwicklung einer Fluent API zur Kommunikation mit dem RESTful Webservice DATEVconnect
+Konzeption und Implementierung einer Datenvirtualisierungslösung für Testdaten zur Unterstützung des Testprozesses von medizinischen Bildsystemen
+Auswahl und prototypische Einführung einer Service-Management-Software für die IT-Abteilung eines international tätigen Industrieunternehmens.
+Definition eines Standards zur Modellierung des Softwareentwicklungsprozesses von DATEV Unternehmen online und eine darauf basierende Optimierung ausgewählter Teilprozesse
+Konzeption und Entwicklung eines Analysesystems zur Bewertung von Versicherungsrisiken in Abhängigkeit von Fahrzeugausstattungen"
+Konzeption einer mobilen Anwendung für das Franchtenbenchmarking in der Chemielogistik bei der Fraunhofer-Arbeitsgruppe für Supply Chain Services
+Konzeption und prototypische Entwicklung eines webbasierten Dashboards für das Monitoring lungendiagnostischer Geräte
+Portierung und Weiterentwicklung des "Levelgraph"-Verfahrens
+Entwicklung einer generischen Serverarchitektur zur Jobsteuerung bei der Siemens AG
+Parallelisieren von Schwarmalgorithmen bei der Erzeugung von Tiefenkarten auf Stereobildern
+Entwurf und prototypische Implementierung eines ELN auf Basis des iLAB-Frameworks
+Konzeption und Realisierung eines generischen Clients für den geräteunabhängigen Zugang zu Datenquellen im ERP-Umfeld
+Entwicklung eines fachlichen Rollenkonzepts und Prozessmodells für die Self-Service-BI-Lösung der Carl Zeiss SMT GmbH
+Untersuchung zur Performancesteigerung der Pakethistorie durch Nutzung eines NoSQL – Datenbanksystem
+Evaluierung verschiedener Caching-Strategien und prototypische Implementierung in Online-Anwendungen
+Analyse des Umgangs mit nicht-quantifizierbaren Größen bei der Kostenplanung
+Berechnung einer 3D-Hinderniskarte auf einem autonomen, mobilen Roboter
+Monitoring strengvertraulicher Daten am Beispiel eines Versicherungsunternehmen
+Konzept zur automatisierten Mustererkennung in Fahrzeug-Flottendaten
+Entwicklung und Umsetzung eines Tools zur automatisierten Angebotserstellung für automobile Elektronikprodukte
+Evaluierung einer Business Process Transformation in einer Geschäftsverwaltung mihilfe agiler Methoden
+Bewertung von Bildverarbeitungsmethoden für den automatischen Test von Navigationskartendarstellungen
+Evaluation moderner Skalierungsmethoden von Webservices am Beispiel von Media Asset Management mit Node.js und NoSQL
+Entfernungsbasierte Detailgradsteuerung von punktbasierten Modellen durch den binären Raumpartionierungs Algorithmus
+Ein spielerischer Ansatz zur Modellierung und Analyse von Klanglandschaften
+Evaluation gängiger Lösungen zum Management und zur Analyse von Logdaten
+Automatische Formularauswertung mit Hilfe von Bildverarbeitungsverfahren, OCR-,und OMR-Algorithmen
+Automatische Erkennung von Quadrocopter-Landeplätzen mittels künstlicher neuronaler Netze
+Design einer mobilen Lösung auf Basis einer bestehenden Rich Client Applikation im Bereich CRM
+Einführung von SharePoint in einem mittelständischen Unternehmen
+Analyse und Konzeption einer "Do-it-Your-Self" Internet Plattform für Heimtextilien mit Anbindung von E-Commerce
+Analyse, Konzeption und Realisierung von Business Intelligence Dashboards im Bereich Einkauf mit QlikView basierend auf Microsoft Dynamics NAV
+Prozessoptimierung und Handlungsempfehlung für das interne Enterprise IT Architecture Management bei Siemens
+Konzeption und prototypische Implementierung eines Social Intranets zur Verbesserung der Informationsprozesse bei der IHK Nürnberg für Mittelfranken
+Technische und wirtschaftliche Evaluation von Konzepten zur Hochverfügbarkeit durch Virtualisierung
+Optimierung eines Dokumentenmanagementsystems zur Erfüllung der regulatorischen Anforderungen in der Medizintechnikindustrie
+Homecare "Fall Detection" mit einem Wearable
+Entwicklung einer Simulationsumgebung für kooperierende Industrieroboter
+Interaktion mit einem Public Display und prototypische Umsetzung mit Hilfe des CMS WordPress
+Konzeption und Entwicklung einer kollaborativen Auftragsverwaltung bei Telefónica Germany
+Evaluation des Content-Management-Systems Wordpress hinsichtlich seiner Eignung als Plattform für Crowdsourcing Anwendungen
+Konzeptionierung und Implementierung der 3D-Modelierung von CAD-Daten in einem Bosch-Viewer
+Prototyp eines Personal-Food-Management-Systems
+Konzeption und prototypische Realisierung eines modularen Tools zur automatisierten Konfiguration von Anwendungstestsystemen
+Erstellung eines Soll-Konzeptes zur Optimierung des internen Materialflusses für die Produktionsversorgung in einem international tätigen Unternehmen der Elektrotechnik
+Konzeption und prototypische Implementierung eines Geotainment-Systems für Langstreckenzüge
+Evolution und Potenzial verteilter synchroner Kommunikations- und Kollaborationssysteme
+Eye Tracking in der Datenanalyse zur Optimierung von Blended Learning-Systemen
+Konzeption einer Internetplattform zum Crowdsourcing von Haushaltsbesorgungen
+Umsetzung eines Monitoring Systems mit Icinga2 zur Realisierung einer automobilen Telematik
+Industrie 4.0 in der Automobil- und Fertigungsindustrie Entwicklung und Integration eines Bedien- und Visualisierungskonzepts für eine Endmontagelinie
+Tensorfaktorisierung als Ansatz für Empfehlungssysteme
+Konzeption und prototypische Implementierung der Positionsrechnung in funkbasierten Lokalisierungssystemen
+Umsetzung eines Verfahrens zur simultanen Lokalisierung und Kartenerstellung auf einem autonomen, mobilen Roboter
+Planung, Konzeption und Entwicklung eines Moduls zum zentralen und asynchronen Logging im Content-Management-Umfeld
+Weiterentwicklung einer Projektmethodik auf Basis von PRINCE 2 für IT-Projekte der Leoni AG
+Modellierung von Texten mit Rekurrenten Neuronalen Netzwerken
+Konzeption der DATEV-Online-Anwendung Drucker-Scanner-Analyse mit einer dokumentenbasierten NoSQL-Datenbank
+Neukonzeption und prototypische Implementierung der Inputverarbeitung als Service
+Evaluation der Performance des Audiocodecs "Opus" für IP-basierte Audiokonferenzanwendungen
+Analyse und Bewertung der Social-Gaming-Plattform ELO
+Der Einsatz von User Centered Design zur Evaluierung der neugestalteten Oberfläche eines auf den Mittelstand ausgerichteten ERP-Systems
+Integration einer vektorbasierten Beschriftungskomponente in einen Kartendienst
+Veränderungen von Prozessen durch Industrie 4.0 und deren Implikationen für das Wissensmanagement
+Zuverlässige Anonymisierung von Gesichtern in Video-Dateien
+Punktbasiertes Rendering von virtuell fotografierten Szenen aus einer Game-Engine
+Erarbeitung eines Konzepts für eine effiziente Datenanalyse der Hochschule-Jobbörse Nürnberg
+Konzeption und Entwurf eines Systems zur Organisation des Wissensmanagements der Markt- und Wettbewerbsbeobachtung der DATEV eG
+Konzeption und prototypische Implementierung einer analytischen Marktforschungsplattform basierend auf Apache Spark
+Konzeption und Implementierung eines mehrbenutzer-basierten Zugriffssystems für das Energiemanagementsystem OGEMA
+Implementierung einer Plattform zum Austausch und Abspielen von Audio-Dateien auf Basis moderner JavaScript Frameworks und Amazon Web Services
+Verbesserung der Qualität und Effizienz von regelgestützter Codierung durch automatische Analyse
+Konzeption und prototypische Realisierung einer WebGL Applikation zur Gewährleistung der physischen Sicherheit in einem leittechnischen Cyber-Sicherheitsmodell
+Techniken für die Darstellung angereicherter interaktiver Geschichten
+Entwicklung einer Online-Navigationskomponente
+Produkt-Monitoring in sozialen Medien
+Strukturierter Vergleich ausgewählter JavaScript Frameworks für Webentwicklung im Gesundheitswesen: Eine Fallstudie am Beispiel der kubus-IT.
+Evaluation verschiedener Simulations-Softwareprodukte für den Einsatz in Lehrveranstaltungen
+Konzeption und Weiterentwicklung des Ohmquiz anhand von Gamification
+Entwicklung einer strukturierten Abfragesprache für eine symbolisch-räumliche Suche
+Evaluierung und Bewertung von Visualisierung-Frameworks zur Darstellung von mehrdimensionalen Fuzzy-Planungsmodellen in Webanwendugen
+Evaluierung und Konzeption eines Self-Service Business Intelligence Ansatzes für ein mittelständisches Unternehmen unter der Verwendung von Reporting Services auf Basis des Microsoft SQL Servers 2016
+Anwendung von Big Data Systemen (Vorschlagssystem) im Vertrieb von Vollsortiment-Supermärkten. Wie kann man dort Big Data Systeme sinnvoll einsetzen? Welche Chancen und Risiken gibt es? Welche rechtlichen bzw. ethischen Aspekte sollten berücksichtigt werden?
+Entwicklungskorridore des Wissensmanagement in der Industrie 4.0
+Virales Marketing via Social Media
+Human Information Behavior – Ausgewählte Aspekte des State of the Art
+Evaluierung und prototypische Umsetzung von Sensoren und Dashboards mit deren relevanten, zielgruppenorientierten technischen Indikatoren und KPIs mit einer Handlungsempfehlung in Kooperation mit der DATEV
+Evaluation der NB-IoT-Technik im Bezug auf spezifische Anforderungen von IoT- und M2M-Anwendungsszenarien Name des Kandidaten: Simon Wedegärtner Name des Erstprüfers: Prof. Dr. Michael Zapf Name der Firma: Deutsche Telekom AG
+Evaluation von Markov Random Walk als Empfehlungsalgorithmus anhand unterschiedlicher Metriken
+Vergleich der Empfehlungsqualität von Markov Random Walk und Collaborative Filtering
+Duplikaterkennung von Fehlerberichten an einem zentralen Fehlermanagementsystem
+Analyse des Stands der Technik und Evaluierung der IT-Security im vernetzten Fahrzeug
+CT-basiertes virtuelles Fräsen in Knochen für das Training von Cochlea Implantationen
+Analyse und Optimierung der internen IT-Leistungsverrechnung der GfK SE mit Fokus auf der Kostentransparenz(Bill of IT)
+Konzeption zur Digitalisierung des Auftragsmanagements einer Firma im Eventbereich
+Konzeption eines idealen Conitinuous Integration Prozesses zur Unterstützung der CAE-Softwareentwicklung
+Untersuchung und Konzeption des Einsatzes von Cyber-Physischen Systemen am Montageband
+Konzept zur Betriebsdatenerfassung bei Protoform
+Prototypische Thesaurusintegration in die Solr-basierte Suchmaschine der Fakultät Informatik
+Evaluierung Graph-orientierter Datenbanken bei der Verwaltung von Geschäftsbeziehungen zwischen Unternehmen
+Evaluierung und Bewertung von technischen Lösungen zur Darstellung von ortsbezogenen Daten in einer mobilen Social-Media-Anwendung
+Konzeptionierung einer prozessbeschleunigenden Software-Lösung für eine automatische, regelbasierte Auswertung von Ergebnissen aus automatisierten Softwaretests
+Analyse, Konzeption und prototypische Realisierung eines Plug - Ins für Microsoft Dynamics CRM Online zur Integration von Qlik Sense
+Anforderungen an das Wissensmanagement in der Aus- und Weiterbildung durch Industrie 4.0
+Konzeption und prototypische Umsetzung einer Infrastruktur zum automatisierten Zertifikatsaustausch
+Konzept und Implementierung einer Quiz-Anwendung zur unternehmensinternen Wissensvermittlung
+Teil-automatisierte Erstellung und interaktives Rendering von bildbasierten 3D-Szenen aus 2D-Panoramabildern
+Konzipierung und Implementierung eines cloudbasierten Mitteilungssystems
+Entwicklung eines Systems zur Echtzeitüberwachung von Statistikdaten in der Fertigung
+Gesichtsdetektion in Bildern mit Convolutional Neural Networks
+Graphvisualisierung von Abhängigkeiten zwischen IT-Betriebsmitteln einer IT-Landschaft
+Konzeption und prototypische Implementierung eines automatisierten Applikationsdeployments am Beispiel der Bundesagentur für Arbeit
+Konzeption und prototypische Implementierung der Migration von Prozessinstanzen einer BPMN Engine auf ein neues Prozessmodell
+Analyse von Technologien zur Desktopbereitstellung
+Erstellung eines Konzepts zur Sicherung der Web Application Security eines Online-Bakings auf Basis von Angular JS
+Detektion von Autos in Bildern mit Convolutional Neural Networks
+Analyse und Verbesserung des Wissensmanagements in einem speziellen Softwareentwicklungsprozess
+Konzeptionierung und Implementierung eines Systems zum End-to-End-Monitoring des Authentisierungsverfahrens SmartLogin der DATEV eG
+Erstellen und Visualisieren einer System- und Datenlandschaft für eine HDP-Produktionslinie
+Vergleichende Studie zu Greif- und Bewegungsaufgaben in der HTC Vive Virtual Reality Umgebung
+Entwicklung einer Bahnregulierung für einen autonomen, mobilen Roboter
+Analyse und Konzeption eines Auswertungsprozesses der CRM-Daten bei der DATEV eG und eine prototypische Implementierung auf Basis SAP Lumira
+Entwicklung einer webbasierten Simulationsumgebung für Hardware-Ereignisse im Umfeld von Stralungskontaminations-Messsystemen
+Sentiment Analyse von Kundenreviews aus einem sozialen Netzwerk zur Produktverbesserung eines ausgewählten Streaming Dienstes
+Konzeptionierung und Realisierung einer Anwendung zur Konfiguration der DATEV DMS-Arbeitsplatzintegration
+Konzeption einer Einführung von Software Asset Management in einem mittelständischem Verlag und Evaluation geeigneter Tools
+Weiterentwicklung des Projektprozesses der mediendesign AG, Abgleich und Verbesserung anhand eines Reifegradmodells
+Konzept zur Einführung von Agilität im Softwareentwicklungsprozess der Abteilung fachlichen Verarbeitung von Lohn im Rechenzentrum der Datev e.G.
+Erstellung eines Konzepts für priviligierte IT-Berechtigungen und Administrationsrechte – allgemein und anhand einer Fallstudie bei der N-Ergie AG Nürnberg
+Umsetzung eines TTCN-3 Interpreters für den Einsatz im Automobilsektor
+Veränderung von Produkt- und Methodenwissen durch Industrie 4.0
+Entwicklung einer webbasierten Simulationsumgebung für Hardware-Ereignisse im Umfeld von Strahlungskontaminations-Messsystemen
+Erstellung eines Prototyps für die automatisierte Java-Aktualisierung in einer modularen Systemlandschaft
+Webstatistik-abhängige, dynamische Bannererstellung aus verschiedenen Firmenlogos von Kunden der Hochschul-Jobbörse der TH
+SRM- und CRM-Systeme: Funktionaler Vergleich von Beziehungsmanagementsoftware: was können SRM-Systeme von CRM-Systemen übernehmen?
+Konzeption und prototypische Entwicklung einer Pick-by-Light-Emulationssoftware bei der Dematic GmbH
+Deep Residual Network
+Einsatz von Text Mining zur Unterstützung automatisierter E-Mail-Verarbeitung in der Sparda-Datenverarbeitung eG
+Automatisierung des Freigabe- und Buchungsprozesses für Eingangsrechnungen in einem ERP-System
+Entwicklung eines Echtzeitdownloads zur Erweiterung laufender Anlagen
+Optimized Multideep Storage Heuristic
+C++ und Rust: Ein Vergleich zweier Programmiersprachen mit Fokus auf Zwischencode und dessen Analyse
+Entwicklung eines individualisierten Burndown-Dashboards zur Überwachung des Projektfortschritts in der agilen Entwicklung bei der Bundesagentur für Arbeit
+Objekterkennung mit Convolutional Neural Networks auf Basis von Tensorflow
+Vergleich der Modellierung mit Graphdatenbanken und Ontologien anhand einer Fallstudie
+Certificate Transparency: Beschreibung, Implementierung und Einsatz in einer real existierenden Public Key Infrastruktur
+Analyse und Vergleich von Caching-Algorithmen einer Information Retrieval-Anwendung mit asymmetrischer Anfragenverteilung
+Integration und Bewertung von Messdaten aus Lasermessungen für die Fahrdrahtlage
+Analyse von Lösungen für die Re-Zertifizierung des Qualitätsmanagementsystems in einem mittelständischen Unternehmen
+Vergleich von Anbietern cloudgestützter Datenauswertungstools zur Analyse von Monitoringdaten im Rahmen eines SaaS-Angebotes
+Sichere Datenübertragung von externen Datenträgern in Firmen-Netzwerke
+Implementierung einer Überführung eines multi-kriteriellen (nicht-)linearen ganzzahligen Programms in Standard-Eingabeformate für Optimierungssolver
+Übermittlung von schützenswerten Dokumenten in einem mittelständischen Produktionsbetrieb am Beispiel der Firma Rhodius
+Untersuchung und Evaluation der Usability im E-Commerce unter Einsatz eines Eye-Tracking-Systems am Beispiel von Onlinereiseportalen
+Entwicklung intuitiver Interaktionsmöglichkeiten für die graphischen Auswertungen in der Software IngSoft InterWatt
+Aktuelle Trends im IT-Offshoring und Reshoring
+Analyse von Rahmenbedingungen bei der Entwicklung von eGovernment-Software innerhalb öffentlicher Behörden und privater Dienstleister und deren Implikation auf Software-Entwicklung und Projektmanagement
+Konzeption eines Proof of Concept-Modells für einen internationalen Softwarehersteller von In-Memory-Datenbanken.
+Beurteilung des Betriebsprüfungsrisikos anhand einer E-Bilanz: Konzeption und prototypische Realisierung eines Prüf- und Hinweissystems bei der DATEV eG
+Arbeitsplatz 4.0 und digitales Arbeiten: Anforderungen an die IT-Landschaft einer Direktbank beim Transformationsprozess zum Digital Workspace
+Konzeption und Evaluation einer Wissensdatenbank für das modellbasierte FM: Ermittlung der Nutzungskosten in der Entwicklung eines Gebäudes
+Konzeption und Implementierung einer mobilen Anwendung zur optischen Erfassung von Zählerinformationen
+Konzeption und Entwicklung eines REST-basierten Microservices zur Behandlung von Autorisierungs- und Authentifizierungsanfragen im Rahmen der Rechenzentrumskommunikation der DATEV eG
+RFID-Landmarken basierte Selbstlokalisierung und gleichzeitige Warenortung
+Datengetriebene Optimierung von Fertigungsprozessen zur Kostenoptimierung
+Die Konzeption und Validierung eines Entscheidungsmodells zur bedarfsorientierten Auswahl eines Datenbanksystems anhand einer prototypischen Implementierung einer Datenhaltungsschicht für ein Massendatenübermittlungssystem.
+Evaluierung und Vergleich von Verfahren für einen Realtime-Recommendation Service
+Integration von Product Lifecycle Management und Application Lifecycle Management am Beispiel der Softwareprodukte Teamcenter PLM und Polarion ALM
+Evaluierung einer Plattform zur Automatisierung der Konfiguration von Server-Management-Controllern
+Evaluierung und Analyse von CRM Systemen in einem KMU
+Extraktion von 2d-Features aus Punktwolken
+Machine Learning for Algorithmic Trading:
+Entwurf und Implementierung einer Softwarelösung zur Sammlung und Analyse von Kundendaten am Beispiel einer Messanwendung zur Qualitätssicherung von Röntgenanlagen
+Abbilden der Lizenzierungskette in IngSoft InterWatt von der Angebotserstellung bis zur Abrechnung und prototypische Konzeption eines datenbankgestützten Anwendungssystems zur Lizenzverwaltung
+Prototypische Entwicklung einer Android App für ortsbasierte Dienste für mobiles Bezahlen in Stadien
+Entwicklung und prototypische Realisierung einer Microservice-Referenzarchitektur zur Einbettung von Spielelementen in Webseiten
+Studie zu Extraktion von Richtungsinformationen aus kapazitiven Bildern zur Multitouch-Interaktionen auf mobilen Endgeräten
+Evaluierung von Apache Flink und Apache Spark im Kontext der Echtzeitanalyse von Weblogdaten auf Fraud bei der ING-DiBa AG
+Konzeption und Realisierung einer Schnittstelle zum kontextbezogenen Aufruf des Programms "Elektronische Übermittlung Einspruch" in der DATEV eG
+Erweiterung eines XML-Diff-Algorithmus unter Berücksichtigung eines RELAX NG-Schemas
+Effiziente Voxelisierung von Dreiecksnetzen
+Risikomanagement in der IT-Dienstleistungsbranche im Kontext der aktuellen Marktsituation
+Training eines automatischen Spracherkenners mit Hilfe neuronaler Netze und Integration in ein Dialogsystem
+Ein evolutionäres Verfahren für Echtzeitscheduling auf einen Multikernprozessor
+Entwicklung und Evaluierung von Geschäftsmodellen zur kommerziellen Nutzung von Gamification
+Dokumentation eines IT Servicekataloges mit OBASMI
+Evaluation der Verwendung von Use Case 2.0 vs. Impact-/Story Mapping in einem Redesign-Projekt unter Einsatz der agilen Methode Scrum
+Kompatibilitätsanalyse des BI-Ansatzes "IFS Applications" der Fa. IFS mit klassischen BI-Ansätzen der Fa. syscon unter Betrachtung des Bereichs "Sales"
+Konzept und Realisierung der DRG-Eingruppierungsanzeige mit Fokus  auf die Entwicklung einer modularen Softwarearchitektur und Clean Code
+Entwicklung eines Next Generation IT-Outsourcing-Konzepts für Großunternehmen
+Conception and Implementation of Penetration Tests on EBDirigo
+Analyse zur Leistungserhöhung im Umfeld von Produktstammdaten-Projekten der BMW Group
+Untersuchung der Eignung von Ameisenalgorithmen für die Routenermittlung autonomer Flugobjekte
+Automatische Flugrouten-Planung und Steuerung eines Multicopters über einer Photovoltaik-Freiflächenanlage anhand von Video-Bildern
+Konzeption und prototpyische Implementierung einer Notizverwaltungsanwendung für Entwickler
+Analyse und Anwendung von Business Intelligence Reifegradmodellen am Beispiel der DATEV eG
+Entwicklung eines Dashboards zur Visualisierung von Gerätenutzungsdaten der Siemens Healthcare GmbH
+Virtuelle Absicherung von Fahrerassistenzsystemen anhand von Machine Learning basierten Simulationsmodellen
+Bedienkonzept und Evaluierung zur barrierefreien, grafischen Modellierung mit Innovator für motorisch eingeschränkte Anwender
+Entwicklung und Umsetzung eines Konzeptes zur Verbalisierung von Kartenausschnitten für blinde Menschen
+Erzeugung eines animierten Gesichtes auf Basis einer einzelnen Aufnahme
+Methodische Unterstützung von agilem Projektmanagement nach dem Vorgehensmodell Scrum mit dem Kollaborationswerkzeug Microsoft SharePoint
+Konzeption und Realisierung einer Sensornetz-basierten, intelligenten Gebäudeüberwachung
+Studie zur mentalen Rotation von 3D gedruckten Brailleschriftzügen
+Offline Map-Matching mit Hilfe von Multi-Routing
+Implementierung einer Smartphone-Applikation zur Erkennung von Fußgängerampeln als Unterstützung für Menschen mit Sehbehinderung
+Konception und prototypische Implementierung eines Informationsdisplay-Systems
+Biometric User Identification through Smartphones
+Untersuchung der Auswirkungen von Ausfällen abhängiger Applikationen und Schnittstellen in der Test- und Entwicklungsumgebung für das Verfahren "Virtueller Arbeitsmarkt" der Bundesagentur für Arbeit
+Konzeption, Implementierung und Inbetriebnahme eines elektromischen Fahrtenbuchs auf Basis einer Telematik und Back-End Lösung von Continental Engineering Services
+Optimierung des Team- und Projektübergreifenden agilen Softwareentwicklungsprozess und Evaluation durch geeignete Kennzahlen zur Qualitätsmessung bei der esolutions GmbH
+Prototypische Entwicklung einer Augmented Reality Applikation mit Beamer Smartphone in Verbindung mit Indoor-Positionsbestimmung
+Erschließung von Erfolgspotentialen mithilfe des Team Foundation Server durch werkzeuggestützte Vorbereitung für ein DATEV Freigabegespräch.
+Analyse und Optimierung potentieller Prozesse der Ausgabestelle IssWas e. V.
+Untersuchung und Realisierung eines Konzepts zur Bereitstellung von Web-basierten Diensten für IOT Geräte durch einen IOT-Plattformanbieter
+Studie zu Extraktion von Richtungsinformationen aus kapazitiven Bildern zur Multitouch-Interaktionen auf mobilen Endgeräten
+ Evaluierung von Apache Flink und Apache Spark im Kontext der Echtzeitanalyse von Weblogdaten auf Fraud bei der ING-DiBa AG.  
+Johan Gotliebs Einführung in die Buchhaltung Edition und Kommentar zu den Geschäftsvorfällen (Faktorbuchhaltung)
+ Konzeption und Realisierung einer Schnittstelle zum kontextbezogenen Aufruf des Programms "Elektronische Übermittlung Einspruch " in der DATEV eG
+Erweiterung eines XML-Diff-Algorithmus unter Berücksichtigung eines RELAX NG-Schemas 
+ Training eines automatischen Spracherkenners mit Hilfe neuronaler Netze und Integration in ein Dialogsystem
+Effiziente Voxelisierung von Dreiecksnetzen
+Verbesserung der Gestaltung des konzerninternen Berichtswesen in einem Umfeld am Beispiel der Siemens AG
+ Risikomanagement in der IT-Dienstleistungsbranche im Kontext der aktuellen Marktsituation
+Erkennung von Liniennummer und Fahrtziel von Stadtbussen mittels Smartphone-Kamera zur Unterstützung von Sehbehinderten
+Konzeption und Entwicklung einer effizienten Datenstruktur für Punktwolken
+Evaluation von Methoden zur transparenten Bereitstellung von Daten aus Datenbanken mit unterschiedlichen Schemata
+Konzeption und prototypische Implementierung einer E-Learning Plattform für Data Science
+Sicherstellung der einheitlichen Auskunftsfähigkeit des Onsite Supportes.
+Konzipierung eines Reifegradmodels für Wissensmanagement nach dem ISO 33000 Standard
+Entwicklung eines Verfahrens zur Risikoanalyse nach DSGVO im Hinblick auf Rechte und Freiheiten der Betroffenen
+Positionsbestimmung unter Einsatz von Isovist-Merkmalen
+Gestenerkennung und virtuelle Eingabemöglichkeiten mittels Myo-Armband in labor- und medizintechnischen Umgebungen
+Entwicklung einer OpenCL-Implementierung für die VideoCore IV GPU des Raspberry Pi
+Analyse der Programmiersprache Go
+Prozessoptimierung der Wareneingangserfassung und Kontrolle in der Entsorgungswirtschaft am Beispiel der GfM Gruppe und Ihrer Unternehmen
+Software Architektur zur Entwicklung von Cross-Plattform Casual Games
+Untersuchung verschiedener BYOD-Szenarien in einem mittelständischen Betrieb mit anschließendem Umsetzungsvorschlag
+Konzept und Implementierung der Simulation grundlegender Smart-Home-Konzepte
+Entwurf und prototypische Entwicklung eines natürlichen Dialogsystems im Kontext von Unterhaltung, Websuche und E-Commerce
+Ein Ansatz zur Steigerung der Aussagekraft von Online-Bewertungen von Grafiken 
+Analyse von inkrementellen, rasterbasierten Navigationsverfahren für autonome, mobile Roboter
+Evaluation möglicher Technologien eines Indoor Positioning Systems mit anschließender prototypischen Implementierung auf einem Smartphone.
+Generative Adversarial Networks zur Manipulation von Bildern
+Inhalts- und Stimmungsanalyse von Kundenfeedback im Automotiveumfeld
+Konzeption und Entwicklung eines Dashboards zur Visualisierung von Protokollbäumen bei Siemens Healthcare
+Maschinelles Lernverfahren zur Strukturierung von Stellenanzeigen
+Modulares Konzept und Umsetzung von Videoanleitungen für Inserenten der Hochschuljobbörse
+Deep Learning als Ansatz für Empfehlungssysteme
+Neukonzeption und -implementierung einer bestehenden Client-Server-Anwendung mit aktuellen Web-Technologien 
+Prototypische Entwicklung eines analytischen Modells für die Klassifizierung und Vorhersage von Bestellabbrüchen
+Möglichkeiten einer automatisierten Provisionierung Virtueller Server im zLinux-Umfeld
+Befähigung einer Bank zur Bereitstellung einer Public API für PSD2
+Einsatzmöglichkeiten von agilen Praktiken im Prozessmanagement
+Dynamisch generierte SQL-Abfragen auf die nicht-relationale Mainframe-Datenbank Adabas: Prototypische Realisierung und Performanzanalyse
+Auswahl und Einführung eines externen Online-Portals für Veranstaltungsbuchungen mit Anbindung an SAP
+Entwicklung eines Prototyps zur SolR-basierten Indizierung von mittels RDF repräsentierten relationalen Datenbanken
+Prototype Implementation and Evaluation of Scenarios for an Adaptive Automotive Personal Assistant
+Konzeption und Entwicklung eines integrierten Qualitätsmanagements für eine Geschäftsdomäne in der DATEV eG
+Automatische Konfiguration der Zugriffskontrolle zur Datenbank einer Webanwendung
+Vergleich der Entwicklungsplattformen von Chatbot Systemen mit Bezug auf die Einkaufs- und Beschaffungsprozesse in Unternehmen
+Konzeption eines Cyber-Threat-Modells mit beispielhafter Umsetzung bei DATEV
+Entwicklung eines interaktiven Spiels mit einem humanoiden Roboter als Spielpartner
+Optimierung der Datenvisualisierung in der mediendesign AG mit Hilfe der Software Tableau
+"Konzeption einer Testmethodik für den "Feature Driven Development" - Prozess am Beispiel einer Webentwicklung"
+Evolution and Perspectives of the Middleware Concept
+EVS Channel-Aware Mode Performance Analysis and Optimization
+Ergänzung des SAP Anfrageprozesses mit vordefinierten Warengruppentemplates
+Konzept und Umsetzung eines Wordpress Auftritts der Hochschul-Jobbörse
+Rekonstruktion von relativen Kameraparametern aus Bildsequenzen und deren Verwendung zur Berechnung einer dreidimensionalen Punktwolke
+Evaluation verschiedener Softwarelösungen zur Analyse der syngo.via Installed-Base
+Vertrauen und Betrug im E-Commerce und E-Payment, Analyse des Nutzerverhaltens
+Interaktive und dynamische Visualisierung von Antwortdaten aus Online-Self-Assesments der TH-Nürnberg mit Hilfe der "Data-Driven Documents" JavaScript Bibliothek
+Evaluation des Einsatzes von Systemen zur Datenanalyse im Fertigungsprozess anhand von Bosch PPM
+Entwurf eines Portals zur Erfassung und Verdichtung qualitätskostenbezogener Daten der Konzerndivision e-mobility bei der ZF Friedrichshafen AG 
+Entwicklung eines Systems zur Erkennung eines Streckenverlaufs mit Hilfe einer 2D-Kamera
+Auswahl einer Software zur Kalkulation und Preisfindung von IT-Leistungen bei der N-ERGIE Aktiengesellschaft
+Konzeption eines Identity Access Management zur Automatisierung der Berechtigungsvergabe
+Rasterbasierte SLAM-Verfahren für Laser-Entfernungssensoren
+Evaluation unterschiedlicher Methoden zur intelligenten Verknüpfung heterogener Datenbanken zur Optimierung von Geschäftsprozessen in einem Fertigungsumfeld
+Wissensmanagement im Wealth Management einer international agierenden Großbank
+Real-Time Data Streaming - prototypischer Vergleich von technischen Lösungen
+Konzipierung und Realisierung einer Quality-of-Service-Unterstützung in einem Computernetzwerk auf Basis von Software-defined Networking
+Zeichenbasierte Generierung von Texten mithilfe von Recurrent Neural Networks (RNN).
+Prototypische  Implementierung eines Kennzahlensystems zur Verbesserung der Unternehmensziele bei der Siemens AG
+Prognose von volkswirtschaftlichen Faktoren unter Einsatz von Machine Learning 
+Untersuchung des Zusammenhangs zwischen Krebs und Ernährung mit dem Einsatz von Machine Learning
+Virtual-Reality-optimierte Sensor Fusion für eine langzeitstabile Gestenerkennung der oberen Extremität
+Konzeption einer Datensicherungsstrategie für Object-Storage-Systeme
+Konzeption und Implementierung einer Softwarelösung zur Planung und Durchführung von Handballturnieren
+Konzeption und prototypische Realisierung eines Dienstes zur Erfassung, Übertragung und Zuordnung von Anwendungstestergebnissen.
+CRM-Systeme: Chancen und Grenzen der Automatisierung 
+Entwicklung und Evaluierung von Geschäftsmodellen für einen Online-Marktplatz zum Verkauf von hausgemachten gastronomischen Angeboten
+Entwicklung einer asynchronen, taskbasierten, threadsicheren Java-Bibliothek
+Design and Evaluation of a Backbone Network for Wireless Sensor Networks
+Erstellung interaktiver Szenen aus 360°-Aufnahmen
+Evaluation des Potentials von virtuellen Maschinen in einer Cloud-Computing-Plattform im Softwareentwicklungsumfeld bei der NÜRNBERGER Versicherung
+Optimierung von Bestellprognosen mit Hilfe von Deep Learning und TensorFlow
+Entwicklung einer Software zur Bestimmung der Qualität von merkmalsorientierter Bildverarbeitungsalgorithmik
+Konzeption und Realisierung eines TLS-Demonstrators für die Lehre mit Open SSL
+Analyse und Vergleich aktueller JavaScript-Anwendungsframeworks
+Entwicklung eines Methodenbaukastens zum aktiven Einbezug von Mitarbeitern in der Gestaltung der agilen Transition innerhalb des Geschaftsfelds Personalwirtschaft der DATEV eG
+Identifikation von Dokumentenähnlichkeiten zur Qualitätssteigerung des Wissens-Projektmanagements in Attlassian Jira
+Einsatz des IBM Watson im Qualitätsmanagement bei Mercedes-Benz Vans
+Prototypische Erstellung einer Plattform zur Visualisierung, Auswertung und Analyse von anonymisierten Personendaten
+Konzeptionierung und Implementierung eines Frameworks zur Darstellung von Phantomen innerhalb einer Simulationskomponente für Computertomographen
+Erkennung von Zählerständen statischer Verbrauchszähler mittels einer mobilen Applikation
+Entwurfsmuster - Design Patterns
+Untersuchung einer Blockchain Technik in Hinblick auf Anwendungen im Umfeld Internet der Dinge
+Vergleich skalierbarer Speicherlösungen für Binärdaten variabler Größe mit Fokus auf schnelle Zugriffszeiten
+Einsatz maschineller Lernverfahren zur Erkennung von Spielmechanismen in Spielanleitungen
+Verbesserung der Prozessautomatisierung - Robotic Process Automation - mit Methoden der künstlichen Intelligenz
+Entwicklung einer mobilen Anwendung zur Erkennung und Suche von Produkten mittels künstlicher neuronaler Netze
+Einführung von Software-defined networking bei der N-ERGIE
+Head-tracked Spatial Conferencing
+Analyse der Ansätze von Reflection in C++ und Entwicklung einer eigenen Implementierung
+Implementierung einer Microservice-Referenzarchitektur für die Gamifizierung von Webseiten
+Full-HD Voice Conferencing im Browser mit Javascript
+Concept and realization of an identity service with Open ID Connect
+WebGL-basiertes Volume-Raycasting 
+Ermittlung und Umsetzung einer Methode zur automatisierten Bereitstellung kundenspezifischer Linuxserver im Rahmen eines Entwicklungsprojektes
+Analyse von Grafikbibliotheken für die interaktive Visualisierung von 2D-/3D-CAD-Daten
+Konzeption und Entwicklung einer sprachgesteuerten Anwendung zur Steuerung von Robotic Process Automation Software
+Entwicklung eines Konzepts zur digitalen Transformation bei der IHK Nürnberg für Mittelfranken
+Flexible Parametrisierung der Fehlernachrichten eines REST-basierten Backends
+Evaluation der Programmiersprache Kotlin bezüglich Sprachfeatures und Effizienz der Softwareentwicklung gegenüber Java anhand einer Android App
+Automatic Extraction of modernization features in German real estate exposés 
+Erstellung eines IT-Grundschutz-Profils als Referenzmodell für kleine bis mittelständische Steuerberatungskanzleien  
+Vorgehensmodelle und Softwarearchitekturen zur Entwicklung interaktiver Chatbot-Systeme
+WebAssembly
+Mehrmaschinentests und deren Implementierung in openQA am Beispiel der Implementierung einer systemd-networkd Testsuite
+Simulation der Kinematik von Arthropoden
+Rechnungsprüfung und Verbuchung mit Dokumentenmanagement für Baubetriebe
+Einsatz von Machine Learning im Bereich Human Resources
+Entwicklung eines Serious Game zur Sensibilisierung von Erstsemesterstudenten für die Risiken eines Studienabbruchs in einem technischen Studiengang.
+Konzeption und Umsetzung einer Testmethode für PPTX-Dateien
+Konzeption und Entwicklung einer interaktiven Sicherheitsunterweisung unter Einbezug des realen Umgebungskontextes
+Automatische Klassifikation digitalisierter Dokumente durch Verwendung eines neuronalen Netzes 
+Entwicklung einer App zur Anzeige von Verlegerstatistiken
+Erarbeiten einer Qualitätsmanagement Strategie im agilen Softwareentwicklungsumfeld bei DATEV eG
+Konzeption und Entwicklung eines generischen Messaging Service mit webbasierter Visualisierung für die Continental Engineering Service GmbH
+Assoziationsanalyse der eingesetzten Spielemechaniken in prämierten Gesellschaftsspielen
+Konzeption und prototypische Realisierung eines Systems zur automatisierten Durchführung und Auswertung von Lasttests 
+Konzeptionierung und Umsetzung eines Webauftritts für einen Fakultätsjahresbericht mittels WordPress
+IT-basiertes Innovationsmanagement zur Steigerung der Prozesseffizienz: Bewertung unterschiedlicher Innovationsverfahren
+Entwurf einer effizienten Kategorisierung von Transaktionsdaten zur Schaffung eines Mehrwerts für Bankkunden
+Analyse und Bewertung von Apps für das Wissensmanagement
+Identifikation von Verbesserungspotenzialen in der Planung und Steuerung eines skalierten Scrum-Ansatzes im IT-Systemhaus der Bundesagentur für Arbeit
+Konzeption sowie prototypische Realisierung der Einbindung eines Schedulingsystems in eine PaaS-Umgebung
+Untersuchung und Evaluierung der Einsatzgebiete von räumlichen Daten auf einem Immobilienportal
+Digitale Dokumentenverwaltung im Bürobereich durch den Einsatz von IT-Systemen
+Analyse, Konzeption und prototypische Realisierung eines Build-Verfahrens mit Docker
+Analyse, Konzeption und prototypische Umsetzung des DATEV eG Intranets (Publishing) für mobile Endgeräte
+Vergleich der Empfehlungsqualität von Neuronalen Netzen mit dem bestehenden Recommender-Algorithmus eines großen deutschen Immobilienportals
+Analyse und Einführung eines Versionskontrollsystems zur Verwaltung von SSIS-Paketen für das Data Warehouse Team der Immowelt AG 
+Bildklassifikation auf Basis von Firmenlogos zur Einordnung von Dokumenten mit DATEV.
+Vergleich der Empfehlungsqualität von Fakturisierungsmaschinen mit dem bestehenden Recommender-Algorithmus eines großen deutschen Immobilienportals
+Integration der Honorarordnung für Architekten und Ingenieure in das ERP-System Microsoft Dynamics NAV
+Evaluierung der Möglichkeiten und Herausforderungen des Einsatzes von E-Procurement in der Baubranche
+Entwurf eines Berichtstools mit korrigierbarer Datengrundlage auf Basis von SAP BOE und SAP PI. 
+Konzepterstellung für eine Verbesserung des EB tresos-Konfigurationswerkzeuges basierend auf einem Vergleich mit anderen AUTOSAR-Werkzeugen
+Werkzeuggestützte, automatisierte Auswertung von Usability-Tests
+Konzeption und Implementierung eines Frameworks zur Entwicklung von mobilen Anwendungen für IOS und Android auf Basis von Xamarin.Forms.
+Spielerische Anreizmechaniken in digitalen Anwendungen zur Förderung gesunder Ernährung und Bewegung
+Erstellung einer Netzwerkschnittstelle zu einem Model Checker für Cyberphysikalische Systeme
+Konzeption einer mobilen Projektzeiterfassung für das ERP-System Odoo
+Fotorealistische Visualisierung von räumlich variierenden Materialien durch eine Annäherung der BRDF-Parameter auf Basis des NVIDIA-Tools "Photo To Material: 2shot"
+Strategische und operative Aspekte der Performanceoptimierung bei Kundensystemen der DATEV eG
+Konzeption und prototypische Implementierung von digitalen Türbeschilderungen der DATEV eG mithilfe eines zentralen Digital Signage Systems
+Konzeption und Integration eines Sicherheitskonzeptes in einem Data Warehouse
+"Evaluation von Werkzeugen zur Testautomatisierung von mobilen Android-Applikationen"
+Konzeption und Implementierung eines radiologischen Informationssystemsimulators als Teil einer Testumgebung für medizinische Bildsysteme
+Eine Webanwendung zur Erstellung neuer Colorways (Farbvarianten) von Schuhen mit dem Framework Three.js und dem WebGL-Interface
+Analyse, Konzeption und Umsetzung einer prototypischen IoT-Architekturlösung unter Verwendung von Microsoft Azure im Anwendungsbereich der Industrie 4.0. 
+Überführung von Windows-Presentation-Foundation-Anwendungen auf das Web-Framework Angular
+Wiedereinspielungsangriffe auf funkbasierte Autoschlösser mithilfe eines softwarebasierten Sendeempfängers
+Vergleich von SAP User Experience Techniken mit Hilfe der Implementierung von Beispieldialogen bei der Dematic GmbH
+Konzeption und Realisierung einer optimierten Bahnplanung für Roboter
+Entwicklung eines Systems zur Erstellung und Benutzung von interaktiven taktilen Graphiken auf Basis eines Lasergravur-Verfahrens
+Haptic Exploration of Virtual Objects
+Proof of Possession - Zwei-Faktor-Authentifizierung zur Gewährleistung gesicherter Client-Server-Kommunikation
+Wirtschaftlichkeitsanalyse von Single-Source-Publishing-Lösungen am Beispiel eines mittelständischen Unternehmens
+Lernende Organisationen im Spannungsfeld verschiedener organisationaler Gruppen und das dies-bezügliche spezifische Risikomanagement.
+Gesichtsdetektion in Bildern mittels Region-based Convolutional Neural Networks
+Analyse und Optimierung von Usability und Design einer plattformübergreifenden App für IT-Asset Management
+Konzeption und Entwicklung eines lernenden Chatbots für die Unterstützung der digitalen Rechtsberatung
+Konzeption der Verwaltung von kundenspezifischen Anpassungen für standardisierte ERP-Systeme im Mittelstand
+Edition der mathematischen Textaufgaben aus dem Anhang von Anton Neudörffers Anweisung in die Arithmetic (1627)
+Schwarmintelligenz
+Deep Learning based Chatbot Technologies for the Corporate First Level Support
+Konzeption und Realisierung eines universellen Dashboards für den Vertrieb im Autoteilegroßhandel auf Basis von Microsoft Dynamics NAV und Qlik Sense
+Gender and Cultural Diversity in Software Engineering - Exploring Challenges within Global Teams using Sentiment Analysis
+Systematische Modernisierung von Legacy-Systemen
+Realisierung eines Werkzeugs zur Verwaltung von Konfigurationen für entwicklungsbegleitende Tests
+Feingranulare Datenbankzugriffe mit dokumentbasierten Datenbanken
+Integration dynamischer Objekte in die Carbot-Simulationsumgebung
+Prognose von Absatzzahlen mithilfe eines neuronalen Netzes bei MediaMarktSaturn
+Design und prototypenhafte Umsetzung eines zentralen Archivierungssystems,  zur Unterstützung der Aufnahmeplanung in der industriellen CT 
+Konzeption und Implementierung eines integrierten Dienstleistungserfassungssystems
+Evaluation und Implementierung geeigneter Verfahren zur Nutzbarmachung von nicht identischen Duplikaten und Synonymen im Umfeld archivierter Kassendaten
+Konzeption und Realisierung eines Software-defined networks und einer Mikro-Segmentierung im Netzwerk-Access-Bereich
+Auswahl und Implementierung eines IT-Management-Tools für das interne Kontrollsystem eines IT-Dienstleisters im Bankensektor
+Bahnplanung für einen autonom fahrenden Roboter mit endlicher Lenkgeschwindigkeit, basierend auf Klothoiden
+Realisierung eines sicheren Webportals zur formularbasierten Kundenkommunikation für individuelle Geschäftsprozesse
+Konzeption und prototypische Realisierung eines Assistenzsystems bei der Stellensuche
+Konzeption der Content Pool Benutzerschnittstelle eines webbasierten Unternehmens Interfaces 
+Anomaly Detection in der Buchführung in Kooperation mit der DATEV eG
+I/O-Fuzzing im Linux-Kernel
+Evaluation von Einsatzszenarien der Blockchaintechnologie in der Logistik anhand eines Proof-of-Concepts
+Robustes Inside-Out Tracking für großflächige Mehrnutzer VR Systeme   
+Robuste Posenschätzung durch Identifikation von Kalibriermomenten mittels Maschine Learning
+Generierung und Visualisierung interaktiver bildbasierter 3D-Szenen mittels merkmalsbasierten Morphings
+Analyse und Evaluierung aktueller MR Tracking Systeme am Beispiel ARKit
+Exemplarische Realisierung einer Automotive Ethernet Anwendung zu Lehr- und Forschungszwecken
+Ein Konzept zur Einführung eines Customer Order Decoupling Points bei Schwan-Stabilo Cosmetics
+Echtzeit-Darstellung von Fahrzeugparametern mittels Arduino, OBD2 und CAN
+Tool zur Registrierung und Flächenrekonstruktion von Surfboards
+Orchestrierung von IoT-Geräten am Beispiel von Siemens Edge Systemen
+Analyse externer Manipulation von künstlichen neuronalen Netzen
+Anwendungsfelder künstlicher Intelligenz zur Schaffung eines exzellenten Kundenservice
+Analysis, conception and implementation of a Client-Server communication layer for a social gaming app
+Analyse und Bewertung des Einsatzes von Apache Spark als zentrale Infrastruktur für die Vorverarbeitung und Analyse von Textdaten am Beispiel von Brettspielanleitungen
+Feingranulare Zugriffskontrolle in Webanwendungen mit Oracle Virtual Private Databases
+Effizienzsteigerung des Budgetierungsprozesses durch den Einsatz agiler Methoden am Beispiel von Beyond-Budgeting
+Analyse und Umsetzung eines Deploymentprozesses von Anwendungen in Container
+Die Entwicklung moderner .NET Controls für HMI-Systeme
+Visualisierung der weltweiten IT-Migrationen bei einer Prüfungs- und Beratungsgesellschaft mit Microsoft Power BI
+Identifikation und Evaluation von Spielertypenmodellen hinsichtlich ihrer Eignung den Übertrag von Spiel-Design-Elementen in einen spielfremden Kontext zu unterstützen.
+Vergleich von medizinischen Aktometern mit Smartwatches
+Marktanalyse industriefähiger Single-Board Mikrocontroller und Programmierung dieser für den Einsatz im Globalen Datenraum der Firma ABC IT GmbH
+Konzeption von Workflows im Gefahren-Management-System 
+Konzeption und prototypische Realisierung einer Webapplikation für die individualisierte Online-Schlafberatung
+Entwicklung eines Verfahrens zur Qualitätssicherung mittels neuronaler Netze in der Elektronik-Fertigung
+Out-of-the-Box IoT Connectivity Lösung
+Intelligente Verknüpfung von Routenzügen und fahrerlosen Transportsystemen unter Nutzung von Digitalisierungsansätzen für die interne Materialversorgung des Gerätewerks Erlangen der Siemens AG
+Entwicklung eines DoS-Angriffs auf ein prototypisches CAN-Bus Netzwerk
+E-Learning im Studium - ein Vergleich zu  Präsenzunterricht am Beispiel eines integrativen Vermittlungskonzepts zum Thema Knowledge Modeling und Description Language - quantitative Analyse und Erarbeitung von Handlungsempfehlungen
+Konzeptionierung und Implementierung einer Benutzerschnittstelle für einen 3D-Bio-Drucker nach der Norm DIN EN 62366
+Analyse von "Mobile Connect" als 2-Faktor-Authentisierung für Online-Services und Portal-Lösungen in Verbindung mit Open ID Connect
+Design und prototypische Implementierung eines Performance Profilers für SPS-Anwenderprogramme auf Basis von TIA Portal Openness
+Analyse probabilistischer Bahnplanungsverfahren und Entwicklung eines Verfahrens für einen autonomen, mobilen Roboter
+Cross-plattform development using the Electron Framework, Angular and ASP.NET Core
+Evaluierung eines virtuellen, sprachgesteuerten Assistenten zur Erweiterung eines Fuzzy-Optimierungssystems auf Basis von Open-Source-Technologien
+IT- Outsourcing: Aktuelle Trends, Chancen und Risiken durch die Digitalisierung in Unternehmen
+Entwicklung und prototypische Umsetzung eines Transformationskonzeptes einer Legacy-Infrastruktur zu  Containern anhand eines konkreten Proof of Concepts im Applikationsserverumfeld
+Einsatz von Web 2.0 in Schwangerschaft, Geburt und Wochenbett- Entwicklung eines Konzepts für Online-Hebamme
+Evaluation of an existing color trend prediction model and investigation of potential effects on the result quality by means of sales data in a global sporting goods manufacturer
+Konzeption und prototypische Umsetzung eines digitalen Magazins für die Fakultät Informatik
+Konzeption und Entwicklung eines Machine Learning-Ansatzes zum dynamischen Frequency Capping von Online-Werbeanzeigen
+Neukonzeption der digitalen Kundenansprache eines IT-Dienstleisters mit modernen Online Marketing Methoden
+Untersuchung der Anforderungen und Entwicklung eines Konzeptes für die Einführung eines Dokumentenmanagementsystems an einer Hochschule
+Prototypische Konzeption und Umsetzung eines Roboterhaustiers basierend auf dem Robotersystem "Cozmo"
+Monokulare Tiefenschätzung mit neuronalen Netzen
+Real-Time Audio Communication in Web Browsers
+Segmentierung von Gebäudefassaden mit Hilfe Neuronaler Netze
+Evaluierung von GitLab CI in Kombination mit docker für den Einsatz an einer Hochschule
+Neukonzeption der Datenhaltung im Bereich Netzwerk Services der DATEV eG
+Entwicklung eins gamifizierten Citizen-Science-Konzepts zur Mitwirkung unbeteiligter Dritter an datenbasierten Forschungsprojekten.
+Evaluierung, Auswahl und prototypische Umsetzung eines Datenschutzmanagementtools für eine Hochschule zur Umsetzung der Datenschutzgrundverordnung (EU-DSGVO)
+Autonome Navigation und Raumidentifikation in unbekannten Umgebungen am Beispiel des  Robotersystems Pepper
+Konzeption und Implementierung eines Event Stores mit Event-Versionierung
+Entwicklung eines Eclipse-Plugin zur Berechnung nicht explizit modellierter, linearer Qualitätsmerkmale, von zusammengesetzten EAST-ADL Systemkomponenten
+Konzeption einer Vorgehensweise zur Entwicklung digitaler Geschäftsmodelle für produzierende Unternehmen
+Entwicklung und Analyse von Gamificationkonzepten als Beitrag zur Stadtentwicklung
+Konzeptionelle und anwendungsspezifische Unterschiede der Datenmodellierung für relationale und nicht-relationale Datenbanken, speziell für dokumentenorientierte und Key-Value-Datenbanken
+Konzeption und Realisierung der Personalverwaltung für ein Webportal des pharmazeutischen Einzelhandels
+Konzeption und Entwicklung eines eingebetteten Systems mit webbasierter Konfigurationsmöglichkeit zur Fernsteuerung von veranstaltungstechnischer Hard-und Software
+Weiterentwicklung eines bestehenden Visualisierungstools im Bereich autonomes Fahren
+Erfassung von Anlagenzuständen über XDK-Mikrocontroller
+Konzeption und Realisierung einer Crossplattform-Applikation für Neukundenbefragungen in Friseur- oder Kosmetikstudios
+Evaluierung der Front-End-Webframeworks Angular, Vue und React  für den Einsatz in einem Feedback-Management-System
+Migration bestehender ABS-Software auf neues Steuergerät auf Grundlage von AUTOSAR
+Interaktive und dynamische Visualisierung von Studentendaten in Bezug zum Studienerfolg und Identifikation möglicher Ursachen für den Studienmisserfolg an der TH Nürnberg
+Analyse und Vergleich von plattformunabhängigen Ansätzen für Webanwendungen am Beispiel der Nahrungs- und Genussmittelindustrie
+Automatisierte Erstellung von User-Dokumentationen für ALM-Prozesstemplates in der Softwareentwicklung mittels Continuous Delivery im DevOps-Kontext
+Konzeption und prototypische Umsetzung eines Interventionstools zur Verbesserung der Studierfähigkeit in der Studieneingangsphase
+Konzeption, Entwurf und Implementierung eines Transformators von EAST-ADL- zu AUTOSAR-Modellen
+Entwicklung eines Vorhersagemodells für den Maintenance-Prozess mit Hilfe eines künstlichen neuronalen Netzes.
+Vergleich der Distributed Ledger Technologien IOTA und Ethereum bei Anwendung in der Energiewirtschaft
+Betreiben eines neuronalen Netzes auf einem Microcontroller am Beispiel der autonomen Steuerung eines Modellfahrzeuges
+Auswirkung der EU-Verordnung 2017/746 auf die Weiterentwicklung einer Softwareplattform für In-vitro-Diagnostika
+Edge Computing - Potenziale, Grenzen und Auswirkungen dezentraler Datenstromverarbeitung 
+Rust und Go im Vergleich
+Entwicklung einer domänenspezifischen Sprache zur Realisierung von Sensornetzanwendungen
+Konzeption und Umsetzung einer Webanwendung für die Erstellung von Echtzeit-kollaborativen Mindmaps
+Einsatzmöglichkeiten von Augmented Reality in modularen Fertigungsanlagen zur Unterstützung von Anlagenbedienern aus unterschiedlichen Fachbereichen
+Capturing, Storing and Visualization of Automotive Testing Data
+Analyse, Konzeption und Implementierung einer Wissensmanagement-Lösung  zur Sicherung und Weitergabe des Wissens 
+Untersuchung und Bewertung von Anwendungsfällen im Bereich Augmented Reality zur Unterstützung der Fahrzeugdiagnose und beispielhafte prototypische Implementierung 
+Graphische Netzwerkvisualisierung einer Game Design Pattern Language und quantitativer Vergleich mit der Pattern Language des EMPAMOS-Projektes
+Analyse und graphische Aufbereitung von Logdaten und Server-Metriken mittels des Elastic Stacks zur Unterstützung von Managemententscheidungen
+Regelsätze und Werkzeugerweiterung für eine automatische Software-Analyse von C#-Projekten mit exemplarischer Visualisierung einer Auswertung
+Konzeption und prototypische Implementierung eines Moduls zur automatischen Erkennung und Verarbeitung von Nachrichten im internationalen Flugverkehr
+Development of a restbus based simulation- and test environment 
+Entwicklung und ausgewählte prototypische Umsetzung einer Business-Intelligence-Strategie für den Zentraleinkauf der DATEV eG
+Implementierung einer plattformunabhängigen Pipeline zwischen den Robotern "Pepper" sowie "NAO" und Software zur Objekterkennung.
+Automatisierte Bestimmung einer Zuordnung von Benutzerkennungen zu SQL-Queries in Webanwendungen
+Konzeption und Ausarbeitung der Prototyping-Phase im Innovationsprozess
+Evaluierung der Möglichkeiten und Herausforderungen von automatisierten Performancetests auf Kundensystemen der DATEV eG
+Testautomatisierung für Workflows am Beispiel des Workflow-Management-Systems JobRouter
+Konzeption und Ausarbeitung eines Prototyps zum Austausch betrieblicher Regelungen in der N-ERGIE AG.
+CNN-basierte Objekterkennung in Echzeit mit einem Smartphone
+Bildung und Bewertung von Standortindikatoren für Kundensegmentierung aus frei zugänglichen Datenquellen  zur Verwendung in Machine Learning-Anwendungen
+Fusion und interaktive Visualisierung von Terraindaten am Beispiel Bayern
+Konzeption und Umsetzung einer multimodalen Mensch-Maschine-Schnittstelle für den Service von Produktionsmaschinen
+Grafische Bedienoberfläche und funktionelle Erweiterung eines Programms zur Berechnung spieltheoretischer Funktionen
+Analyse von Produkten zur Qualitätssicherung - Klassifizierung und Lokalisierung von Produktteilen mittels bildverarbeitender Neuronaler Netzwerke im industriellen Umfeld 
+Agile Softwareoptionen im Outsourcing-Kontext beim IT-Systemhaus der Bundesagentur für Arbeit
+Deep Learning im Browser
+Interaktive Visualisierung des Netzwerkgraphen einer Pattern Language für Spiel-Design-Elemente
+Geolocation im Transformator-Werk der Siemens AG: Kosten-Nutzen-Analyse zur Verbesserung des Materialflusses
+Prototypische Anbindung von Power BI an die DATEVconnect-Schnittstelle von Kanzlei-Rechnungswesen
+Zukunft des Berechtigungsmanagements der DATEV eG mit Fokus auf der Ermöglichung von agilem Arbeiten
+Analyse und Weiterentwicklung von Metriken der Softwarequalität bei der Schema Gruppe
+Entwicklung und Bewertung von automatisierten Unit-Tests im SAP-Umfeld der Dematic GmbH
+Konzeption und Realisierung eines Dashboards für Reiseveranstalter
+Identifikation und Evaluation von relevanten Parametern bei der Fortbewegung in einer virtuellen Umgebung
+Konzeption und Implementierung eines Prozessablaufes für die Einführung und Migration einer ERP-Software bei kleinen und mittelständischen Unternehmen
+Durchführung von und Schutz vor Angriffen auf das YOLO Objekterkennungssystem mit einem Trojan Trigger
+Anwendung einer Gamification-Mustersprache auf gamifizierte mobile Foodtracking-Applikationen zur Verbesserung der motivationalen Wirkung
+Konzeption und prototypische Realisierung eines Kennzahlensystems für das Prozessmanagement eines IT-Dienstleisters in der Bankenbranche
+Agile Transformation - Outsourcing agiler Projektarbeit und dessen Einfluss auf das klassische Projektmanagement
+Implementierung eines Management-Dashboards bei einer Direktbank zur Visualisierung von Unternehmenskennzahlen in Echtzeit
+Unauffällige Anonymisierung von Gesichtern in Bildern mit "Generative Adversarial Networks"
+Design eines Benutzer-Lifecycle-Prozesses mit Microsoft Identity Manager für Verzeichnisdienste
+Konzeption, Entwicklung und Integration eines Animations-Tools für die grafische Annotation von Videos in einem Grafikzeichenprogramm
+Evaluation von GraphQL als Alternative zum RESTful-API-Design
+Konzeption und Entwicklung einer generischen Leerbehälterverwaltung für SAP-EWM-Systeme
+Evaluierung der Microsoft Azure Cloud Services im Kontext von Lehre, Forschung und Hochschulmanagement an der Technischen Hochschule Nürnberg
+Konzeption und Implementierung eines Ranking-Algorithmus für die Suche mit einem Case-Based-Reasoning-Ansatz und Kreuzvalidierung unterschiedlicher Ergebnismengen 
+Machbarkeitsstudie und prototypische Entwicklung eines Time-Travel-Debuggers im Kontext eines konkreten Embedded Systems
+Analyse, Konzeption und Realisierung einer unternehmensweiten Application-Performance-Monitoring-Lösung am Beispiel des Produkts Ratenkauf der TeamBank AG
+Erarbeitung und Bewertung von Vorgehensweisen zur Integration der vollständigen Jobrolle Test Engineer in ein agiles Team
+DNA als Speichermedium für textuelle Informationen Codierungsmethoden und experimentelle Ansätze 
+Die Umsetzung und Evaluierung einer kollaborativen VR-Anwendung für blinde Menschen
+Analyse und Integration des iiRDS Standards zum Austausch intelligenter Informationen in der Technischen Dokumentation
+Inhaltsanalyse von sozialen Beratungsforen mit maschinellen Lernverfahren
+Drone Based 3D Reconstruction of Buildings Using SLAM
+Konzeption und prototypische Implementierung einer Testkette für automatische Abnahmetests innerhalb einer verteilten Anwendungsumgebung
+Untersuchung maschineller Lernverfahren für Frage-Antwort-Systeme
+Entwicklung eines Textanalysealgorithmus zur systematischen Sammlung von Bedrohungsmeldungen über Third-Party-Software im Internet
+Drohnenbasierter Stereo-SLAM
+Prototypische Entwicklung eines Logistik-Sprachassistenten für ein Luftfahrtunternehmen
+Modellierung und Implementierung eines Event-Mechanismus in einem verteilten Software-Framework zur Testautomatisierung
+Requirement Engineering für den Einsatz eines CRM Systems für die Hochschulbeziehungen zu kooperierenden Unternehmen und Alumni an der Fakultät Informatik und prototypische Umsetzung anhand einer geeigneten Software.
+Konzeption und Entwicklung einer automatisierten Lagerreorganisation im SAP EWM
+Entwicklung von Strategien für die Paketierung und Lizenzierung von Software für große Unternehmenskunden
+Analyse von Stellenanzeigen für Informatik-Absolventen mit Machine Learning
+Einsatz von Empamos-Spiel-Design-Entwurfsmustern zur Motivationssteigerung im Kontext des agilen Projektmanagements
+Entwicklung eines kontextbezogenen Wortvorschlagssystems unter Einsatz von Machine Learning
+Der Chatbot als Assistent für den Konsumenten im stationären Einzelhandel: Konzeption und prototypische Implementierung 
+Identifizierung und Analyse von verwendeter Third-Party-Software eines Unternehmens und Entwicklung eines Tools zur automatisierten Benachrichtigung beim Bekanntwerden von Sicherheitslücken
+Design und Implementierung eines Continuous Integration Prozesses für die Business-Intelligence-Software "QlikView"
+Implementierungsanalyse ausgewählter Augmented-Reality Smart Glasses (ARSG) mit anschließender Konzeption und Realisierung einer Anbindung zu bereits vorhandenen, individuellen Webanwendungen über einen REST-Service
+Extraktion, Aufbereitung und Darstellung immobilienwertrelevanter Informationen aus Baugenehmigungen. Teil 2: Konzeption und Entwicklung einer Applikation zur Visualisierung auf einer digitalen Karte
+Konzeption und prototypische Implementierung eines OpenID Connect Identity Provider unter Verwendung der W3C WebAuthn API zur passwortlosen Authentifizierung
+Routenoptimierung für ein autonom fahrendes Segelboot - Implementierung und Validierung geeigneter Algorithmen
+Beschreibung und strukturierte Darstellung aktueller Trends im Bereich Lernende Organisationen
+Analyse und Auswertung von Stellenausschreibungen durch Methoden des maschinellen Lernens
+Extraction, processing and visualization of real estate relevant information from planning permits  Part 1: Concept and development of a text-mining pipeline
+Benutzerschnittstelle zur Visualisierung von Gesichtserkennungsverfahren
+Effektivität der Wissensvermittlung durch Chatbot und FAQ im Vergleich
+Entwerfen einer Referenzarchitektur für die Entwicklung und den Betrieb von Microservices
+Evaluation und Technologievergleich der Container-Orchestrierungstools Docker-Swarm, Kubernetes und Pivotal-Container-Services zur Skalierung des zentralen Buildsystems Jenkins
+Gestaltungsoptionen für die IT-Governance und IT-Portfoliomanagement an Hochschulen
+Digitale Assistenten und Sprachdialogsysteme im Unternehmen - eine Analyse am Beispiel Amazon Echo mit Schwerpunkt Nutzung in der Qualitätssicherung
+Konzeption und Implementierung einer Schnittstelle zur automatischen Erkennung von Fehlermustern und deren Bereinigung bei der Siemens AG
+Konzeption und prototypische Implementierung eines Chatbots für die Themen W-LAN und VPN an einer Hochschule
+Verarbeitung von Projektaktivitätsdaten aus SW-Entwicklungsprozessen
+Kompetenzentwicklung in MINT-Berufen - Ermittlung zukünftig notwendiger Kompetenzen mittels Machine Learning
+Konzeptionierung und Evaluation der Einbindung eines Force Feedback Geräts in eine VR Umgebung
+Modellierung einer Customer-Journey-Map für die Informatik Fakultät der Technischen Hochschule Nürnberg  Georg Simon Ohm
+Performance-Analyse populärer Web-Frontend Frameworks
+Konzeption und Kodierung einer unkonventionellen optoelektronisch lesbaren Schrift
+Entwicklung und prototypische Umsetzung von Konzepten für digitale Bildungsmaßnahmen zur Unterstützung benachteiligter Studierende
+Prototypische Erweiterung eines Webshops für die Bestellung von projektspezifischer Hardware bei der e.solutions GmbH
+Konzeption und Implementierung eines Codegenerators zur Exportierung eines in EB-GUIDE erstellten Modells nach HTML5
+Räumliche Sonifikation für sehbeeinträchtigte Menschen in Form eines Augmented Reality Zeilenscanners
+Konzeption und Implementierung eines Tools zum Auslesen von Energiezählern über das Modbus-Protokoll bei der ProleiT AG 
+Robotic Process Automation: Analyse von Erfolgspotenzialen anhand von ausgewählten Fallbeispielen
+Analyse von E-Learning im Studium und empirischer Vergleich zu traditionellen Lehreinheiten zur Ableitung von Empfehlungen bezüglich des Einsatzes von E-Learning-Elementen
+Erstellung einer Webanwendung zur Visualisierung sozialwissenschaftlicher Texte
+Machine Learning Approaches to Emotion and Personality Detection in the Context of Social Counseling
+Design and implementation of a customizable movie collection software
+A Comparison of physically based Rendering Algorithms
+Anwendung einer Gamification-Mustersprache zur Verbesserung der motivationalen Wirkung von Lehrveranstaltungen an Hochschulen
+Konzeption und Implementierung effizienter, paralleler Datenzugriffe für einen C#-basierten Webdienst
+Entwicklung eines KI-basierten Answer Bots zur Lösung von Low-Touch-Tickets für ein Helpdesk-System
+Optimale Lagerplatzvergabe: Generierung von endlichen Automaten zur Unterstützung der performanten Suche bei der Dematic GmbH
+HR-Cloud-Transformation - Analyse zur Auswahl einer Digital Adoption Platform für SAP SuccessFactors in der Schaeffler Gruppe 
+Big Data Log-File Analytics - Vom Batch zum Stream Konzeption und prototypische Implementierung eines REST-Webservice zum Streaming von Messwerten der DATEV Programmstatistik 
+Einsatz maschineller Lernverfahren zur Genre-Klassifizierung von Brettspielen
+Prototypische Implementierung eines interaktiven Analyse-Dashboards auf Basis des referenzierten DATEV-Jahresabschlusses  
+Konzeption eines Assistenzsystems zur Unterstützung von Studieninteressierten bei der Entscheidung für ein MINT-Studium
+Entwicklung und Implementierung eines Konzepts für die Automatisierung von administrativen Prozessen des User-Managements für Unix-Systeme
+Exploring employee onboarding processes for captive offshoring initiatives 
+Entwicklung eines WebRTC-Dienstes mit dynamischer Netzwerktopologie
+Benutzerfreundliche und optimierte Generierung von prozeduralen Gangsystemen mit dem Levelgraph-Verfahren 
+Migration einer nativen Desktopanwendung in eine Webanwendung: Konzeptionierung und prototypische Implementierung für das ERP-System v.Soft der Firma Vepos GmbH & Co. KG
+Einsatz maschineller Lernverfahren zur Entitätserkennung in der Trendanalyse
+Konzeption und Evaluierung eines agilen Vorgehensmodells und Realisierung im Bereich Intralogistik bei der Dematic GmbH
+Konzeptionierung und Implementierung einer prototypischen, webbasierten Oberfläche zur elektronischen Prüfung von Eingangsrechnungen in Kooperation mit der DATEV eG
+Objekterkennung mittels neuronaler Netze zur Anwendung in der Robotik
+Konzeption eines Frühwarn- und Assistenzsystems zur Bewahrung von MINT-Studierenden vor einem Studienabbruch
+Analyse einer rechtskonformen Erhebung von personenbezogenen Nutzungsdaten auf mobilen Endgeräten und prototypische Implementierung am Beispiel der DATEV Programmstatistik
+Entwurf und Realisierung eines Konzepts zur sicheren und zuverlässigen Integration einer Software-as-a-Service
+Konzeption und prototypische Realisierung einer mobilen Webapplikation für Obdachlose
+Bestimmung von Dehnungsereignissen in polymerophischen Fasern anhand von OTDR-Daten
+Entwicklung einer Bluetooth-gestützten Applikation zur Organisation und Kommunikation im Veranstaltungssegment
+Geruchsprädiktion aus Molekülstrukturen mittels Deep Learning
+Nutzen und Grenzen von sozialen Netzwerkanalysen im Unternehmen
+Konzeption, prototypische Entwicklung und Implementierung eines Scrumpoker-Plugins für die Portal-Software Liferay
+Konzeption und Entwicklung eines E-Mailverificationsmicroservices für ein Data Providing System
+Einführung von Business Intelligence Lösungen in mittelständischen Unternehmen: Requirements Engineering, Prozessentwicklung und Tool-Auswahl.
+Konzeption und Entwicklung einer prototypischen Cross-Platform-App zur Störungskommunikation im RZ-Umfeld
+Digitalisierung in der Landwirtschaft: Entwicklung einer App für die optimale Bearbeitung von Feldern
+Automatische Bewertung von Programmieraufgaben aus der Web-Entwicklung
+Evaluation von Multi-Modell-Datenbankkonzepten zur Verwaltung polystrukturierter Daten
+Konzeption und prototypische Implementierung eines HA-Clusters als Infrastruktur eines mittelständischen Unternehmens.
+Analyse, Klassifizierung und Visualisierung von Daten zur Ermittlung von Optimierungspotenzialen bei der Sparda-Bank Nürnberg eG
+Klassifikation und Informationsgewinnung bei bankrelevanten Texten durch den Einsatz von maschinellen Lern- und Textanalyse-Verfahren
+Enterprise Digital Rights Management als Instrument zur Flexibilisierung von IT-Arbeitsplätze bei einem Software- und IT-Dienstleister - Analyse und Umsetzungskonzept bei der Firma DATEV eG
+Business Process Optimization - Digitalisierung der Auftragsabwicklung innerhalb des Datenübergabeprozesses im Rahmen der Kündigung von DATEV-SmartIT / DATEVasp
+Effektive Datenintegration für verbesserte Geschäftsprozesse im Anwendungsfall einer intelligenten Zeiterfassung für Projektarbeit
+Realistische und interaktive Visualisierung eines virtuellen LKW-Cockpits mittels Augmented Reality bei der Daimler AG
+Anonymisierung von natürlichsprachigen Texten
+Effiziente Überprüfung von Auftragsverarbeitern unter Zuhilfenahme von Prüfkatalogen
+Kursberechnungen und Steuerung eines autonomen Segelbootes
+Agiles Testen auf Weboberflächen - eine Guideline für Studenten
+Ideenmanagement: State of the Art
+Konzeption und Entwicklung einer Nachrichtenzentrale für ein plattformübergreifendes Mediaberatersystem mit Xamarin
+Kursberechnungen und Steuerung eines autonomen Segelbootes
+Business Process Optimization - Digitalisierung der Auftragsabwicklung innerhalb des Datenübergabeprozesses im Rahmen der Kündigung von
+DATEV-SmartIT / DATEVasp
+Interaktive Visualisierung von LKW-Komponenten mittels Augmented Reality
+Konzeption und Entwicklung einer Nachrichtenzentrale für ein plattformübergreifendes Mediaberatersystem mit Xamarin
+Geruchsprädiktion aus Molekülstrukturen mittels Deep Learning
+Konzeption einer zentral verwalteten Linux-Server-Infrastruktur für ein hochskalierbares Umfeld
+Untersuchung und Konzeptionierung des Einsatzes von IoT-Komponenten im ERP-System NAV
+Einfluss verschiedener Inertial- und Funksensordaten auf die Posenschätzung von Menschen mittels Rekurrenter Neuronaler Netze
+Erkennung und Klassifikation von Mustern sowie Ähnlichkeiten innerhalb der UI-Texte bei einem ERP-System
+Change-Controlling im IT Projektmanagement: 
+Qualitätssteigerung mithilfe von Data-Mining 
+
+Evaluation von Multi-Modell-Datenbankkonzepten zur Verwaltung polystrukturierter Daten
+Analyse und Bewertung einer Mustersprache zur Beschreibung suchterzeugende Mechanismen in sozio-technischen Informationssystemen 
+Deep-Learning Verfahren zur semantischen Segmentierung von Gebäudefassaden im sichtbaren und infraroten Bereich
+Zeitliche Synchronisation von Video-Streams aus unterschiedlichen Spektralbereichen
+Anonymisierung von Drohnen-Videoaufnahmen
+Unterstützung von Führungsaufgaben im Informationsmanagement durch ausgewählte Aspekte der Unternehmensmodellierung
+Anforderungen im Allgemeinen und Umsetzung speziell bei ARIS, MEMO und SOM
+Erstellung von Softwaremetriken in der Automatisierungstechnik (Arbeitstitel) 
+Einführung von SAP Enable Now als unternehmensinterne e-Learning-Lösung: Kritische Betrachtung und Gestaltungsvorschläge
+Classification of User Traits Based on Social Media Content Using Machine Learning
+Wandel der Anforderungen an die Informatik im Zeitalter von Industrie 4.0 am Beispiel eines "Custom Visuals" in Microsoft Power BI
+Konzeption und Entwicklung von Eingabemöglichkeiten für die flexible Abfrage von Informationen aus workflowgestützten Prozessen in einem Content-Management-System
+Automatisierte Provisionierungsmechanismen für Laufzeitumgebungen von Legacy z/OS Anwendungen mit ?IBM Cloud Provisioning and Management for z/OS? am Beispiel der ?Rechnungsschreibung? bei DATEV eG
+Refactoring legacy .NET architectures towards asynchronous event-driven communication
+Automatic Speech Recognition for Quality Audits in Phone Conversations
+Analyse und Überarbeitung des Graphical User Interfaces von EB GUIDE Studio 6 zur Steigerung der Usability
+Adaptive EB GUIDE Studio 6 mit Machine Learning: Prototypische Implementierung eines Plugins zur Datensammlung und Vorhersage der nächsten Modellierungsschritte
+Konzeption und Entwicklung eines Systems zur automatisierten Installation und Konfiguration von z/Linux Systemen
+Improving containment of linux-based container platforms
+Virtueller Assistent für Studierende - eine Möglichkeit zur Hilfestellung für Studierende der TH Nürnberg
+
+Merkmalsbasierte Wiedererkennung von Objekten mit Anwendung für die Robotik
+Business process analytics with Celonis at Fresenius Medical Care -
+Applicability of business analysis software for sustainable 
+process optimization
+Maschinelle Identifikation von Verhaltensmodellen automatisierter Produktionsanlagen
+Konzeption und Entwicklung einer Web-Applikation zur Visualisierung medizinischer Bilddaten auf HTML5 Clients durch server-seitiges Rendering
+Konzeption und prototypische Realisierung von automatisierten Tests für hybride Anwendungen
+KPIs eines Zertfikatsmanagement-Systems
+Aufbau einer Integrationsarchitektur für  ein Auslastungsanalysetool in Grafana
+Plastikmüll in unseren Ozeanen - Untersuchung verschiedener technologischer Ansätze zur Eindämmung der Meeresverschmutzung
+Voll ausgearbeiteten Business Model Canvas, mit einer abschließenden Go/No-Go Analyse für einen Demonstrator.
+Auswirkungen der Digitalen Transformation auf den operativen Beschaffungsprozess bei einem Industrieunternehmen
+Verbesserung der Prognosegenauigkeit für die Ressourceneinsatzplanung als Erweiterung einer ERP-Branchenlösung 
+Vergleich der Analytics APIs einer Cloudplattform mit maschinellen Lernverfahren anhand einer Trendanalyse
+Adaption einer Kommentarfunktion für eine Multi-User-Webanwendung
+Exploiting data-mining attributes of positive customer satisfaction survey replies in the telecommunication industry
+Die Analyse und Optimierung von Human Computer Interaction in einem komplexen Autokonfigurator für Neufahrzeuge.
+Analyse von Drohnentechnologien zur Digitalisierung von Prozessen in der Bauwirtschaft - Zukunftschancen in Anbetracht von Kosten und Nutzen
+Untersuchung unterschiedlicher Machine-Learning-Modelle in der Risikoanalyse zur Gewichtung von Vorabanmeldungen in der Bundeszollverwaltung.
+Virtueller Assistent zur automatisierten Erstellung von Immobilieninseraten
+Konzeption und Realisierung automatisierter Qualitätsprozesse für maßgeschneiderte Kundenlösungen: Testautomatisierung bei Customizing Personalwirtschaft in der DATEV eG
+Konzeption und Implementierung einer Webapplikation zur Erfüllung der materiell-rechtlichen Nachweispflicht der Umsatzsteuer-ID für innergemeinschaftliche Lieferungen bei der DATEV eG
+Konzeption und Realisierung einer RRT*-Bahnplanung
+Konzeption und Implementation einer Contact-Center-Umgebung für einen Kundenservice
+Die Fernsignatur als Ersatz für Unterschriften im Rahmen der digitalen Transformation: Eine Machbarkeitsstudie für die DATEV eG
+Vorselektion eines externen Dienstleisters zur Weiterentwicklung der Einkaufsdigitalisierung bei der Nürnberger Versicherung
+Abstractive Text Summarization of Meetings
+Ortsbezogene Visualisierung ausgewählter Datensätze zum Visual Data Mining in der virtuellen Realität
+Nutzung von Low-Code-Plattformen für die effiziente Entwicklung betriebswirtschaftlicher Anwendungen bei DATEV
+Konzeption und systemtechnische
+Implementierung eines Kennzahlensystems im Einkauf der Carl Schlenk AG
+Improving Real Estate Valuation using Side Information and Advanced Machine Learning Techniques
+Entwicklung und Automatisierung von Testfällen für das Batteriemanagementsystem einer Starterbatterie
+
+Gesten- und Audioerkennung zur Steuerung einer intelligenten Jukebox 
+Entwicklung eines Backup-/Restore-Werkzeuges für Multiserver-Installationen von Steuerungssoftware verfahrenstechnischer Anlagen
+Kann ein datengetriebenes Word Embedding-Modell einen redaktionellen Thesaurus für Query Expansion ersetzen?
+Automatisierte Echtzeit-Lösungsmitteilung bei Maschinenmeldungen innerhalb verschiedener Produktionslinien
+Entwicklung, Implementierung und Evaluierung eines WebGL-basierten Volumen-Raycasters
+Effiziente Aufbereitung von Energiemanagement-Daten durch Integration eines Elastic Stacks
+A Single Database Solution for Complex Production Pipelines
+Deployment of margin based loss functions and attention mechanism on the x-vector concept for speaker recognition and diarization
+Analyse von Abhängigkeiten in der Softwareentwicklung der DATEV eG im Geschäftsfeld der Personalwirtschaft und Konzeptionierung von Maßnahmen zur Reduzierung der Durchlaufzeiten von Projekten
+Automatisierte Einordnung von Unternehmen in Wirtschaftszweige anhand deren Internetpräsenz
+Bewertung bekannter Ad-hoc-Routing-Protokolle zur prototypischen Realisierung einer mobilen Messenger-Applikation
+Untersuchungen zur Modellierung in der Spracherkennung: Auswirkungen der phonetischen Modellierung im Deutschen auf die Wort- und Silbenfehlerrate
+Entwicklung eines automatisierten Integrationstestverfahrens für graphische Benutzeroberflächen auf Automotive-HMI-Bedienelementen
+Analyse der Entscheidungsfaktoren unterrepräsentierter Gruppen bei der Wahl von MINT-Studiengängen durch Methoden des maschinellen Lernens
+Konzeption und prototypische Umsetzung einer minimalen API-Management Umgebung um Unternehmen aus dem Finanzsektor den Einstieg in die API Economy zu erleichtern.
+Entwicklung eines grundlegenden sensomotorischen Prozesses für das Greifen und Verlagern einfacher Objekte auf dem Robotersystem Pepper
+Gegenüberstellung der Materialflusstechnologien SAP EWM MFS und Dematic MFS - Technische Analyse, Kundenbefragung und Konzeption eines Tools für die Anforderungsanalyse bei Neukunden
+Gegenüberstellung der Materialflusstechnologien SAP EWM MFS und Dematic MFS - Technische Analyse, Kundenbefragung und Konzeption eines Tools für die Anforderungsanalyse bei Neukunden
+Fuzzy Budgetplanung mithilfe von Chatbots unter Verwendung der Methodik Computing with Words
+Is machine learning viable to predict short-term market reactions after business report releases?
+Herausforderungen im internationalen agilen Projektmanagement mit Fokus auf Vietnam und Deutschland
+Entwicklung eines Konzepts zur deutschlandweiten Einführung von Business Intelligence bei der Geschäftseinheit Regionalnetze der DB Netz AG
+Behavior Driven Development im Bankenumfeld - Konzeption und Implementierung eines Prozesses zur Testautomatisierung auf Basis des PHP-Frameworks Behat
+Identifikation von Entscheidungsfaktoren auf die Studienwahl in der Fachrichtung MINT auf Basis von Datenerhebungen in Form von Befragungen und deren statistischer Auswertungen
+Konzeptionierung und Implementierung eines Webservice für ein MES System von verfahrenstechnischen Anlagen 
+Prototypische Entwicklung eines Empfehlungssystems zur Unterstützung von Absolventen bei der Job-Suche
+Integration des User Centered Design in das Model-Based Systems Engineering für die Entwicklung gebrauchstauglicher Cyber-physischer Systeme.
+IT-basierte Textgenerierung mit Hilfe von NLP-Methoden State of the Art & Entwurf eines Prototypen.
+Automatische Bilderkennung in Upload Filtern - generierung nachvollziehbarer Entscheidungen (XAI), mit Hilfe von Deep Learning Verfahren
+Entwicklung eines optimierten Punkte-Containers für das k-nearest-neighbor-Problem
+Einführung von ITIL Operation Prozessen im Service Desk
+Erkennung und Kartographierung beweglicher Objekte am Beispiel eines mobilen Roboters
+Identifikation und Analyse von Misserfolgsfaktoren beim Einsatz von Gamification 
+Einsatz maschineller Lernverfahren zur automatischen Erkennung psycho-sozialer Kategorien in Forenbeiträgen
+Konzeption und Evaluation einer Testumgebung zur Erkundung virtueller taktiler Karten
+Evaluation verschiedener Tools zum automatisierten Einrichten einer skalierbaren Testinstanz sowie Prüfung der Testergebnisse zur Qualitätsverbesserung des bpanda-Produkts der MID GmbH
+Optimierung einer Webanwendung zur Verbesserung der Termintreue in der Schaeffler AG im Rahmen eines Six-Sigma-Projekts
+Analyse der IT-Strategien der bayrischen Hochschulen und der Studierendenanforderungen für die Entwicklung der IT-Strategie der Technischen Hochschule Nürnberg
+Erstellen eines prototypischen Systems zur Empfehlung von Finanzmarktnachrichten auf Basis von Benutzerdaten
+Konzeption und Entwicklung eines Web-Crawlers zur Ermittlung von Veröffentlichungen
+von Professoren der TH Nürnberg
+Evaluierung eines Standards in der industriellen Softwareentwicklung für Robotikanwendungen
+Design und Umsetzung eines Windows Programms zum Auslesen und Interpretieren von Diagnosedaten über das UDS Diagnose Protokoll eines CAN Steuergerätes in C#
+Einführung von ITIL Operation Prozessen im Service Desk
+Erkennung und Kartographierung beweglicher Objekte am Beispiel eines mobilen Roboters
+Identifikation und Analyse von Misserfolgsfaktoren beim Einsatz von Gamification 
+Einsatz maschineller Lernverfahren zur automatischen Erkennung psycho-sozialer Kategorien in Forenbeiträgen
+Konzeption und Evaluation einer Testumgebung zur Erkundung virtueller taktiler Karten
+Evaluation verschiedener Tools zum automatisierten Einrichten einer skalierbaren Testinstanz sowie Prüfung der Testergebnisse zur Qualitätsverbesserung des bpanda-Produkts der MID GmbH
+Optimierung einer Webanwendung zur Verbesserung der Termintreue in der Schaeffler AG im Rahmen eines Six-Sigma-Projekts
+Analyse der IT-Strategien der bayrischen Hochschulen und der Studierendenanforderungen für die Entwicklung der IT-Strategie der Technischen Hochschule Nürnberg
+Erstellen eines prototypischen Systems zur Empfehlung von Finanzmarktnachrichten auf Basis von Benutzerdaten
+Konzeption und Entwicklung eines Web-Crawlers zur Ermittlung von Veröffentlichungen
+von Professoren der TH Nürnberg
+Evaluierung eines Standards in der industriellen Softwareentwicklung für Robotikanwendungen
+Design und Umsetzung eines Windows Programms zum Auslesen und Interpretieren von Diagnosedaten über das UDS Diagnose Protokoll eines CAN Steuergerätes in C#
+Evaluierung und Vergleich verschiedener Open Source DeepLearning-Frameworks
+Untersuchung aktueller maschineller Lernverfahren zur Erkennung von Emotionen in Beratungsverläufen
+Evaluierung und Vergleich verschiedener Open Source DeepLearning-Frameworks
+Untersuchung aktueller maschineller Lernverfahren zur Erkennung von Emotionen in Beratungsverläufen

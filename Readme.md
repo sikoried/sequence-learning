@@ -6,41 +6,32 @@ _Elective for [CS grad students](https://www.th-nuernberg.de/fakultaeten/in/stud
 
 ## Class Schedule and Credits
 
-**Time and Location:** Thursdays at 8 (online, Zoom link on Moodle)
+**Time and Location:** Mondays at 9.45 (online, Zoom link on Moodle)
 
 **Announcements and Discussions:** [Moodle Course #5312](https://elearning.ohmportal.de/course/view.php?id=5312)
 
 ### Format
 
 Each week, we will discuss algorithms and their theory before implementing them to get a better hands-on understanding.
-Assignments were originally developed in Java, but are ported to python3 this semester.
+The materials consist of a mix of required and recommended readings, slides as well as a set of programming assignments.
+These assignments are mandatory and in `python3`.
 Pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
 
 
 ### Credits
 
-We'll adopt a common research routine: identify a problem, research prior work, engineer a solution, write it up in a paper, review other papers, present your work.
-Credits are earned through
+Credits are earned through two components:
 
-- your [4 page paper](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-article/authoring-tools-and-templates/ieee-article-templates/templates-for-transactions/), prepared in teams of two, due **June 25** (60%)
-- individually reviewing 3 other papers by **July 2** (20%)
-- presenting your paper in a colloquium on **July 9** (tentative date). (20%)
+1. All six assignments (dynamic programming, Markov chains, hidden Markov models, recurrent neural networks, attention, transformer) must to be completed throughout the semester (pass/fail; pair programming encouraged).
+2. Oral exam (20') covering theory and assignments (graded; individual exams).
 
-_For more details see [these slides](99/project-howto/)._
 
-_Note: Materials will be in English, the lectures/tutorials will be taught in German; class project in language of choice._
+_Note: Materials will be (mostly) in English, the lectures/tutorials will be taught in German unless English speaker present; oral exam in language of choice._
 
 
 ### Important Dates
 
-- May 14: Intro to project work.
-- May 28: Project proposals due.
-- June 4: Project Check-In 1 ([reserve a time slot](https://terminplaner4.dfn.de/4nLli4nJKcKILKED))
-- June 18: Project Check-In 2
-- June 25: Papers due
-- July 2: Reviews due
-- July 9: Projects due
-- July 15-16: Colloquium (**date changed**)
+_TBA_
 
 
 ## Recommended Textbooks
@@ -54,7 +45,7 @@ _Note: Materials will be in English, the lectures/tutorials will be taught in Ge
 
 ## Syllabus
 
-_All dates tentatively due to corona madness. ✆ indicates online Q&A._
+_Syllabus is currently undergoing updates... (as of Jan 21, 2021)_
 
 - ✆ **March 19: Introduction.** ([slides](00/introduction/), [exercise](00/exercise/))
 
