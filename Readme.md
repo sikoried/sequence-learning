@@ -22,7 +22,7 @@ Pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_ow
 
 Credits are earned through two components:
 
-1. All six assignments (dynamic programming, Markov chains, hidden Markov models, recurrent neural networks, attention, transformer) must to be completed throughout the semester (pass/fail; pair programming encouraged).
+1. All six assignments (dynamic programming, Markov chains, hidden Markov models, recurrent neural networks, attention, transformer) must be completed throughout the semester (pass/fail; pair programming encouraged).
 2. Oral exam (20') covering theory and assignments (graded; individual exams).
 
 
