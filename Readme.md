@@ -1,8 +1,13 @@
-# Sequence Learning
+# Sequence Learning -- Deprecated!
 
 _Elective for [CS grad students](https://www.th-nuernberg.de/fakultaeten/in/studium/masterstudiengang-informatik/) at the [Technical University of Applied Sciences Nuremberg](https://www.th-nuernberg.de/)._
 
 
+> ⚠ Deprecated ⚠
+
+Go to https://seqlrn.github.io for the most recent version!
+
+> ⚠ Deprecated ⚠
 
 ## Class Schedule and Credits
 
@@ -10,19 +15,21 @@ _Elective for [CS grad students](https://www.th-nuernberg.de/fakultaeten/in/stud
 
 **Announcements and Discussions:** [Moodle Course #5312](https://elearning.ohmportal.de/course/view.php?id=5312)
 
+**Teams** for discussion around assignments: `4fbxju8`.
+
 ### Format
 
 Each week, we will discuss algorithms and their theory before implementing them to get a better hands-on understanding.
 The materials consist of a mix of required and recommended readings, slides as well as a set of programming assignments.
 These assignments are mandatory and in `python3`.
-Pairprogramming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
+Pair-programming encouraged, [_BYOD_](https://en.wikipedia.org/wiki/Bring_your_own_device) strongly recommended!
 
 
 ### Credits
 
 Credits are earned through two components:
 
-1. All six assignments (dynamic programming, Markov chains, hidden Markov models, recurrent neural networks, attention, transformer) must be completed throughout the semester (pass/fail; pair programming encouraged).
+1. All six assignments (dynamic programming, Markov chains, hidden Markov models, recurrent neural networks, attention, transformer) must be completed throughout the semester; assigments are ass/fail, pair programming encouraged (ie. you can submit as teams of two).
 2. Oral exam (20') covering theory and assignments (graded; individual exams).
 
 
@@ -54,7 +61,7 @@ _Syllabus is currently undergoing updates... (as of Jan 21, 2021)_
 	We'll start with the general concepts of supervised vs. unsupervised learning and classification of independent observations vs. sequences of observations.
 	To get you motivated, we'll look at a list of recent "AI products" that utilize sequence learning.
 
-- ✆ **March 26: Auto-Correct.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
+- ✆ **March 26: Comparing Sequences.** ([slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/dp_and_edit_dist.pdf) by [Ben Langmead](http://www.langmead-lab.org/), [exercise](01/autocorrect/))
 	
 	We'll start with a classic implementation of auto-correcting mispelled words to bring dynamic programming back to memory.
 	We'll also look at scalability regarding computation and memory efforts.
